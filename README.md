@@ -3,4 +3,4 @@
 
 Sample:
 
-[sample](./sample.png)
+[sample](https://raw.githubusercontent.com/overtrue/bootstrap-theme/master/sample.png)
