@@ -16,6 +16,7 @@
   src: url("../fonts/ionicons.eot?v=2.0.0#iefix") format("embedded-opentype"), url("../fonts/ionicons.ttf?v=2.0.0") format("truetype"), url("../fonts/ionicons.woff?v=2.0.0") format("woff"), url("../fonts/ionicons.svg?v=2.0.0#Ionicons") format("svg");
   font-weight: normal;
   font-style: normal; }
+/* line 15, ../sass/_ionicons-font.scss */
 .ion, .ionicons,
 .ion-alert:before,
 .ion-alert-circled:before,
@@ -762,2201 +763,2934 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+/* line 741, ../sass/_ionicons-icons.scss */
 .ion-alert:before {
   content: ""; }
 
+/* line 742, ../sass/_ionicons-icons.scss */
 .ion-alert-circled:before {
   content: ""; }
 
+/* line 743, ../sass/_ionicons-icons.scss */
 .ion-android-add:before {
   content: ""; }
 
+/* line 744, ../sass/_ionicons-icons.scss */
 .ion-android-add-circle:before {
   content: ""; }
 
+/* line 745, ../sass/_ionicons-icons.scss */
 .ion-android-alarm-clock:before {
   content: ""; }
 
+/* line 746, ../sass/_ionicons-icons.scss */
 .ion-android-alert:before {
   content: ""; }
 
+/* line 747, ../sass/_ionicons-icons.scss */
 .ion-android-apps:before {
   content: ""; }
 
+/* line 748, ../sass/_ionicons-icons.scss */
 .ion-android-archive:before {
   content: ""; }
 
+/* line 749, ../sass/_ionicons-icons.scss */
 .ion-android-arrow-back:before {
   content: ""; }
 
+/* line 750, ../sass/_ionicons-icons.scss */
 .ion-android-arrow-down:before {
   content: ""; }
 
+/* line 751, ../sass/_ionicons-icons.scss */
 .ion-android-arrow-dropdown:before {
   content: ""; }
 
+/* line 752, ../sass/_ionicons-icons.scss */
 .ion-android-arrow-dropdown-circle:before {
   content: ""; }
 
+/* line 753, ../sass/_ionicons-icons.scss */
 .ion-android-arrow-dropleft:before {
   content: ""; }
 
+/* line 754, ../sass/_ionicons-icons.scss */
 .ion-android-arrow-dropleft-circle:before {
   content: ""; }
 
+/* line 755, ../sass/_ionicons-icons.scss */
 .ion-android-arrow-dropright:before {
   content: ""; }
 
+/* line 756, ../sass/_ionicons-icons.scss */
 .ion-android-arrow-dropright-circle:before {
   content: ""; }
 
+/* line 757, ../sass/_ionicons-icons.scss */
 .ion-android-arrow-dropup:before {
   content: ""; }
 
+/* line 758, ../sass/_ionicons-icons.scss */
 .ion-android-arrow-dropup-circle:before {
   content: ""; }
 
+/* line 759, ../sass/_ionicons-icons.scss */
 .ion-android-arrow-forward:before {
   content: ""; }
 
+/* line 760, ../sass/_ionicons-icons.scss */
 .ion-android-arrow-up:before {
   content: ""; }
 
+/* line 761, ../sass/_ionicons-icons.scss */
 .ion-android-attach:before {
   content: ""; }
 
+/* line 762, ../sass/_ionicons-icons.scss */
 .ion-android-bar:before {
   content: ""; }
 
+/* line 763, ../sass/_ionicons-icons.scss */
 .ion-android-bicycle:before {
   content: ""; }
 
+/* line 764, ../sass/_ionicons-icons.scss */
 .ion-android-boat:before {
   content: ""; }
 
+/* line 765, ../sass/_ionicons-icons.scss */
 .ion-android-bookmark:before {
   content: ""; }
 
+/* line 766, ../sass/_ionicons-icons.scss */
 .ion-android-bulb:before {
   content: ""; }
 
+/* line 767, ../sass/_ionicons-icons.scss */
 .ion-android-bus:before {
   content: ""; }
 
+/* line 768, ../sass/_ionicons-icons.scss */
 .ion-android-calendar:before {
   content: ""; }
 
+/* line 769, ../sass/_ionicons-icons.scss */
 .ion-android-call:before {
   content: ""; }
 
+/* line 770, ../sass/_ionicons-icons.scss */
 .ion-android-camera:before {
   content: ""; }
 
+/* line 771, ../sass/_ionicons-icons.scss */
 .ion-android-cancel:before {
   content: ""; }
 
+/* line 772, ../sass/_ionicons-icons.scss */
 .ion-android-car:before {
   content: ""; }
 
+/* line 773, ../sass/_ionicons-icons.scss */
 .ion-android-cart:before {
   content: ""; }
 
+/* line 774, ../sass/_ionicons-icons.scss */
 .ion-android-chat:before {
   content: ""; }
 
+/* line 775, ../sass/_ionicons-icons.scss */
 .ion-android-checkbox:before {
   content: ""; }
 
+/* line 776, ../sass/_ionicons-icons.scss */
 .ion-android-checkbox-blank:before {
   content: ""; }
 
+/* line 777, ../sass/_ionicons-icons.scss */
 .ion-android-checkbox-outline:before {
   content: ""; }
 
+/* line 778, ../sass/_ionicons-icons.scss */
 .ion-android-checkbox-outline-blank:before {
   content: ""; }
 
+/* line 779, ../sass/_ionicons-icons.scss */
 .ion-android-checkmark-circle:before {
   content: ""; }
 
+/* line 780, ../sass/_ionicons-icons.scss */
 .ion-android-clipboard:before {
   content: ""; }
 
+/* line 781, ../sass/_ionicons-icons.scss */
 .ion-android-close:before {
   content: ""; }
 
+/* line 782, ../sass/_ionicons-icons.scss */
 .ion-android-cloud:before {
   content: ""; }
 
+/* line 783, ../sass/_ionicons-icons.scss */
 .ion-android-cloud-circle:before {
   content: ""; }
 
+/* line 784, ../sass/_ionicons-icons.scss */
 .ion-android-cloud-done:before {
   content: ""; }
 
+/* line 785, ../sass/_ionicons-icons.scss */
 .ion-android-cloud-outline:before {
   content: ""; }
 
+/* line 786, ../sass/_ionicons-icons.scss */
 .ion-android-color-palette:before {
   content: ""; }
 
+/* line 787, ../sass/_ionicons-icons.scss */
 .ion-android-compass:before {
   content: ""; }
 
+/* line 788, ../sass/_ionicons-icons.scss */
 .ion-android-contact:before {
   content: ""; }
 
+/* line 789, ../sass/_ionicons-icons.scss */
 .ion-android-contacts:before {
   content: ""; }
 
+/* line 790, ../sass/_ionicons-icons.scss */
 .ion-android-contract:before {
   content: ""; }
 
+/* line 791, ../sass/_ionicons-icons.scss */
 .ion-android-create:before {
   content: ""; }
 
+/* line 792, ../sass/_ionicons-icons.scss */
 .ion-android-delete:before {
   content: ""; }
 
+/* line 793, ../sass/_ionicons-icons.scss */
 .ion-android-desktop:before {
   content: ""; }
 
+/* line 794, ../sass/_ionicons-icons.scss */
 .ion-android-document:before {
   content: ""; }
 
+/* line 795, ../sass/_ionicons-icons.scss */
 .ion-android-done:before {
   content: ""; }
 
+/* line 796, ../sass/_ionicons-icons.scss */
 .ion-android-done-all:before {
   content: ""; }
 
+/* line 797, ../sass/_ionicons-icons.scss */
 .ion-android-download:before {
   content: ""; }
 
+/* line 798, ../sass/_ionicons-icons.scss */
 .ion-android-drafts:before {
   content: ""; }
 
+/* line 799, ../sass/_ionicons-icons.scss */
 .ion-android-exit:before {
   content: ""; }
 
+/* line 800, ../sass/_ionicons-icons.scss */
 .ion-android-expand:before {
   content: ""; }
 
+/* line 801, ../sass/_ionicons-icons.scss */
 .ion-android-favorite:before {
   content: ""; }
 
+/* line 802, ../sass/_ionicons-icons.scss */
 .ion-android-favorite-outline:before {
   content: ""; }
 
+/* line 803, ../sass/_ionicons-icons.scss */
 .ion-android-film:before {
   content: ""; }
 
+/* line 804, ../sass/_ionicons-icons.scss */
 .ion-android-folder:before {
   content: ""; }
 
+/* line 805, ../sass/_ionicons-icons.scss */
 .ion-android-folder-open:before {
   content: ""; }
 
+/* line 806, ../sass/_ionicons-icons.scss */
 .ion-android-funnel:before {
   content: ""; }
 
+/* line 807, ../sass/_ionicons-icons.scss */
 .ion-android-globe:before {
   content: ""; }
 
+/* line 808, ../sass/_ionicons-icons.scss */
 .ion-android-hand:before {
   content: ""; }
 
+/* line 809, ../sass/_ionicons-icons.scss */
 .ion-android-hangout:before {
   content: ""; }
 
+/* line 810, ../sass/_ionicons-icons.scss */
 .ion-android-happy:before {
   content: ""; }
 
+/* line 811, ../sass/_ionicons-icons.scss */
 .ion-android-home:before {
   content: ""; }
 
+/* line 812, ../sass/_ionicons-icons.scss */
 .ion-android-image:before {
   content: ""; }
 
+/* line 813, ../sass/_ionicons-icons.scss */
 .ion-android-laptop:before {
   content: ""; }
 
+/* line 814, ../sass/_ionicons-icons.scss */
 .ion-android-list:before {
   content: ""; }
 
+/* line 815, ../sass/_ionicons-icons.scss */
 .ion-android-locate:before {
   content: ""; }
 
+/* line 816, ../sass/_ionicons-icons.scss */
 .ion-android-lock:before {
   content: ""; }
 
+/* line 817, ../sass/_ionicons-icons.scss */
 .ion-android-mail:before {
   content: ""; }
 
+/* line 818, ../sass/_ionicons-icons.scss */
 .ion-android-map:before {
   content: ""; }
 
+/* line 819, ../sass/_ionicons-icons.scss */
 .ion-android-menu:before {
   content: ""; }
 
+/* line 820, ../sass/_ionicons-icons.scss */
 .ion-android-microphone:before {
   content: ""; }
 
+/* line 821, ../sass/_ionicons-icons.scss */
 .ion-android-microphone-off:before {
   content: ""; }
 
+/* line 822, ../sass/_ionicons-icons.scss */
 .ion-android-more-horizontal:before {
   content: ""; }
 
+/* line 823, ../sass/_ionicons-icons.scss */
 .ion-android-more-vertical:before {
   content: ""; }
 
+/* line 824, ../sass/_ionicons-icons.scss */
 .ion-android-navigate:before {
   content: ""; }
 
+/* line 825, ../sass/_ionicons-icons.scss */
 .ion-android-notifications:before {
   content: ""; }
 
+/* line 826, ../sass/_ionicons-icons.scss */
 .ion-android-notifications-none:before {
   content: ""; }
 
+/* line 827, ../sass/_ionicons-icons.scss */
 .ion-android-notifications-off:before {
   content: ""; }
 
+/* line 828, ../sass/_ionicons-icons.scss */
 .ion-android-open:before {
   content: ""; }
 
+/* line 829, ../sass/_ionicons-icons.scss */
 .ion-android-options:before {
   content: ""; }
 
+/* line 830, ../sass/_ionicons-icons.scss */
 .ion-android-people:before {
   content: ""; }
 
+/* line 831, ../sass/_ionicons-icons.scss */
 .ion-android-person:before {
   content: ""; }
 
+/* line 832, ../sass/_ionicons-icons.scss */
 .ion-android-person-add:before {
   content: ""; }
 
+/* line 833, ../sass/_ionicons-icons.scss */
 .ion-android-phone-landscape:before {
   content: ""; }
 
+/* line 834, ../sass/_ionicons-icons.scss */
 .ion-android-phone-portrait:before {
   content: ""; }
 
+/* line 835, ../sass/_ionicons-icons.scss */
 .ion-android-pin:before {
   content: ""; }
 
+/* line 836, ../sass/_ionicons-icons.scss */
 .ion-android-plane:before {
   content: ""; }
 
+/* line 837, ../sass/_ionicons-icons.scss */
 .ion-android-playstore:before {
   content: ""; }
 
+/* line 838, ../sass/_ionicons-icons.scss */
 .ion-android-print:before {
   content: ""; }
 
+/* line 839, ../sass/_ionicons-icons.scss */
 .ion-android-radio-button-off:before {
   content: ""; }
 
+/* line 840, ../sass/_ionicons-icons.scss */
 .ion-android-radio-button-on:before {
   content: ""; }
 
+/* line 841, ../sass/_ionicons-icons.scss */
 .ion-android-refresh:before {
   content: ""; }
 
+/* line 842, ../sass/_ionicons-icons.scss */
 .ion-android-remove:before {
   content: ""; }
 
+/* line 843, ../sass/_ionicons-icons.scss */
 .ion-android-remove-circle:before {
   content: ""; }
 
+/* line 844, ../sass/_ionicons-icons.scss */
 .ion-android-restaurant:before {
   content: ""; }
 
+/* line 845, ../sass/_ionicons-icons.scss */
 .ion-android-sad:before {
   content: ""; }
 
+/* line 846, ../sass/_ionicons-icons.scss */
 .ion-android-search:before {
   content: ""; }
 
+/* line 847, ../sass/_ionicons-icons.scss */
 .ion-android-send:before {
   content: ""; }
 
+/* line 848, ../sass/_ionicons-icons.scss */
 .ion-android-settings:before {
   content: ""; }
 
+/* line 849, ../sass/_ionicons-icons.scss */
 .ion-android-share:before {
   content: ""; }
 
+/* line 850, ../sass/_ionicons-icons.scss */
 .ion-android-share-alt:before {
   content: ""; }
 
+/* line 851, ../sass/_ionicons-icons.scss */
 .ion-android-star:before {
   content: ""; }
 
+/* line 852, ../sass/_ionicons-icons.scss */
 .ion-android-star-half:before {
   content: ""; }
 
+/* line 853, ../sass/_ionicons-icons.scss */
 .ion-android-star-outline:before {
   content: ""; }
 
+/* line 854, ../sass/_ionicons-icons.scss */
 .ion-android-stopwatch:before {
   content: ""; }
 
+/* line 855, ../sass/_ionicons-icons.scss */
 .ion-android-subway:before {
   content: ""; }
 
+/* line 856, ../sass/_ionicons-icons.scss */
 .ion-android-sunny:before {
   content: ""; }
 
+/* line 857, ../sass/_ionicons-icons.scss */
 .ion-android-sync:before {
   content: ""; }
 
+/* line 858, ../sass/_ionicons-icons.scss */
 .ion-android-textsms:before {
   content: ""; }
 
+/* line 859, ../sass/_ionicons-icons.scss */
 .ion-android-time:before {
   content: ""; }
 
+/* line 860, ../sass/_ionicons-icons.scss */
 .ion-android-train:before {
   content: ""; }
 
+/* line 861, ../sass/_ionicons-icons.scss */
 .ion-android-unlock:before {
   content: ""; }
 
+/* line 862, ../sass/_ionicons-icons.scss */
 .ion-android-upload:before {
   content: ""; }
 
+/* line 863, ../sass/_ionicons-icons.scss */
 .ion-android-volume-down:before {
   content: ""; }
 
+/* line 864, ../sass/_ionicons-icons.scss */
 .ion-android-volume-mute:before {
   content: ""; }
 
+/* line 865, ../sass/_ionicons-icons.scss */
 .ion-android-volume-off:before {
   content: ""; }
 
+/* line 866, ../sass/_ionicons-icons.scss */
 .ion-android-volume-up:before {
   content: ""; }
 
+/* line 867, ../sass/_ionicons-icons.scss */
 .ion-android-walk:before {
   content: ""; }
 
+/* line 868, ../sass/_ionicons-icons.scss */
 .ion-android-warning:before {
   content: ""; }
 
+/* line 869, ../sass/_ionicons-icons.scss */
 .ion-android-watch:before {
   content: ""; }
 
+/* line 870, ../sass/_ionicons-icons.scss */
 .ion-android-wifi:before {
   content: ""; }
 
+/* line 871, ../sass/_ionicons-icons.scss */
 .ion-aperture:before {
   content: ""; }
 
+/* line 872, ../sass/_ionicons-icons.scss */
 .ion-archive:before {
   content: ""; }
 
+/* line 873, ../sass/_ionicons-icons.scss */
 .ion-arrow-down-a:before {
   content: ""; }
 
+/* line 874, ../sass/_ionicons-icons.scss */
 .ion-arrow-down-b:before {
   content: ""; }
 
+/* line 875, ../sass/_ionicons-icons.scss */
 .ion-arrow-down-c:before {
   content: ""; }
 
+/* line 876, ../sass/_ionicons-icons.scss */
 .ion-arrow-expand:before {
   content: ""; }
 
+/* line 877, ../sass/_ionicons-icons.scss */
 .ion-arrow-graph-down-left:before {
   content: ""; }
 
+/* line 878, ../sass/_ionicons-icons.scss */
 .ion-arrow-graph-down-right:before {
   content: ""; }
 
+/* line 879, ../sass/_ionicons-icons.scss */
 .ion-arrow-graph-up-left:before {
   content: ""; }
 
+/* line 880, ../sass/_ionicons-icons.scss */
 .ion-arrow-graph-up-right:before {
   content: ""; }
 
+/* line 881, ../sass/_ionicons-icons.scss */
 .ion-arrow-left-a:before {
   content: ""; }
 
+/* line 882, ../sass/_ionicons-icons.scss */
 .ion-arrow-left-b:before {
   content: ""; }
 
+/* line 883, ../sass/_ionicons-icons.scss */
 .ion-arrow-left-c:before {
   content: ""; }
 
+/* line 884, ../sass/_ionicons-icons.scss */
 .ion-arrow-move:before {
   content: ""; }
 
+/* line 885, ../sass/_ionicons-icons.scss */
 .ion-arrow-resize:before {
   content: ""; }
 
+/* line 886, ../sass/_ionicons-icons.scss */
 .ion-arrow-return-left:before {
   content: ""; }
 
+/* line 887, ../sass/_ionicons-icons.scss */
 .ion-arrow-return-right:before {
   content: ""; }
 
+/* line 888, ../sass/_ionicons-icons.scss */
 .ion-arrow-right-a:before {
   content: ""; }
 
+/* line 889, ../sass/_ionicons-icons.scss */
 .ion-arrow-right-b:before {
   content: ""; }
 
+/* line 890, ../sass/_ionicons-icons.scss */
 .ion-arrow-right-c:before {
   content: ""; }
 
+/* line 891, ../sass/_ionicons-icons.scss */
 .ion-arrow-shrink:before {
   content: ""; }
 
+/* line 892, ../sass/_ionicons-icons.scss */
 .ion-arrow-swap:before {
   content: ""; }
 
+/* line 893, ../sass/_ionicons-icons.scss */
 .ion-arrow-up-a:before {
   content: ""; }
 
+/* line 894, ../sass/_ionicons-icons.scss */
 .ion-arrow-up-b:before {
   content: ""; }
 
+/* line 895, ../sass/_ionicons-icons.scss */
 .ion-arrow-up-c:before {
   content: ""; }
 
+/* line 896, ../sass/_ionicons-icons.scss */
 .ion-asterisk:before {
   content: ""; }
 
+/* line 897, ../sass/_ionicons-icons.scss */
 .ion-at:before {
   content: ""; }
 
+/* line 898, ../sass/_ionicons-icons.scss */
 .ion-backspace:before {
   content: ""; }
 
+/* line 899, ../sass/_ionicons-icons.scss */
 .ion-backspace-outline:before {
   content: ""; }
 
+/* line 900, ../sass/_ionicons-icons.scss */
 .ion-bag:before {
   content: ""; }
 
+/* line 901, ../sass/_ionicons-icons.scss */
 .ion-battery-charging:before {
   content: ""; }
 
+/* line 902, ../sass/_ionicons-icons.scss */
 .ion-battery-empty:before {
   content: ""; }
 
+/* line 903, ../sass/_ionicons-icons.scss */
 .ion-battery-full:before {
   content: ""; }
 
+/* line 904, ../sass/_ionicons-icons.scss */
 .ion-battery-half:before {
   content: ""; }
 
+/* line 905, ../sass/_ionicons-icons.scss */
 .ion-battery-low:before {
   content: ""; }
 
+/* line 906, ../sass/_ionicons-icons.scss */
 .ion-beaker:before {
   content: ""; }
 
+/* line 907, ../sass/_ionicons-icons.scss */
 .ion-beer:before {
   content: ""; }
 
+/* line 908, ../sass/_ionicons-icons.scss */
 .ion-bluetooth:before {
   content: ""; }
 
+/* line 909, ../sass/_ionicons-icons.scss */
 .ion-bonfire:before {
   content: ""; }
 
+/* line 910, ../sass/_ionicons-icons.scss */
 .ion-bookmark:before {
   content: ""; }
 
+/* line 911, ../sass/_ionicons-icons.scss */
 .ion-bowtie:before {
   content: ""; }
 
+/* line 912, ../sass/_ionicons-icons.scss */
 .ion-briefcase:before {
   content: ""; }
 
+/* line 913, ../sass/_ionicons-icons.scss */
 .ion-bug:before {
   content: ""; }
 
+/* line 914, ../sass/_ionicons-icons.scss */
 .ion-calculator:before {
   content: ""; }
 
+/* line 915, ../sass/_ionicons-icons.scss */
 .ion-calendar:before {
   content: ""; }
 
+/* line 916, ../sass/_ionicons-icons.scss */
 .ion-camera:before {
   content: ""; }
 
+/* line 917, ../sass/_ionicons-icons.scss */
 .ion-card:before {
   content: ""; }
 
+/* line 918, ../sass/_ionicons-icons.scss */
 .ion-cash:before {
   content: ""; }
 
+/* line 919, ../sass/_ionicons-icons.scss */
 .ion-chatbox:before {
   content: ""; }
 
+/* line 920, ../sass/_ionicons-icons.scss */
 .ion-chatbox-working:before {
   content: ""; }
 
+/* line 921, ../sass/_ionicons-icons.scss */
 .ion-chatboxes:before {
   content: ""; }
 
+/* line 922, ../sass/_ionicons-icons.scss */
 .ion-chatbubble:before {
   content: ""; }
 
+/* line 923, ../sass/_ionicons-icons.scss */
 .ion-chatbubble-working:before {
   content: ""; }
 
+/* line 924, ../sass/_ionicons-icons.scss */
 .ion-chatbubbles:before {
   content: ""; }
 
+/* line 925, ../sass/_ionicons-icons.scss */
 .ion-checkmark:before {
   content: ""; }
 
+/* line 926, ../sass/_ionicons-icons.scss */
 .ion-checkmark-circled:before {
   content: ""; }
 
+/* line 927, ../sass/_ionicons-icons.scss */
 .ion-checkmark-round:before {
   content: ""; }
 
+/* line 928, ../sass/_ionicons-icons.scss */
 .ion-chevron-down:before {
   content: ""; }
 
+/* line 929, ../sass/_ionicons-icons.scss */
 .ion-chevron-left:before {
   content: ""; }
 
+/* line 930, ../sass/_ionicons-icons.scss */
 .ion-chevron-right:before {
   content: ""; }
 
+/* line 931, ../sass/_ionicons-icons.scss */
 .ion-chevron-up:before {
   content: ""; }
 
+/* line 932, ../sass/_ionicons-icons.scss */
 .ion-clipboard:before {
   content: ""; }
 
+/* line 933, ../sass/_ionicons-icons.scss */
 .ion-clock:before {
   content: ""; }
 
+/* line 934, ../sass/_ionicons-icons.scss */
 .ion-close:before {
   content: ""; }
 
+/* line 935, ../sass/_ionicons-icons.scss */
 .ion-close-circled:before {
   content: ""; }
 
+/* line 936, ../sass/_ionicons-icons.scss */
 .ion-close-round:before {
   content: ""; }
 
+/* line 937, ../sass/_ionicons-icons.scss */
 .ion-closed-captioning:before {
   content: ""; }
 
+/* line 938, ../sass/_ionicons-icons.scss */
 .ion-cloud:before {
   content: ""; }
 
+/* line 939, ../sass/_ionicons-icons.scss */
 .ion-code:before {
   content: ""; }
 
+/* line 940, ../sass/_ionicons-icons.scss */
 .ion-code-download:before {
   content: ""; }
 
+/* line 941, ../sass/_ionicons-icons.scss */
 .ion-code-working:before {
   content: ""; }
 
+/* line 942, ../sass/_ionicons-icons.scss */
 .ion-coffee:before {
   content: ""; }
 
+/* line 943, ../sass/_ionicons-icons.scss */
 .ion-compass:before {
   content: ""; }
 
+/* line 944, ../sass/_ionicons-icons.scss */
 .ion-compose:before {
   content: ""; }
 
+/* line 945, ../sass/_ionicons-icons.scss */
 .ion-connection-bars:before {
   content: ""; }
 
+/* line 946, ../sass/_ionicons-icons.scss */
 .ion-contrast:before {
   content: ""; }
 
+/* line 947, ../sass/_ionicons-icons.scss */
 .ion-crop:before {
   content: ""; }
 
+/* line 948, ../sass/_ionicons-icons.scss */
 .ion-cube:before {
   content: ""; }
 
+/* line 949, ../sass/_ionicons-icons.scss */
 .ion-disc:before {
   content: ""; }
 
+/* line 950, ../sass/_ionicons-icons.scss */
 .ion-document:before {
   content: ""; }
 
+/* line 951, ../sass/_ionicons-icons.scss */
 .ion-document-text:before {
   content: ""; }
 
+/* line 952, ../sass/_ionicons-icons.scss */
 .ion-drag:before {
   content: ""; }
 
+/* line 953, ../sass/_ionicons-icons.scss */
 .ion-earth:before {
   content: ""; }
 
+/* line 954, ../sass/_ionicons-icons.scss */
 .ion-easel:before {
   content: ""; }
 
+/* line 955, ../sass/_ionicons-icons.scss */
 .ion-edit:before {
   content: ""; }
 
+/* line 956, ../sass/_ionicons-icons.scss */
 .ion-egg:before {
   content: ""; }
 
+/* line 957, ../sass/_ionicons-icons.scss */
 .ion-eject:before {
   content: ""; }
 
+/* line 958, ../sass/_ionicons-icons.scss */
 .ion-email:before {
   content: ""; }
 
+/* line 959, ../sass/_ionicons-icons.scss */
 .ion-email-unread:before {
   content: ""; }
 
+/* line 960, ../sass/_ionicons-icons.scss */
 .ion-erlenmeyer-flask:before {
   content: ""; }
 
+/* line 961, ../sass/_ionicons-icons.scss */
 .ion-erlenmeyer-flask-bubbles:before {
   content: ""; }
 
+/* line 962, ../sass/_ionicons-icons.scss */
 .ion-eye:before {
   content: ""; }
 
+/* line 963, ../sass/_ionicons-icons.scss */
 .ion-eye-disabled:before {
   content: ""; }
 
+/* line 964, ../sass/_ionicons-icons.scss */
 .ion-female:before {
   content: ""; }
 
+/* line 965, ../sass/_ionicons-icons.scss */
 .ion-filing:before {
   content: ""; }
 
+/* line 966, ../sass/_ionicons-icons.scss */
 .ion-film-marker:before {
   content: ""; }
 
+/* line 967, ../sass/_ionicons-icons.scss */
 .ion-fireball:before {
   content: ""; }
 
+/* line 968, ../sass/_ionicons-icons.scss */
 .ion-flag:before {
   content: ""; }
 
+/* line 969, ../sass/_ionicons-icons.scss */
 .ion-flame:before {
   content: ""; }
 
+/* line 970, ../sass/_ionicons-icons.scss */
 .ion-flash:before {
   content: ""; }
 
+/* line 971, ../sass/_ionicons-icons.scss */
 .ion-flash-off:before {
   content: ""; }
 
+/* line 972, ../sass/_ionicons-icons.scss */
 .ion-folder:before {
   content: ""; }
 
+/* line 973, ../sass/_ionicons-icons.scss */
 .ion-fork:before {
   content: ""; }
 
+/* line 974, ../sass/_ionicons-icons.scss */
 .ion-fork-repo:before {
   content: ""; }
 
+/* line 975, ../sass/_ionicons-icons.scss */
 .ion-forward:before {
   content: ""; }
 
+/* line 976, ../sass/_ionicons-icons.scss */
 .ion-funnel:before {
   content: ""; }
 
+/* line 977, ../sass/_ionicons-icons.scss */
 .ion-gear-a:before {
   content: ""; }
 
+/* line 978, ../sass/_ionicons-icons.scss */
 .ion-gear-b:before {
   content: ""; }
 
+/* line 979, ../sass/_ionicons-icons.scss */
 .ion-grid:before {
   content: ""; }
 
+/* line 980, ../sass/_ionicons-icons.scss */
 .ion-hammer:before {
   content: ""; }
 
+/* line 981, ../sass/_ionicons-icons.scss */
 .ion-happy:before {
   content: ""; }
 
+/* line 982, ../sass/_ionicons-icons.scss */
 .ion-happy-outline:before {
   content: ""; }
 
+/* line 983, ../sass/_ionicons-icons.scss */
 .ion-headphone:before {
   content: ""; }
 
+/* line 984, ../sass/_ionicons-icons.scss */
 .ion-heart:before {
   content: ""; }
 
+/* line 985, ../sass/_ionicons-icons.scss */
 .ion-heart-broken:before {
   content: ""; }
 
+/* line 986, ../sass/_ionicons-icons.scss */
 .ion-help:before {
   content: ""; }
 
+/* line 987, ../sass/_ionicons-icons.scss */
 .ion-help-buoy:before {
   content: ""; }
 
+/* line 988, ../sass/_ionicons-icons.scss */
 .ion-help-circled:before {
   content: ""; }
 
+/* line 989, ../sass/_ionicons-icons.scss */
 .ion-home:before {
   content: ""; }
 
+/* line 990, ../sass/_ionicons-icons.scss */
 .ion-icecream:before {
   content: ""; }
 
+/* line 991, ../sass/_ionicons-icons.scss */
 .ion-image:before {
   content: ""; }
 
+/* line 992, ../sass/_ionicons-icons.scss */
 .ion-images:before {
   content: ""; }
 
+/* line 993, ../sass/_ionicons-icons.scss */
 .ion-information:before {
   content: ""; }
 
+/* line 994, ../sass/_ionicons-icons.scss */
 .ion-information-circled:before {
   content: ""; }
 
+/* line 995, ../sass/_ionicons-icons.scss */
 .ion-ionic:before {
   content: ""; }
 
+/* line 996, ../sass/_ionicons-icons.scss */
 .ion-ios-alarm:before {
   content: ""; }
 
+/* line 997, ../sass/_ionicons-icons.scss */
 .ion-ios-alarm-outline:before {
   content: ""; }
 
+/* line 998, ../sass/_ionicons-icons.scss */
 .ion-ios-albums:before {
   content: ""; }
 
+/* line 999, ../sass/_ionicons-icons.scss */
 .ion-ios-albums-outline:before {
   content: ""; }
 
+/* line 1000, ../sass/_ionicons-icons.scss */
 .ion-ios-americanfootball:before {
   content: ""; }
 
+/* line 1001, ../sass/_ionicons-icons.scss */
 .ion-ios-americanfootball-outline:before {
   content: ""; }
 
+/* line 1002, ../sass/_ionicons-icons.scss */
 .ion-ios-analytics:before {
   content: ""; }
 
+/* line 1003, ../sass/_ionicons-icons.scss */
 .ion-ios-analytics-outline:before {
   content: ""; }
 
+/* line 1004, ../sass/_ionicons-icons.scss */
 .ion-ios-arrow-back:before {
   content: ""; }
 
+/* line 1005, ../sass/_ionicons-icons.scss */
 .ion-ios-arrow-down:before {
   content: ""; }
 
+/* line 1006, ../sass/_ionicons-icons.scss */
 .ion-ios-arrow-forward:before {
   content: ""; }
 
+/* line 1007, ../sass/_ionicons-icons.scss */
 .ion-ios-arrow-left:before {
   content: ""; }
 
+/* line 1008, ../sass/_ionicons-icons.scss */
 .ion-ios-arrow-right:before {
   content: ""; }
 
+/* line 1009, ../sass/_ionicons-icons.scss */
 .ion-ios-arrow-thin-down:before {
   content: ""; }
 
+/* line 1010, ../sass/_ionicons-icons.scss */
 .ion-ios-arrow-thin-left:before {
   content: ""; }
 
+/* line 1011, ../sass/_ionicons-icons.scss */
 .ion-ios-arrow-thin-right:before {
   content: ""; }
 
+/* line 1012, ../sass/_ionicons-icons.scss */
 .ion-ios-arrow-thin-up:before {
   content: ""; }
 
+/* line 1013, ../sass/_ionicons-icons.scss */
 .ion-ios-arrow-up:before {
   content: ""; }
 
+/* line 1014, ../sass/_ionicons-icons.scss */
 .ion-ios-at:before {
   content: ""; }
 
+/* line 1015, ../sass/_ionicons-icons.scss */
 .ion-ios-at-outline:before {
   content: ""; }
 
+/* line 1016, ../sass/_ionicons-icons.scss */
 .ion-ios-barcode:before {
   content: ""; }
 
+/* line 1017, ../sass/_ionicons-icons.scss */
 .ion-ios-barcode-outline:before {
   content: ""; }
 
+/* line 1018, ../sass/_ionicons-icons.scss */
 .ion-ios-baseball:before {
   content: ""; }
 
+/* line 1019, ../sass/_ionicons-icons.scss */
 .ion-ios-baseball-outline:before {
   content: ""; }
 
+/* line 1020, ../sass/_ionicons-icons.scss */
 .ion-ios-basketball:before {
   content: ""; }
 
+/* line 1021, ../sass/_ionicons-icons.scss */
 .ion-ios-basketball-outline:before {
   content: ""; }
 
+/* line 1022, ../sass/_ionicons-icons.scss */
 .ion-ios-bell:before {
   content: ""; }
 
+/* line 1023, ../sass/_ionicons-icons.scss */
 .ion-ios-bell-outline:before {
   content: ""; }
 
+/* line 1024, ../sass/_ionicons-icons.scss */
 .ion-ios-body:before {
   content: ""; }
 
+/* line 1025, ../sass/_ionicons-icons.scss */
 .ion-ios-body-outline:before {
   content: ""; }
 
+/* line 1026, ../sass/_ionicons-icons.scss */
 .ion-ios-bolt:before {
   content: ""; }
 
+/* line 1027, ../sass/_ionicons-icons.scss */
 .ion-ios-bolt-outline:before {
   content: ""; }
 
+/* line 1028, ../sass/_ionicons-icons.scss */
 .ion-ios-book:before {
   content: ""; }
 
+/* line 1029, ../sass/_ionicons-icons.scss */
 .ion-ios-book-outline:before {
   content: ""; }
 
+/* line 1030, ../sass/_ionicons-icons.scss */
 .ion-ios-bookmarks:before {
   content: ""; }
 
+/* line 1031, ../sass/_ionicons-icons.scss */
 .ion-ios-bookmarks-outline:before {
   content: ""; }
 
+/* line 1032, ../sass/_ionicons-icons.scss */
 .ion-ios-box:before {
   content: ""; }
 
+/* line 1033, ../sass/_ionicons-icons.scss */
 .ion-ios-box-outline:before {
   content: ""; }
 
+/* line 1034, ../sass/_ionicons-icons.scss */
 .ion-ios-briefcase:before {
   content: ""; }
 
+/* line 1035, ../sass/_ionicons-icons.scss */
 .ion-ios-briefcase-outline:before {
   content: ""; }
 
+/* line 1036, ../sass/_ionicons-icons.scss */
 .ion-ios-browsers:before {
   content: ""; }
 
+/* line 1037, ../sass/_ionicons-icons.scss */
 .ion-ios-browsers-outline:before {
   content: ""; }
 
+/* line 1038, ../sass/_ionicons-icons.scss */
 .ion-ios-calculator:before {
   content: ""; }
 
+/* line 1039, ../sass/_ionicons-icons.scss */
 .ion-ios-calculator-outline:before {
   content: ""; }
 
+/* line 1040, ../sass/_ionicons-icons.scss */
 .ion-ios-calendar:before {
   content: ""; }
 
+/* line 1041, ../sass/_ionicons-icons.scss */
 .ion-ios-calendar-outline:before {
   content: ""; }
 
+/* line 1042, ../sass/_ionicons-icons.scss */
 .ion-ios-camera:before {
   content: ""; }
 
+/* line 1043, ../sass/_ionicons-icons.scss */
 .ion-ios-camera-outline:before {
   content: ""; }
 
+/* line 1044, ../sass/_ionicons-icons.scss */
 .ion-ios-cart:before {
   content: ""; }
 
+/* line 1045, ../sass/_ionicons-icons.scss */
 .ion-ios-cart-outline:before {
   content: ""; }
 
+/* line 1046, ../sass/_ionicons-icons.scss */
 .ion-ios-chatboxes:before {
   content: ""; }
 
+/* line 1047, ../sass/_ionicons-icons.scss */
 .ion-ios-chatboxes-outline:before {
   content: ""; }
 
+/* line 1048, ../sass/_ionicons-icons.scss */
 .ion-ios-chatbubble:before {
   content: ""; }
 
+/* line 1049, ../sass/_ionicons-icons.scss */
 .ion-ios-chatbubble-outline:before {
   content: ""; }
 
+/* line 1050, ../sass/_ionicons-icons.scss */
 .ion-ios-checkmark:before {
   content: ""; }
 
+/* line 1051, ../sass/_ionicons-icons.scss */
 .ion-ios-checkmark-empty:before {
   content: ""; }
 
+/* line 1052, ../sass/_ionicons-icons.scss */
 .ion-ios-checkmark-outline:before {
   content: ""; }
 
+/* line 1053, ../sass/_ionicons-icons.scss */
 .ion-ios-circle-filled:before {
   content: ""; }
 
+/* line 1054, ../sass/_ionicons-icons.scss */
 .ion-ios-circle-outline:before {
   content: ""; }
 
+/* line 1055, ../sass/_ionicons-icons.scss */
 .ion-ios-clock:before {
   content: ""; }
 
+/* line 1056, ../sass/_ionicons-icons.scss */
 .ion-ios-clock-outline:before {
   content: ""; }
 
+/* line 1057, ../sass/_ionicons-icons.scss */
 .ion-ios-close:before {
   content: ""; }
 
+/* line 1058, ../sass/_ionicons-icons.scss */
 .ion-ios-close-empty:before {
   content: ""; }
 
+/* line 1059, ../sass/_ionicons-icons.scss */
 .ion-ios-close-outline:before {
   content: ""; }
 
+/* line 1060, ../sass/_ionicons-icons.scss */
 .ion-ios-cloud:before {
   content: ""; }
 
+/* line 1061, ../sass/_ionicons-icons.scss */
 .ion-ios-cloud-download:before {
   content: ""; }
 
+/* line 1062, ../sass/_ionicons-icons.scss */
 .ion-ios-cloud-download-outline:before {
   content: ""; }
 
+/* line 1063, ../sass/_ionicons-icons.scss */
 .ion-ios-cloud-outline:before {
   content: ""; }
 
+/* line 1064, ../sass/_ionicons-icons.scss */
 .ion-ios-cloud-upload:before {
   content: ""; }
 
+/* line 1065, ../sass/_ionicons-icons.scss */
 .ion-ios-cloud-upload-outline:before {
   content: ""; }
 
+/* line 1066, ../sass/_ionicons-icons.scss */
 .ion-ios-cloudy:before {
   content: ""; }
 
+/* line 1067, ../sass/_ionicons-icons.scss */
 .ion-ios-cloudy-night:before {
   content: ""; }
 
+/* line 1068, ../sass/_ionicons-icons.scss */
 .ion-ios-cloudy-night-outline:before {
   content: ""; }
 
+/* line 1069, ../sass/_ionicons-icons.scss */
 .ion-ios-cloudy-outline:before {
   content: ""; }
 
+/* line 1070, ../sass/_ionicons-icons.scss */
 .ion-ios-cog:before {
   content: ""; }
 
+/* line 1071, ../sass/_ionicons-icons.scss */
 .ion-ios-cog-outline:before {
   content: ""; }
 
+/* line 1072, ../sass/_ionicons-icons.scss */
 .ion-ios-color-filter:before {
   content: ""; }
 
+/* line 1073, ../sass/_ionicons-icons.scss */
 .ion-ios-color-filter-outline:before {
   content: ""; }
 
+/* line 1074, ../sass/_ionicons-icons.scss */
 .ion-ios-color-wand:before {
   content: ""; }
 
+/* line 1075, ../sass/_ionicons-icons.scss */
 .ion-ios-color-wand-outline:before {
   content: ""; }
 
+/* line 1076, ../sass/_ionicons-icons.scss */
 .ion-ios-compose:before {
   content: ""; }
 
+/* line 1077, ../sass/_ionicons-icons.scss */
 .ion-ios-compose-outline:before {
   content: ""; }
 
+/* line 1078, ../sass/_ionicons-icons.scss */
 .ion-ios-contact:before {
   content: ""; }
 
+/* line 1079, ../sass/_ionicons-icons.scss */
 .ion-ios-contact-outline:before {
   content: ""; }
 
+/* line 1080, ../sass/_ionicons-icons.scss */
 .ion-ios-copy:before {
   content: ""; }
 
+/* line 1081, ../sass/_ionicons-icons.scss */
 .ion-ios-copy-outline:before {
   content: ""; }
 
+/* line 1082, ../sass/_ionicons-icons.scss */
 .ion-ios-crop:before {
   content: ""; }
 
+/* line 1083, ../sass/_ionicons-icons.scss */
 .ion-ios-crop-strong:before {
   content: ""; }
 
+/* line 1084, ../sass/_ionicons-icons.scss */
 .ion-ios-download:before {
   content: ""; }
 
+/* line 1085, ../sass/_ionicons-icons.scss */
 .ion-ios-download-outline:before {
   content: ""; }
 
+/* line 1086, ../sass/_ionicons-icons.scss */
 .ion-ios-drag:before {
   content: ""; }
 
+/* line 1087, ../sass/_ionicons-icons.scss */
 .ion-ios-email:before {
   content: ""; }
 
+/* line 1088, ../sass/_ionicons-icons.scss */
 .ion-ios-email-outline:before {
   content: ""; }
 
+/* line 1089, ../sass/_ionicons-icons.scss */
 .ion-ios-eye:before {
   content: ""; }
 
+/* line 1090, ../sass/_ionicons-icons.scss */
 .ion-ios-eye-outline:before {
   content: ""; }
 
+/* line 1091, ../sass/_ionicons-icons.scss */
 .ion-ios-fastforward:before {
   content: ""; }
 
+/* line 1092, ../sass/_ionicons-icons.scss */
 .ion-ios-fastforward-outline:before {
   content: ""; }
 
+/* line 1093, ../sass/_ionicons-icons.scss */
 .ion-ios-filing:before {
   content: ""; }
 
+/* line 1094, ../sass/_ionicons-icons.scss */
 .ion-ios-filing-outline:before {
   content: ""; }
 
+/* line 1095, ../sass/_ionicons-icons.scss */
 .ion-ios-film:before {
   content: ""; }
 
+/* line 1096, ../sass/_ionicons-icons.scss */
 .ion-ios-film-outline:before {
   content: ""; }
 
+/* line 1097, ../sass/_ionicons-icons.scss */
 .ion-ios-flag:before {
   content: ""; }
 
+/* line 1098, ../sass/_ionicons-icons.scss */
 .ion-ios-flag-outline:before {
   content: ""; }
 
+/* line 1099, ../sass/_ionicons-icons.scss */
 .ion-ios-flame:before {
   content: ""; }
 
+/* line 1100, ../sass/_ionicons-icons.scss */
 .ion-ios-flame-outline:before {
   content: ""; }
 
+/* line 1101, ../sass/_ionicons-icons.scss */
 .ion-ios-flask:before {
   content: ""; }
 
+/* line 1102, ../sass/_ionicons-icons.scss */
 .ion-ios-flask-outline:before {
   content: ""; }
 
+/* line 1103, ../sass/_ionicons-icons.scss */
 .ion-ios-flower:before {
   content: ""; }
 
+/* line 1104, ../sass/_ionicons-icons.scss */
 .ion-ios-flower-outline:before {
   content: ""; }
 
+/* line 1105, ../sass/_ionicons-icons.scss */
 .ion-ios-folder:before {
   content: ""; }
 
+/* line 1106, ../sass/_ionicons-icons.scss */
 .ion-ios-folder-outline:before {
   content: ""; }
 
+/* line 1107, ../sass/_ionicons-icons.scss */
 .ion-ios-football:before {
   content: ""; }
 
+/* line 1108, ../sass/_ionicons-icons.scss */
 .ion-ios-football-outline:before {
   content: ""; }
 
+/* line 1109, ../sass/_ionicons-icons.scss */
 .ion-ios-game-controller-a:before {
   content: ""; }
 
+/* line 1110, ../sass/_ionicons-icons.scss */
 .ion-ios-game-controller-a-outline:before {
   content: ""; }
 
+/* line 1111, ../sass/_ionicons-icons.scss */
 .ion-ios-game-controller-b:before {
   content: ""; }
 
+/* line 1112, ../sass/_ionicons-icons.scss */
 .ion-ios-game-controller-b-outline:before {
   content: ""; }
 
+/* line 1113, ../sass/_ionicons-icons.scss */
 .ion-ios-gear:before {
   content: ""; }
 
+/* line 1114, ../sass/_ionicons-icons.scss */
 .ion-ios-gear-outline:before {
   content: ""; }
 
+/* line 1115, ../sass/_ionicons-icons.scss */
 .ion-ios-glasses:before {
   content: ""; }
 
+/* line 1116, ../sass/_ionicons-icons.scss */
 .ion-ios-glasses-outline:before {
   content: ""; }
 
+/* line 1117, ../sass/_ionicons-icons.scss */
 .ion-ios-grid-view:before {
   content: ""; }
 
+/* line 1118, ../sass/_ionicons-icons.scss */
 .ion-ios-grid-view-outline:before {
   content: ""; }
 
+/* line 1119, ../sass/_ionicons-icons.scss */
 .ion-ios-heart:before {
   content: ""; }
 
+/* line 1120, ../sass/_ionicons-icons.scss */
 .ion-ios-heart-outline:before {
   content: ""; }
 
+/* line 1121, ../sass/_ionicons-icons.scss */
 .ion-ios-help:before {
   content: ""; }
 
+/* line 1122, ../sass/_ionicons-icons.scss */
 .ion-ios-help-empty:before {
   content: ""; }
 
+/* line 1123, ../sass/_ionicons-icons.scss */
 .ion-ios-help-outline:before {
   content: ""; }
 
+/* line 1124, ../sass/_ionicons-icons.scss */
 .ion-ios-home:before {
   content: ""; }
 
+/* line 1125, ../sass/_ionicons-icons.scss */
 .ion-ios-home-outline:before {
   content: ""; }
 
+/* line 1126, ../sass/_ionicons-icons.scss */
 .ion-ios-infinite:before {
   content: ""; }
 
+/* line 1127, ../sass/_ionicons-icons.scss */
 .ion-ios-infinite-outline:before {
   content: ""; }
 
+/* line 1128, ../sass/_ionicons-icons.scss */
 .ion-ios-information:before {
   content: ""; }
 
+/* line 1129, ../sass/_ionicons-icons.scss */
 .ion-ios-information-empty:before {
   content: ""; }
 
+/* line 1130, ../sass/_ionicons-icons.scss */
 .ion-ios-information-outline:before {
   content: ""; }
 
+/* line 1131, ../sass/_ionicons-icons.scss */
 .ion-ios-ionic-outline:before {
   content: ""; }
 
+/* line 1132, ../sass/_ionicons-icons.scss */
 .ion-ios-keypad:before {
   content: ""; }
 
+/* line 1133, ../sass/_ionicons-icons.scss */
 .ion-ios-keypad-outline:before {
   content: ""; }
 
+/* line 1134, ../sass/_ionicons-icons.scss */
 .ion-ios-lightbulb:before {
   content: ""; }
 
+/* line 1135, ../sass/_ionicons-icons.scss */
 .ion-ios-lightbulb-outline:before {
   content: ""; }
 
+/* line 1136, ../sass/_ionicons-icons.scss */
 .ion-ios-list:before {
   content: ""; }
 
+/* line 1137, ../sass/_ionicons-icons.scss */
 .ion-ios-list-outline:before {
   content: ""; }
 
+/* line 1138, ../sass/_ionicons-icons.scss */
 .ion-ios-location:before {
   content: ""; }
 
+/* line 1139, ../sass/_ionicons-icons.scss */
 .ion-ios-location-outline:before {
   content: ""; }
 
+/* line 1140, ../sass/_ionicons-icons.scss */
 .ion-ios-locked:before {
   content: ""; }
 
+/* line 1141, ../sass/_ionicons-icons.scss */
 .ion-ios-locked-outline:before {
   content: ""; }
 
+/* line 1142, ../sass/_ionicons-icons.scss */
 .ion-ios-loop:before {
   content: ""; }
 
+/* line 1143, ../sass/_ionicons-icons.scss */
 .ion-ios-loop-strong:before {
   content: ""; }
 
+/* line 1144, ../sass/_ionicons-icons.scss */
 .ion-ios-medical:before {
   content: ""; }
 
+/* line 1145, ../sass/_ionicons-icons.scss */
 .ion-ios-medical-outline:before {
   content: ""; }
 
+/* line 1146, ../sass/_ionicons-icons.scss */
 .ion-ios-medkit:before {
   content: ""; }
 
+/* line 1147, ../sass/_ionicons-icons.scss */
 .ion-ios-medkit-outline:before {
   content: ""; }
 
+/* line 1148, ../sass/_ionicons-icons.scss */
 .ion-ios-mic:before {
   content: ""; }
 
+/* line 1149, ../sass/_ionicons-icons.scss */
 .ion-ios-mic-off:before {
   content: ""; }
 
+/* line 1150, ../sass/_ionicons-icons.scss */
 .ion-ios-mic-outline:before {
   content: ""; }
 
+/* line 1151, ../sass/_ionicons-icons.scss */
 .ion-ios-minus:before {
   content: ""; }
 
+/* line 1152, ../sass/_ionicons-icons.scss */
 .ion-ios-minus-empty:before {
   content: ""; }
 
+/* line 1153, ../sass/_ionicons-icons.scss */
 .ion-ios-minus-outline:before {
   content: ""; }
 
+/* line 1154, ../sass/_ionicons-icons.scss */
 .ion-ios-monitor:before {
   content: ""; }
 
+/* line 1155, ../sass/_ionicons-icons.scss */
 .ion-ios-monitor-outline:before {
   content: ""; }
 
+/* line 1156, ../sass/_ionicons-icons.scss */
 .ion-ios-moon:before {
   content: ""; }
 
+/* line 1157, ../sass/_ionicons-icons.scss */
 .ion-ios-moon-outline:before {
   content: ""; }
 
+/* line 1158, ../sass/_ionicons-icons.scss */
 .ion-ios-more:before {
   content: ""; }
 
+/* line 1159, ../sass/_ionicons-icons.scss */
 .ion-ios-more-outline:before {
   content: ""; }
 
+/* line 1160, ../sass/_ionicons-icons.scss */
 .ion-ios-musical-note:before {
   content: ""; }
 
+/* line 1161, ../sass/_ionicons-icons.scss */
 .ion-ios-musical-notes:before {
   content: ""; }
 
+/* line 1162, ../sass/_ionicons-icons.scss */
 .ion-ios-navigate:before {
   content: ""; }
 
+/* line 1163, ../sass/_ionicons-icons.scss */
 .ion-ios-navigate-outline:before {
   content: ""; }
 
+/* line 1164, ../sass/_ionicons-icons.scss */
 .ion-ios-nutrition:before {
   content: ""; }
 
+/* line 1165, ../sass/_ionicons-icons.scss */
 .ion-ios-nutrition-outline:before {
   content: ""; }
 
+/* line 1166, ../sass/_ionicons-icons.scss */
 .ion-ios-paper:before {
   content: ""; }
 
+/* line 1167, ../sass/_ionicons-icons.scss */
 .ion-ios-paper-outline:before {
   content: ""; }
 
+/* line 1168, ../sass/_ionicons-icons.scss */
 .ion-ios-paperplane:before {
   content: ""; }
 
+/* line 1169, ../sass/_ionicons-icons.scss */
 .ion-ios-paperplane-outline:before {
   content: ""; }
 
+/* line 1170, ../sass/_ionicons-icons.scss */
 .ion-ios-partlysunny:before {
   content: ""; }
 
+/* line 1171, ../sass/_ionicons-icons.scss */
 .ion-ios-partlysunny-outline:before {
   content: ""; }
 
+/* line 1172, ../sass/_ionicons-icons.scss */
 .ion-ios-pause:before {
   content: ""; }
 
+/* line 1173, ../sass/_ionicons-icons.scss */
 .ion-ios-pause-outline:before {
   content: ""; }
 
+/* line 1174, ../sass/_ionicons-icons.scss */
 .ion-ios-paw:before {
   content: ""; }
 
+/* line 1175, ../sass/_ionicons-icons.scss */
 .ion-ios-paw-outline:before {
   content: ""; }
 
+/* line 1176, ../sass/_ionicons-icons.scss */
 .ion-ios-people:before {
   content: ""; }
 
+/* line 1177, ../sass/_ionicons-icons.scss */
 .ion-ios-people-outline:before {
   content: ""; }
 
+/* line 1178, ../sass/_ionicons-icons.scss */
 .ion-ios-person:before {
   content: ""; }
 
+/* line 1179, ../sass/_ionicons-icons.scss */
 .ion-ios-person-outline:before {
   content: ""; }
 
+/* line 1180, ../sass/_ionicons-icons.scss */
 .ion-ios-personadd:before {
   content: ""; }
 
+/* line 1181, ../sass/_ionicons-icons.scss */
 .ion-ios-personadd-outline:before {
   content: ""; }
 
+/* line 1182, ../sass/_ionicons-icons.scss */
 .ion-ios-photos:before {
   content: ""; }
 
+/* line 1183, ../sass/_ionicons-icons.scss */
 .ion-ios-photos-outline:before {
   content: ""; }
 
+/* line 1184, ../sass/_ionicons-icons.scss */
 .ion-ios-pie:before {
   content: ""; }
 
+/* line 1185, ../sass/_ionicons-icons.scss */
 .ion-ios-pie-outline:before {
   content: ""; }
 
+/* line 1186, ../sass/_ionicons-icons.scss */
 .ion-ios-pint:before {
   content: ""; }
 
+/* line 1187, ../sass/_ionicons-icons.scss */
 .ion-ios-pint-outline:before {
   content: ""; }
 
+/* line 1188, ../sass/_ionicons-icons.scss */
 .ion-ios-play:before {
   content: ""; }
 
+/* line 1189, ../sass/_ionicons-icons.scss */
 .ion-ios-play-outline:before {
   content: ""; }
 
+/* line 1190, ../sass/_ionicons-icons.scss */
 .ion-ios-plus:before {
   content: ""; }
 
+/* line 1191, ../sass/_ionicons-icons.scss */
 .ion-ios-plus-empty:before {
   content: ""; }
 
+/* line 1192, ../sass/_ionicons-icons.scss */
 .ion-ios-plus-outline:before {
   content: ""; }
 
+/* line 1193, ../sass/_ionicons-icons.scss */
 .ion-ios-pricetag:before {
   content: ""; }
 
+/* line 1194, ../sass/_ionicons-icons.scss */
 .ion-ios-pricetag-outline:before {
   content: ""; }
 
+/* line 1195, ../sass/_ionicons-icons.scss */
 .ion-ios-pricetags:before {
   content: ""; }
 
+/* line 1196, ../sass/_ionicons-icons.scss */
 .ion-ios-pricetags-outline:before {
   content: ""; }
 
+/* line 1197, ../sass/_ionicons-icons.scss */
 .ion-ios-printer:before {
   content: ""; }
 
+/* line 1198, ../sass/_ionicons-icons.scss */
 .ion-ios-printer-outline:before {
   content: ""; }
 
+/* line 1199, ../sass/_ionicons-icons.scss */
 .ion-ios-pulse:before {
   content: ""; }
 
+/* line 1200, ../sass/_ionicons-icons.scss */
 .ion-ios-pulse-strong:before {
   content: ""; }
 
+/* line 1201, ../sass/_ionicons-icons.scss */
 .ion-ios-rainy:before {
   content: ""; }
 
+/* line 1202, ../sass/_ionicons-icons.scss */
 .ion-ios-rainy-outline:before {
   content: ""; }
 
+/* line 1203, ../sass/_ionicons-icons.scss */
 .ion-ios-recording:before {
   content: ""; }
 
+/* line 1204, ../sass/_ionicons-icons.scss */
 .ion-ios-recording-outline:before {
   content: ""; }
 
+/* line 1205, ../sass/_ionicons-icons.scss */
 .ion-ios-redo:before {
   content: ""; }
 
+/* line 1206, ../sass/_ionicons-icons.scss */
 .ion-ios-redo-outline:before {
   content: ""; }
 
+/* line 1207, ../sass/_ionicons-icons.scss */
 .ion-ios-refresh:before {
   content: ""; }
 
+/* line 1208, ../sass/_ionicons-icons.scss */
 .ion-ios-refresh-empty:before {
   content: ""; }
 
+/* line 1209, ../sass/_ionicons-icons.scss */
 .ion-ios-refresh-outline:before {
   content: ""; }
 
+/* line 1210, ../sass/_ionicons-icons.scss */
 .ion-ios-reload:before {
   content: ""; }
 
+/* line 1211, ../sass/_ionicons-icons.scss */
 .ion-ios-reverse-camera:before {
   content: ""; }
 
+/* line 1212, ../sass/_ionicons-icons.scss */
 .ion-ios-reverse-camera-outline:before {
   content: ""; }
 
+/* line 1213, ../sass/_ionicons-icons.scss */
 .ion-ios-rewind:before {
   content: ""; }
 
+/* line 1214, ../sass/_ionicons-icons.scss */
 .ion-ios-rewind-outline:before {
   content: ""; }
 
+/* line 1215, ../sass/_ionicons-icons.scss */
 .ion-ios-rose:before {
   content: ""; }
 
+/* line 1216, ../sass/_ionicons-icons.scss */
 .ion-ios-rose-outline:before {
   content: ""; }
 
+/* line 1217, ../sass/_ionicons-icons.scss */
 .ion-ios-search:before {
   content: ""; }
 
+/* line 1218, ../sass/_ionicons-icons.scss */
 .ion-ios-search-strong:before {
   content: ""; }
 
+/* line 1219, ../sass/_ionicons-icons.scss */
 .ion-ios-settings:before {
   content: ""; }
 
+/* line 1220, ../sass/_ionicons-icons.scss */
 .ion-ios-settings-strong:before {
   content: ""; }
 
+/* line 1221, ../sass/_ionicons-icons.scss */
 .ion-ios-shuffle:before {
   content: ""; }
 
+/* line 1222, ../sass/_ionicons-icons.scss */
 .ion-ios-shuffle-strong:before {
   content: ""; }
 
+/* line 1223, ../sass/_ionicons-icons.scss */
 .ion-ios-skipbackward:before {
   content: ""; }
 
+/* line 1224, ../sass/_ionicons-icons.scss */
 .ion-ios-skipbackward-outline:before {
   content: ""; }
 
+/* line 1225, ../sass/_ionicons-icons.scss */
 .ion-ios-skipforward:before {
   content: ""; }
 
+/* line 1226, ../sass/_ionicons-icons.scss */
 .ion-ios-skipforward-outline:before {
   content: ""; }
 
+/* line 1227, ../sass/_ionicons-icons.scss */
 .ion-ios-snowy:before {
   content: ""; }
 
+/* line 1228, ../sass/_ionicons-icons.scss */
 .ion-ios-speedometer:before {
   content: ""; }
 
+/* line 1229, ../sass/_ionicons-icons.scss */
 .ion-ios-speedometer-outline:before {
   content: ""; }
 
+/* line 1230, ../sass/_ionicons-icons.scss */
 .ion-ios-star:before {
   content: ""; }
 
+/* line 1231, ../sass/_ionicons-icons.scss */
 .ion-ios-star-half:before {
   content: ""; }
 
+/* line 1232, ../sass/_ionicons-icons.scss */
 .ion-ios-star-outline:before {
   content: ""; }
 
+/* line 1233, ../sass/_ionicons-icons.scss */
 .ion-ios-stopwatch:before {
   content: ""; }
 
+/* line 1234, ../sass/_ionicons-icons.scss */
 .ion-ios-stopwatch-outline:before {
   content: ""; }
 
+/* line 1235, ../sass/_ionicons-icons.scss */
 .ion-ios-sunny:before {
   content: ""; }
 
+/* line 1236, ../sass/_ionicons-icons.scss */
 .ion-ios-sunny-outline:before {
   content: ""; }
 
+/* line 1237, ../sass/_ionicons-icons.scss */
 .ion-ios-telephone:before {
   content: ""; }
 
+/* line 1238, ../sass/_ionicons-icons.scss */
 .ion-ios-telephone-outline:before {
   content: ""; }
 
+/* line 1239, ../sass/_ionicons-icons.scss */
 .ion-ios-tennisball:before {
   content: ""; }
 
+/* line 1240, ../sass/_ionicons-icons.scss */
 .ion-ios-tennisball-outline:before {
   content: ""; }
 
+/* line 1241, ../sass/_ionicons-icons.scss */
 .ion-ios-thunderstorm:before {
   content: ""; }
 
+/* line 1242, ../sass/_ionicons-icons.scss */
 .ion-ios-thunderstorm-outline:before {
   content: ""; }
 
+/* line 1243, ../sass/_ionicons-icons.scss */
 .ion-ios-time:before {
   content: ""; }
 
+/* line 1244, ../sass/_ionicons-icons.scss */
 .ion-ios-time-outline:before {
   content: ""; }
 
+/* line 1245, ../sass/_ionicons-icons.scss */
 .ion-ios-timer:before {
   content: ""; }
 
+/* line 1246, ../sass/_ionicons-icons.scss */
 .ion-ios-timer-outline:before {
   content: ""; }
 
+/* line 1247, ../sass/_ionicons-icons.scss */
 .ion-ios-toggle:before {
   content: ""; }
 
+/* line 1248, ../sass/_ionicons-icons.scss */
 .ion-ios-toggle-outline:before {
   content: ""; }
 
+/* line 1249, ../sass/_ionicons-icons.scss */
 .ion-ios-trash:before {
   content: ""; }
 
+/* line 1250, ../sass/_ionicons-icons.scss */
 .ion-ios-trash-outline:before {
   content: ""; }
 
+/* line 1251, ../sass/_ionicons-icons.scss */
 .ion-ios-undo:before {
   content: ""; }
 
+/* line 1252, ../sass/_ionicons-icons.scss */
 .ion-ios-undo-outline:before {
   content: ""; }
 
+/* line 1253, ../sass/_ionicons-icons.scss */
 .ion-ios-unlocked:before {
   content: ""; }
 
+/* line 1254, ../sass/_ionicons-icons.scss */
 .ion-ios-unlocked-outline:before {
   content: ""; }
 
+/* line 1255, ../sass/_ionicons-icons.scss */
 .ion-ios-upload:before {
   content: ""; }
 
+/* line 1256, ../sass/_ionicons-icons.scss */
 .ion-ios-upload-outline:before {
   content: ""; }
 
+/* line 1257, ../sass/_ionicons-icons.scss */
 .ion-ios-videocam:before {
   content: ""; }
 
+/* line 1258, ../sass/_ionicons-icons.scss */
 .ion-ios-videocam-outline:before {
   content: ""; }
 
+/* line 1259, ../sass/_ionicons-icons.scss */
 .ion-ios-volume-high:before {
   content: ""; }
 
+/* line 1260, ../sass/_ionicons-icons.scss */
 .ion-ios-volume-low:before {
   content: ""; }
 
+/* line 1261, ../sass/_ionicons-icons.scss */
 .ion-ios-wineglass:before {
   content: ""; }
 
+/* line 1262, ../sass/_ionicons-icons.scss */
 .ion-ios-wineglass-outline:before {
   content: ""; }
 
+/* line 1263, ../sass/_ionicons-icons.scss */
 .ion-ios-world:before {
   content: ""; }
 
+/* line 1264, ../sass/_ionicons-icons.scss */
 .ion-ios-world-outline:before {
   content: ""; }
 
+/* line 1265, ../sass/_ionicons-icons.scss */
 .ion-ipad:before {
   content: ""; }
 
+/* line 1266, ../sass/_ionicons-icons.scss */
 .ion-iphone:before {
   content: ""; }
 
+/* line 1267, ../sass/_ionicons-icons.scss */
 .ion-ipod:before {
   content: ""; }
 
+/* line 1268, ../sass/_ionicons-icons.scss */
 .ion-jet:before {
   content: ""; }
 
+/* line 1269, ../sass/_ionicons-icons.scss */
 .ion-key:before {
   content: ""; }
 
+/* line 1270, ../sass/_ionicons-icons.scss */
 .ion-knife:before {
   content: ""; }
 
+/* line 1271, ../sass/_ionicons-icons.scss */
 .ion-laptop:before {
   content: ""; }
 
+/* line 1272, ../sass/_ionicons-icons.scss */
 .ion-leaf:before {
   content: ""; }
 
+/* line 1273, ../sass/_ionicons-icons.scss */
 .ion-levels:before {
   content: ""; }
 
+/* line 1274, ../sass/_ionicons-icons.scss */
 .ion-lightbulb:before {
   content: ""; }
 
+/* line 1275, ../sass/_ionicons-icons.scss */
 .ion-link:before {
   content: ""; }
 
+/* line 1276, ../sass/_ionicons-icons.scss */
 .ion-load-a:before {
   content: ""; }
 
+/* line 1277, ../sass/_ionicons-icons.scss */
 .ion-load-b:before {
   content: ""; }
 
+/* line 1278, ../sass/_ionicons-icons.scss */
 .ion-load-c:before {
   content: ""; }
 
+/* line 1279, ../sass/_ionicons-icons.scss */
 .ion-load-d:before {
   content: ""; }
 
+/* line 1280, ../sass/_ionicons-icons.scss */
 .ion-location:before {
   content: ""; }
 
+/* line 1281, ../sass/_ionicons-icons.scss */
 .ion-lock-combination:before {
   content: ""; }
 
+/* line 1282, ../sass/_ionicons-icons.scss */
 .ion-locked:before {
   content: ""; }
 
+/* line 1283, ../sass/_ionicons-icons.scss */
 .ion-log-in:before {
   content: ""; }
 
+/* line 1284, ../sass/_ionicons-icons.scss */
 .ion-log-out:before {
   content: ""; }
 
+/* line 1285, ../sass/_ionicons-icons.scss */
 .ion-loop:before {
   content: ""; }
 
+/* line 1286, ../sass/_ionicons-icons.scss */
 .ion-magnet:before {
   content: ""; }
 
+/* line 1287, ../sass/_ionicons-icons.scss */
 .ion-male:before {
   content: ""; }
 
+/* line 1288, ../sass/_ionicons-icons.scss */
 .ion-man:before {
   content: ""; }
 
+/* line 1289, ../sass/_ionicons-icons.scss */
 .ion-map:before {
   content: ""; }
 
+/* line 1290, ../sass/_ionicons-icons.scss */
 .ion-medkit:before {
   content: ""; }
 
+/* line 1291, ../sass/_ionicons-icons.scss */
 .ion-merge:before {
   content: ""; }
 
+/* line 1292, ../sass/_ionicons-icons.scss */
 .ion-mic-a:before {
   content: ""; }
 
+/* line 1293, ../sass/_ionicons-icons.scss */
 .ion-mic-b:before {
   content: ""; }
 
+/* line 1294, ../sass/_ionicons-icons.scss */
 .ion-mic-c:before {
   content: ""; }
 
+/* line 1295, ../sass/_ionicons-icons.scss */
 .ion-minus:before {
   content: ""; }
 
+/* line 1296, ../sass/_ionicons-icons.scss */
 .ion-minus-circled:before {
   content: ""; }
 
+/* line 1297, ../sass/_ionicons-icons.scss */
 .ion-minus-round:before {
   content: ""; }
 
+/* line 1298, ../sass/_ionicons-icons.scss */
 .ion-model-s:before {
   content: ""; }
 
+/* line 1299, ../sass/_ionicons-icons.scss */
 .ion-monitor:before {
   content: ""; }
 
+/* line 1300, ../sass/_ionicons-icons.scss */
 .ion-more:before {
   content: ""; }
 
+/* line 1301, ../sass/_ionicons-icons.scss */
 .ion-mouse:before {
   content: ""; }
 
+/* line 1302, ../sass/_ionicons-icons.scss */
 .ion-music-note:before {
   content: ""; }
 
+/* line 1303, ../sass/_ionicons-icons.scss */
 .ion-navicon:before {
   content: ""; }
 
+/* line 1304, ../sass/_ionicons-icons.scss */
 .ion-navicon-round:before {
   content: ""; }
 
+/* line 1305, ../sass/_ionicons-icons.scss */
 .ion-navigate:before {
   content: ""; }
 
+/* line 1306, ../sass/_ionicons-icons.scss */
 .ion-network:before {
   content: ""; }
 
+/* line 1307, ../sass/_ionicons-icons.scss */
 .ion-no-smoking:before {
   content: ""; }
 
+/* line 1308, ../sass/_ionicons-icons.scss */
 .ion-nuclear:before {
   content: ""; }
 
+/* line 1309, ../sass/_ionicons-icons.scss */
 .ion-outlet:before {
   content: ""; }
 
+/* line 1310, ../sass/_ionicons-icons.scss */
 .ion-paintbrush:before {
   content: ""; }
 
+/* line 1311, ../sass/_ionicons-icons.scss */
 .ion-paintbucket:before {
   content: ""; }
 
+/* line 1312, ../sass/_ionicons-icons.scss */
 .ion-paper-airplane:before {
   content: ""; }
 
+/* line 1313, ../sass/_ionicons-icons.scss */
 .ion-paperclip:before {
   content: ""; }
 
+/* line 1314, ../sass/_ionicons-icons.scss */
 .ion-pause:before {
   content: ""; }
 
+/* line 1315, ../sass/_ionicons-icons.scss */
 .ion-person:before {
   content: ""; }
 
+/* line 1316, ../sass/_ionicons-icons.scss */
 .ion-person-add:before {
   content: ""; }
 
+/* line 1317, ../sass/_ionicons-icons.scss */
 .ion-person-stalker:before {
   content: ""; }
 
+/* line 1318, ../sass/_ionicons-icons.scss */
 .ion-pie-graph:before {
   content: ""; }
 
+/* line 1319, ../sass/_ionicons-icons.scss */
 .ion-pin:before {
   content: ""; }
 
+/* line 1320, ../sass/_ionicons-icons.scss */
 .ion-pinpoint:before {
   content: ""; }
 
+/* line 1321, ../sass/_ionicons-icons.scss */
 .ion-pizza:before {
   content: ""; }
 
+/* line 1322, ../sass/_ionicons-icons.scss */
 .ion-plane:before {
   content: ""; }
 
+/* line 1323, ../sass/_ionicons-icons.scss */
 .ion-planet:before {
   content: ""; }
 
+/* line 1324, ../sass/_ionicons-icons.scss */
 .ion-play:before {
   content: ""; }
 
+/* line 1325, ../sass/_ionicons-icons.scss */
 .ion-playstation:before {
   content: ""; }
 
+/* line 1326, ../sass/_ionicons-icons.scss */
 .ion-plus:before {
   content: ""; }
 
+/* line 1327, ../sass/_ionicons-icons.scss */
 .ion-plus-circled:before {
   content: ""; }
 
+/* line 1328, ../sass/_ionicons-icons.scss */
 .ion-plus-round:before {
   content: ""; }
 
+/* line 1329, ../sass/_ionicons-icons.scss */
 .ion-podium:before {
   content: ""; }
 
+/* line 1330, ../sass/_ionicons-icons.scss */
 .ion-pound:before {
   content: ""; }
 
+/* line 1331, ../sass/_ionicons-icons.scss */
 .ion-power:before {
   content: ""; }
 
+/* line 1332, ../sass/_ionicons-icons.scss */
 .ion-pricetag:before {
   content: ""; }
 
+/* line 1333, ../sass/_ionicons-icons.scss */
 .ion-pricetags:before {
   content: ""; }
 
+/* line 1334, ../sass/_ionicons-icons.scss */
 .ion-printer:before {
   content: ""; }
 
+/* line 1335, ../sass/_ionicons-icons.scss */
 .ion-pull-request:before {
   content: ""; }
 
+/* line 1336, ../sass/_ionicons-icons.scss */
 .ion-qr-scanner:before {
   content: ""; }
 
+/* line 1337, ../sass/_ionicons-icons.scss */
 .ion-quote:before {
   content: ""; }
 
+/* line 1338, ../sass/_ionicons-icons.scss */
 .ion-radio-waves:before {
   content: ""; }
 
+/* line 1339, ../sass/_ionicons-icons.scss */
 .ion-record:before {
   content: ""; }
 
+/* line 1340, ../sass/_ionicons-icons.scss */
 .ion-refresh:before {
   content: ""; }
 
+/* line 1341, ../sass/_ionicons-icons.scss */
 .ion-reply:before {
   content: ""; }
 
+/* line 1342, ../sass/_ionicons-icons.scss */
 .ion-reply-all:before {
   content: ""; }
 
+/* line 1343, ../sass/_ionicons-icons.scss */
 .ion-ribbon-a:before {
   content: ""; }
 
+/* line 1344, ../sass/_ionicons-icons.scss */
 .ion-ribbon-b:before {
   content: ""; }
 
+/* line 1345, ../sass/_ionicons-icons.scss */
 .ion-sad:before {
   content: ""; }
 
+/* line 1346, ../sass/_ionicons-icons.scss */
 .ion-sad-outline:before {
   content: ""; }
 
+/* line 1347, ../sass/_ionicons-icons.scss */
 .ion-scissors:before {
   content: ""; }
 
+/* line 1348, ../sass/_ionicons-icons.scss */
 .ion-search:before {
   content: ""; }
 
+/* line 1349, ../sass/_ionicons-icons.scss */
 .ion-settings:before {
   content: ""; }
 
+/* line 1350, ../sass/_ionicons-icons.scss */
 .ion-share:before {
   content: ""; }
 
+/* line 1351, ../sass/_ionicons-icons.scss */
 .ion-shuffle:before {
   content: ""; }
 
+/* line 1352, ../sass/_ionicons-icons.scss */
 .ion-skip-backward:before {
   content: ""; }
 
+/* line 1353, ../sass/_ionicons-icons.scss */
 .ion-skip-forward:before {
   content: ""; }
 
+/* line 1354, ../sass/_ionicons-icons.scss */
 .ion-social-android:before {
   content: ""; }
 
+/* line 1355, ../sass/_ionicons-icons.scss */
 .ion-social-android-outline:before {
   content: ""; }
 
+/* line 1356, ../sass/_ionicons-icons.scss */
 .ion-social-angular:before {
   content: ""; }
 
+/* line 1357, ../sass/_ionicons-icons.scss */
 .ion-social-angular-outline:before {
   content: ""; }
 
+/* line 1358, ../sass/_ionicons-icons.scss */
 .ion-social-apple:before {
   content: ""; }
 
+/* line 1359, ../sass/_ionicons-icons.scss */
 .ion-social-apple-outline:before {
   content: ""; }
 
+/* line 1360, ../sass/_ionicons-icons.scss */
 .ion-social-bitcoin:before {
   content: ""; }
 
+/* line 1361, ../sass/_ionicons-icons.scss */
 .ion-social-bitcoin-outline:before {
   content: ""; }
 
+/* line 1362, ../sass/_ionicons-icons.scss */
 .ion-social-buffer:before {
   content: ""; }
 
+/* line 1363, ../sass/_ionicons-icons.scss */
 .ion-social-buffer-outline:before {
   content: ""; }
 
+/* line 1364, ../sass/_ionicons-icons.scss */
 .ion-social-chrome:before {
   content: ""; }
 
+/* line 1365, ../sass/_ionicons-icons.scss */
 .ion-social-chrome-outline:before {
   content: ""; }
 
+/* line 1366, ../sass/_ionicons-icons.scss */
 .ion-social-codepen:before {
   content: ""; }
 
+/* line 1367, ../sass/_ionicons-icons.scss */
 .ion-social-codepen-outline:before {
   content: ""; }
 
+/* line 1368, ../sass/_ionicons-icons.scss */
 .ion-social-css3:before {
   content: ""; }
 
+/* line 1369, ../sass/_ionicons-icons.scss */
 .ion-social-css3-outline:before {
   content: ""; }
 
+/* line 1370, ../sass/_ionicons-icons.scss */
 .ion-social-designernews:before {
   content: ""; }
 
+/* line 1371, ../sass/_ionicons-icons.scss */
 .ion-social-designernews-outline:before {
   content: ""; }
 
+/* line 1372, ../sass/_ionicons-icons.scss */
 .ion-social-dribbble:before {
   content: ""; }
 
+/* line 1373, ../sass/_ionicons-icons.scss */
 .ion-social-dribbble-outline:before {
   content: ""; }
 
+/* line 1374, ../sass/_ionicons-icons.scss */
 .ion-social-dropbox:before {
   content: ""; }
 
+/* line 1375, ../sass/_ionicons-icons.scss */
 .ion-social-dropbox-outline:before {
   content: ""; }
 
+/* line 1376, ../sass/_ionicons-icons.scss */
 .ion-social-euro:before {
   content: ""; }
 
+/* line 1377, ../sass/_ionicons-icons.scss */
 .ion-social-euro-outline:before {
   content: ""; }
 
+/* line 1378, ../sass/_ionicons-icons.scss */
 .ion-social-facebook:before {
   content: ""; }
 
+/* line 1379, ../sass/_ionicons-icons.scss */
 .ion-social-facebook-outline:before {
   content: ""; }
 
+/* line 1380, ../sass/_ionicons-icons.scss */
 .ion-social-foursquare:before {
   content: ""; }
 
+/* line 1381, ../sass/_ionicons-icons.scss */
 .ion-social-foursquare-outline:before {
   content: ""; }
 
+/* line 1382, ../sass/_ionicons-icons.scss */
 .ion-social-freebsd-devil:before {
   content: ""; }
 
+/* line 1383, ../sass/_ionicons-icons.scss */
 .ion-social-github:before {
   content: ""; }
 
+/* line 1384, ../sass/_ionicons-icons.scss */
 .ion-social-github-outline:before {
   content: ""; }
 
+/* line 1385, ../sass/_ionicons-icons.scss */
 .ion-social-google:before {
   content: ""; }
 
+/* line 1386, ../sass/_ionicons-icons.scss */
 .ion-social-google-outline:before {
   content: ""; }
 
+/* line 1387, ../sass/_ionicons-icons.scss */
 .ion-social-googleplus:before {
   content: ""; }
 
+/* line 1388, ../sass/_ionicons-icons.scss */
 .ion-social-googleplus-outline:before {
   content: ""; }
 
+/* line 1389, ../sass/_ionicons-icons.scss */
 .ion-social-hackernews:before {
   content: ""; }
 
+/* line 1390, ../sass/_ionicons-icons.scss */
 .ion-social-hackernews-outline:before {
   content: ""; }
 
+/* line 1391, ../sass/_ionicons-icons.scss */
 .ion-social-html5:before {
   content: ""; }
 
+/* line 1392, ../sass/_ionicons-icons.scss */
 .ion-social-html5-outline:before {
   content: ""; }
 
+/* line 1393, ../sass/_ionicons-icons.scss */
 .ion-social-instagram:before {
   content: ""; }
 
+/* line 1394, ../sass/_ionicons-icons.scss */
 .ion-social-instagram-outline:before {
   content: ""; }
 
+/* line 1395, ../sass/_ionicons-icons.scss */
 .ion-social-javascript:before {
   content: ""; }
 
+/* line 1396, ../sass/_ionicons-icons.scss */
 .ion-social-javascript-outline:before {
   content: ""; }
 
+/* line 1397, ../sass/_ionicons-icons.scss */
 .ion-social-linkedin:before {
   content: ""; }
 
+/* line 1398, ../sass/_ionicons-icons.scss */
 .ion-social-linkedin-outline:before {
   content: ""; }
 
+/* line 1399, ../sass/_ionicons-icons.scss */
 .ion-social-markdown:before {
   content: ""; }
 
+/* line 1400, ../sass/_ionicons-icons.scss */
 .ion-social-nodejs:before {
   content: ""; }
 
+/* line 1401, ../sass/_ionicons-icons.scss */
 .ion-social-octocat:before {
   content: ""; }
 
+/* line 1402, ../sass/_ionicons-icons.scss */
 .ion-social-pinterest:before {
   content: ""; }
 
+/* line 1403, ../sass/_ionicons-icons.scss */
 .ion-social-pinterest-outline:before {
   content: ""; }
 
+/* line 1404, ../sass/_ionicons-icons.scss */
 .ion-social-python:before {
   content: ""; }
 
+/* line 1405, ../sass/_ionicons-icons.scss */
 .ion-social-reddit:before {
   content: ""; }
 
+/* line 1406, ../sass/_ionicons-icons.scss */
 .ion-social-reddit-outline:before {
   content: ""; }
 
+/* line 1407, ../sass/_ionicons-icons.scss */
 .ion-social-rss:before {
   content: ""; }
 
+/* line 1408, ../sass/_ionicons-icons.scss */
 .ion-social-rss-outline:before {
   content: ""; }
 
+/* line 1409, ../sass/_ionicons-icons.scss */
 .ion-social-sass:before {
   content: ""; }
 
+/* line 1410, ../sass/_ionicons-icons.scss */
 .ion-social-skype:before {
   content: ""; }
 
+/* line 1411, ../sass/_ionicons-icons.scss */
 .ion-social-skype-outline:before {
   content: ""; }
 
+/* line 1412, ../sass/_ionicons-icons.scss */
 .ion-social-snapchat:before {
   content: ""; }
 
+/* line 1413, ../sass/_ionicons-icons.scss */
 .ion-social-snapchat-outline:before {
   content: ""; }
 
+/* line 1414, ../sass/_ionicons-icons.scss */
 .ion-social-tumblr:before {
   content: ""; }
 
+/* line 1415, ../sass/_ionicons-icons.scss */
 .ion-social-tumblr-outline:before {
   content: ""; }
 
+/* line 1416, ../sass/_ionicons-icons.scss */
 .ion-social-tux:before {
   content: ""; }
 
+/* line 1417, ../sass/_ionicons-icons.scss */
 .ion-social-twitch:before {
   content: ""; }
 
+/* line 1418, ../sass/_ionicons-icons.scss */
 .ion-social-twitch-outline:before {
   content: ""; }
 
+/* line 1419, ../sass/_ionicons-icons.scss */
 .ion-social-twitter:before {
   content: ""; }
 
+/* line 1420, ../sass/_ionicons-icons.scss */
 .ion-social-twitter-outline:before {
   content: ""; }
 
+/* line 1421, ../sass/_ionicons-icons.scss */
 .ion-social-usd:before {
   content: ""; }
 
+/* line 1422, ../sass/_ionicons-icons.scss */
 .ion-social-usd-outline:before {
   content: ""; }
 
+/* line 1423, ../sass/_ionicons-icons.scss */
 .ion-social-vimeo:before {
   content: ""; }
 
+/* line 1424, ../sass/_ionicons-icons.scss */
 .ion-social-vimeo-outline:before {
   content: ""; }
 
+/* line 1425, ../sass/_ionicons-icons.scss */
 .ion-social-whatsapp:before {
   content: ""; }
 
+/* line 1426, ../sass/_ionicons-icons.scss */
 .ion-social-whatsapp-outline:before {
   content: ""; }
 
+/* line 1427, ../sass/_ionicons-icons.scss */
 .ion-social-windows:before {
   content: ""; }
 
+/* line 1428, ../sass/_ionicons-icons.scss */
 .ion-social-windows-outline:before {
   content: ""; }
 
+/* line 1429, ../sass/_ionicons-icons.scss */
 .ion-social-wordpress:before {
   content: ""; }
 
+/* line 1430, ../sass/_ionicons-icons.scss */
 .ion-social-wordpress-outline:before {
   content: ""; }
 
+/* line 1431, ../sass/_ionicons-icons.scss */
 .ion-social-yahoo:before {
   content: ""; }
 
+/* line 1432, ../sass/_ionicons-icons.scss */
 .ion-social-yahoo-outline:before {
   content: ""; }
 
+/* line 1433, ../sass/_ionicons-icons.scss */
 .ion-social-yen:before {
   content: ""; }
 
+/* line 1434, ../sass/_ionicons-icons.scss */
 .ion-social-yen-outline:before {
   content: ""; }
 
+/* line 1435, ../sass/_ionicons-icons.scss */
 .ion-social-youtube:before {
   content: ""; }
 
+/* line 1436, ../sass/_ionicons-icons.scss */
 .ion-social-youtube-outline:before {
   content: ""; }
 
+/* line 1437, ../sass/_ionicons-icons.scss */
 .ion-soup-can:before {
   content: ""; }
 
+/* line 1438, ../sass/_ionicons-icons.scss */
 .ion-soup-can-outline:before {
   content: ""; }
 
+/* line 1439, ../sass/_ionicons-icons.scss */
 .ion-speakerphone:before {
   content: ""; }
 
+/* line 1440, ../sass/_ionicons-icons.scss */
 .ion-speedometer:before {
   content: ""; }
 
+/* line 1441, ../sass/_ionicons-icons.scss */
 .ion-spoon:before {
   content: ""; }
 
+/* line 1442, ../sass/_ionicons-icons.scss */
 .ion-star:before {
   content: ""; }
 
+/* line 1443, ../sass/_ionicons-icons.scss */
 .ion-stats-bars:before {
   content: ""; }
 
+/* line 1444, ../sass/_ionicons-icons.scss */
 .ion-steam:before {
   content: ""; }
 
+/* line 1445, ../sass/_ionicons-icons.scss */
 .ion-stop:before {
   content: ""; }
 
+/* line 1446, ../sass/_ionicons-icons.scss */
 .ion-thermometer:before {
   content: ""; }
 
+/* line 1447, ../sass/_ionicons-icons.scss */
 .ion-thumbsdown:before {
   content: ""; }
 
+/* line 1448, ../sass/_ionicons-icons.scss */
 .ion-thumbsup:before {
   content: ""; }
 
+/* line 1449, ../sass/_ionicons-icons.scss */
 .ion-toggle:before {
   content: ""; }
 
+/* line 1450, ../sass/_ionicons-icons.scss */
 .ion-toggle-filled:before {
   content: ""; }
 
+/* line 1451, ../sass/_ionicons-icons.scss */
 .ion-transgender:before {
   content: ""; }
 
+/* line 1452, ../sass/_ionicons-icons.scss */
 .ion-trash-a:before {
   content: ""; }
 
+/* line 1453, ../sass/_ionicons-icons.scss */
 .ion-trash-b:before {
   content: ""; }
 
+/* line 1454, ../sass/_ionicons-icons.scss */
 .ion-trophy:before {
   content: ""; }
 
+/* line 1455, ../sass/_ionicons-icons.scss */
 .ion-tshirt:before {
   content: ""; }
 
+/* line 1456, ../sass/_ionicons-icons.scss */
 .ion-tshirt-outline:before {
   content: ""; }
 
+/* line 1457, ../sass/_ionicons-icons.scss */
 .ion-umbrella:before {
   content: ""; }
 
+/* line 1458, ../sass/_ionicons-icons.scss */
 .ion-university:before {
   content: ""; }
 
+/* line 1459, ../sass/_ionicons-icons.scss */
 .ion-unlocked:before {
   content: ""; }
 
+/* line 1460, ../sass/_ionicons-icons.scss */
 .ion-upload:before {
   content: ""; }
 
+/* line 1461, ../sass/_ionicons-icons.scss */
 .ion-usb:before {
   content: ""; }
 
+/* line 1462, ../sass/_ionicons-icons.scss */
 .ion-videocamera:before {
   content: ""; }
 
+/* line 1463, ../sass/_ionicons-icons.scss */
 .ion-volume-high:before {
   content: ""; }
 
+/* line 1464, ../sass/_ionicons-icons.scss */
 .ion-volume-low:before {
   content: ""; }
 
+/* line 1465, ../sass/_ionicons-icons.scss */
 .ion-volume-medium:before {
   content: ""; }
 
+/* line 1466, ../sass/_ionicons-icons.scss */
 .ion-volume-mute:before {
   content: ""; }
 
+/* line 1467, ../sass/_ionicons-icons.scss */
 .ion-wand:before {
   content: ""; }
 
+/* line 1468, ../sass/_ionicons-icons.scss */
 .ion-waterdrop:before {
   content: ""; }
 
+/* line 1469, ../sass/_ionicons-icons.scss */
 .ion-wifi:before {
   content: ""; }
 
+/* line 1470, ../sass/_ionicons-icons.scss */
 .ion-wineglass:before {
   content: ""; }
 
+/* line 1471, ../sass/_ionicons-icons.scss */
 .ion-woman:before {
   content: ""; }
 
+/* line 1472, ../sass/_ionicons-icons.scss */
 .ion-wrench:before {
   content: ""; }
 
+/* line 1473, ../sass/_ionicons-icons.scss */
 .ion-xbox:before {
   content: ""; }

@@ -44,6 +44,83 @@
     border-color: darken($brand-dark, 5%);
 }
 
+
+.border-primary {
+    border-color: $brand-primary;
+}
+
+.border-success {
+    border-color: $brand-success;
+}
+
+.border-info {
+    border-color: $brand-info;
+}
+
+.border-warning {
+    border-color: $brand-warning;
+}
+
+.border-danger {
+    border-color: $brand-danger;
+}
+
+.border-mint {
+    border-color: $brand-mint;
+}
+
+.border-purple {
+    border-color: $brand-purple;
+}
+
+.border-pink {
+    border-color: $brand-pink;
+}
+
+.border-dark {
+    border-color: $brand-dark;
+}
+
+.color-primary {
+    color: $brand-primary;
+}
+
+.color-success {
+    color: $brand-success;
+}
+
+.color-info {
+    color: $brand-info;
+}
+
+.color-warning {
+    color: $brand-warning;
+}
+
+.color-danger {
+    color: $brand-danger;
+}
+
+.color-mint {
+    color: $brand-mint;
+}
+
+.color-purple {
+    color: $brand-purple;
+}
+
+.color-pink {
+    color: $brand-pink;
+}
+
+.color-dark {
+    color: $brand-dark;
+}
+
+.color-white {
+    color: #fff;
+}
+
 .text-center {
     text-align: center;
 }
@@ -58,18 +135,6 @@
 
 .line-height-md * {
     line-height: 24px;
-}
-
-.color-normal {
-    color: $text-color;
-}
-
-.color-orange {
-    color: #ff7800;
-}
-
-.color-gray {
-    color: #707070;
 }
 
 .border-left {
