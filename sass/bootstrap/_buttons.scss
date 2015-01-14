@@ -58,8 +58,12 @@
 // Alternate buttons
 // --------------------------------------------------
 
-.btn-lightly {
+.btn-light {
   @include button-variant($btn-default-color, lighten($btn-default-bg, 40%), $btn-default-border);
+}
+
+.btn-transparent {
+  @include button-variant($btn-default-color, transparent, $btn-default-border);
 }
 
 .btn-default {

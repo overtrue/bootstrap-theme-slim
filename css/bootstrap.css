@@ -2051,38 +2051,55 @@ select[multiple].input-lg,
     opacity: 0.65;
     filter: alpha(opacity=65); }
 
-.btn-lightly {
+.btn-light {
   color: #333;
   background-color: white;
   border-color: #ccc; }
-  .btn-lightly:hover, .btn-lightly:focus, .btn-lightly.focus, .btn-lightly:active, .btn-lightly.active, .open > .btn-lightly.dropdown-toggle {
+  .btn-light:hover, .btn-light:focus, .btn-light.focus, .btn-light:active, .btn-light.active, .open > .btn-light.dropdown-toggle {
     color: #333;
     background-color: #e6e6e6;
     border-color: #adadad; }
-  .btn-lightly:active, .btn-lightly.active, .open > .btn-lightly.dropdown-toggle {
+  .btn-light:active, .btn-light.active, .open > .btn-light.dropdown-toggle {
     background-image: none; }
-  .btn-lightly.disabled, .btn-lightly.disabled:hover, .btn-lightly.disabled:focus, .btn-lightly.disabled.focus, .btn-lightly.disabled:active, .btn-lightly.disabled.active, .btn-lightly[disabled], .btn-lightly[disabled]:hover, .btn-lightly[disabled]:focus, .btn-lightly[disabled].focus, .btn-lightly[disabled]:active, .btn-lightly[disabled].active, fieldset[disabled] .btn-lightly, fieldset[disabled] .btn-lightly:hover, fieldset[disabled] .btn-lightly:focus, fieldset[disabled] .btn-lightly.focus, fieldset[disabled] .btn-lightly:active, fieldset[disabled] .btn-lightly.active {
+  .btn-light.disabled, .btn-light.disabled:hover, .btn-light.disabled:focus, .btn-light.disabled.focus, .btn-light.disabled:active, .btn-light.disabled.active, .btn-light[disabled], .btn-light[disabled]:hover, .btn-light[disabled]:focus, .btn-light[disabled].focus, .btn-light[disabled]:active, .btn-light[disabled].active, fieldset[disabled] .btn-light, fieldset[disabled] .btn-light:hover, fieldset[disabled] .btn-light:focus, fieldset[disabled] .btn-light.focus, fieldset[disabled] .btn-light:active, fieldset[disabled] .btn-light.active {
     background-color: white;
     border-color: #ccc; }
-  .btn-lightly .badge {
+  .btn-light .badge {
     color: white;
+    background-color: #333; }
+
+.btn-transparent {
+  color: #333;
+  background-color: transparent;
+  border-color: #ccc; }
+  .btn-transparent:hover, .btn-transparent:focus, .btn-transparent.focus, .btn-transparent:active, .btn-transparent.active, .open > .btn-transparent.dropdown-toggle {
+    color: #333;
+    background-color: transparent;
+    border-color: #adadad; }
+  .btn-transparent:active, .btn-transparent.active, .open > .btn-transparent.dropdown-toggle {
+    background-image: none; }
+  .btn-transparent.disabled, .btn-transparent.disabled:hover, .btn-transparent.disabled:focus, .btn-transparent.disabled.focus, .btn-transparent.disabled:active, .btn-transparent.disabled.active, .btn-transparent[disabled], .btn-transparent[disabled]:hover, .btn-transparent[disabled]:focus, .btn-transparent[disabled].focus, .btn-transparent[disabled]:active, .btn-transparent[disabled].active, fieldset[disabled] .btn-transparent, fieldset[disabled] .btn-transparent:hover, fieldset[disabled] .btn-transparent:focus, fieldset[disabled] .btn-transparent.focus, fieldset[disabled] .btn-transparent:active, fieldset[disabled] .btn-transparent.active {
+    background-color: transparent;
+    border-color: #ccc; }
+  .btn-transparent .badge {
+    color: transparent;
     background-color: #333; }
 
 .btn-default {
   color: #333;
-  background-color: #fff;
+  background-color: #eeeeee;
   border-color: #ccc; }
   .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
     color: #333;
-    background-color: #e6e6e6;
+    background-color: #d5d5d5;
     border-color: #adadad; }
   .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
     background-image: none; }
   .btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
-    background-color: #fff;
+    background-color: #eeeeee;
     border-color: #ccc; }
   .btn-default .badge {
-    color: #fff;
+    color: #eeeeee;
     background-color: #333; }
 
 .btn-primary {
