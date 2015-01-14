@@ -1,0 +1,2141 @@
+<!DOCTYPE html>
+<!--[if lte IE 6 ]> <html class="ie ie6 lte-ie7 lte-ie8" lang="zh-CN"> <![endif]-->
+<!--[if IE 7 ]> <html class="ie ie7 lte-ie7 lte-ie8" lang="zh-CN"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie ie8 lte-ie8" lang="zh-CN"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie ie9" lang="zh-CN"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="zh-CN"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slim - a bootstrap theme made by overtrue.</title>
+    <meta name="keywords" content="overtrue,bootstrap, bootstrap theme" />
+    <meta name="description" content="a bootstrap theme made by overtrue." />
+    <link rel="stylesheet" href="./css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="./css/ionicons.css" media="screen">
+    <link rel="stylesheet" href="./css/app.css" media="screen">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+      <script src="../bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+    <style>
+
+      ul#icons {
+        margin: 10px auto;
+        padding-left: 5px;
+        width: 100%;
+        list-style: none;
+        text-align: left;
+        font-size: 1px;
+      }
+
+      ul#icons li {
+        position: relative;
+        z-index: 0;
+        display: inline-block;
+        padding: 22px;
+        width: 42px;
+        border-radius: 4px;
+        list-style: none;
+        text-align: center;
+        font-weight: normal;
+        font-size: 32px;
+        cursor: pointer;
+      }
+      ul#icons li:hover {
+        color: #4F8EF7;
+      }
+
+      #icon-panel {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+        padding: 10px 2px;
+        width: 260px;
+        height: 58px;
+        border-radius: 4px;
+        background: white;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+        text-align: center;
+        font-size: 14px;
+        font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+        opacity: .96;
+      }
+
+      #icon-name {
+        display: block;
+        font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+        font-size: 14px;
+        text-align: center;
+        width: 100%;
+        border: 0;
+      }
+
+      #icons {
+        transition: opacity .2s ease-in-out;
+      }
+
+      footer ul li {
+        float:left;
+        margin-right:20px;
+      }
+
+      #banner {
+        padding: 20px 0;
+        background:url(http://subtlepatterns.com/patterns/congruent_pentagon.png);
+      }
+    </style>
+    <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-58535993-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </head>
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="./" class="navbar-brand">Slim</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="https://github.com/overtrue/bootstrap-theme-slim">Github</a>
+            </li>
+            <li>
+              <a href="https://github.com/overtrue/bootstrap-theme-slim">Fork</a>
+            </li>
+            <li>
+              <a href="http://overtrue.me">Blog</a>
+            </li>
+
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://getbootstrap.com/" target="_blank">Built With Bootstrap</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="page-header" id="banner">
+      <div class="text-center">
+          <h1>Slim</h1>
+          <p class="lead">Slim bootstrap theme</p>
+          <p>
+          <iframe src="http://ghbtns.com/github-btn.html?user=overtue&repo=bootstrap-theme-slim&type=watch&count=true"
+allowtransparency="true" frameborder="0" scrolling="0" width="60" height="20"></iframe><iframe src="http://ghbtns.com/github-btn.html?user=overtue&repo=bootstrap-theme-slim&type=fork&count=true"
+allowtransparency="true" frameborder="0" scrolling="0" width="65" height="20"></iframe><iframe src="http://ghbtns.com/github-btn.html?user=overtue&repo=bootstrap-theme-slim&type=follow&count=true"
+allowtransparency="true" frameborder="0" scrolling="0" width="125" height="20"></iframe>
+</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Navbar
+      ================================================== -->
+      <div class="bs-docs-section clearfix">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 id="navbar">Navbar</h1>
+            </div>
+
+            <div class="bs-component">
+              <div class="navbar navbar-default">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">Brand</a>
+                </div>
+                <div class="navbar-collapse collapse navbar-responsive-collapse">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Active</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Dropdown header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="navbar-form navbar-left">
+                    <input type="text" class="form-control col-lg-6" placeholder="Search">
+                  </form>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="bs-component">
+              <div class="navbar navbar-inverse">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">Brand</a>
+                </div>
+                <div class="navbar-collapse collapse navbar-inverse-collapse">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Active</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Dropdown header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="navbar-form navbar-left">
+                    <input type="text" class="form-control col-lg-6" placeholder="Search">
+                  </form>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div><!-- /example -->
+
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Buttons
+      ================================================== -->
+      <div class="bs-docs-section">
+        <div class="page-header">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 id="buttons">Buttons</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+
+            <p class="bs-component">
+              <a href="#" class="btn btn-default">Default</a>
+              <a href="#" class="btn btn-primary">Primary</a>
+              <a href="#" class="btn btn-success">Success</a>
+              <a href="#" class="btn btn-info">Info</a>
+              <a href="#" class="btn btn-warning">Warning</a>
+              <a href="#" class="btn btn-danger">Danger</a>
+              </p>
+            <p>
+              <a href="#" class="btn btn-mint">Mint</a>
+              <a href="#" class="btn btn-purple">Purple</a>
+              <a href="#" class="btn btn-pink">Pink</a>
+              <a href="#" class="btn btn-dark">Dark</a>
+              <a href="#" class="btn btn-link">Link</a>
+            </p>
+
+            <p class="bs-component">
+              <a href="#" class="btn btn-default disabled">Default</a>
+              <a href="#" class="btn btn-primary disabled">Primary</a>
+              <a href="#" class="btn btn-success disabled">Success</a>
+              <a href="#" class="btn btn-info disabled">Info</a>
+              <a href="#" class="btn btn-warning disabled">Warning</a>
+              <a href="#" class="btn btn-danger disabled">Danger</a>
+            </p>
+            <p>
+              <a href="#" class="btn btn-mint disabled">Mint</a>
+              <a href="#" class="btn btn-purple disabled">Purple</a>
+              <a href="#" class="btn btn-pink disabled">Pink</a>
+              <a href="#" class="btn btn-dark disabled">Dark</a>
+              <a href="#" class="btn btn-link disabled">Link</a>
+            </p>
+
+
+            <div style="margin-bottom: 15px;">
+              <div class="btn-toolbar bs-component" style="margin: 0;">
+                <div class="btn-group">
+                  <a href="#" class="btn btn-default">Default</a>
+                  <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </div>
+
+                <div class="btn-group">
+                  <a href="#" class="btn btn-primary">Primary</a>
+                  <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </div>
+
+                <div class="btn-group">
+                  <a href="#" class="btn btn-success">Success</a>
+                  <a href="#" class="btn btn-success dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </div>
+
+                <div class="btn-group">
+                  <a href="#" class="btn btn-info">Info</a>
+                  <a href="#" class="btn btn-info dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </div>
+
+                <div class="btn-group">
+                  <a href="#" class="btn btn-warning">Warning</a>
+                  <a href="#" class="btn btn-warning dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <p class="bs-component">
+              <a href="#" class="btn btn-primary btn-lg">Large button</a>
+              <a href="#" class="btn btn-primary">Default button</a>
+              <a href="#" class="btn btn-primary btn-sm">Small button</a>
+              <a href="#" class="btn btn-primary btn-xs">Mini button</a>
+            </p>
+
+          </div>
+          <div class="col-lg-6">
+
+            <p class="bs-component">
+              <a href="#" class="btn btn-default btn-lg btn-block">Block level button</a>
+            </p>
+
+
+            <div class="bs-component" style="margin-bottom: 15px;">
+              <div class="btn-group btn-group-justified">
+                <a href="#" class="btn btn-default">Left</a>
+                <a href="#" class="btn btn-default">Middle</a>
+                <a href="#" class="btn btn-default">Right</a>
+              </div>
+            </div>
+
+            <div class="bs-component" style="margin-bottom: 15px;">
+              <div class="btn-toolbar">
+                <div class="btn-group">
+                  <a href="#" class="btn btn-default">1</a>
+                  <a href="#" class="btn btn-default">2</a>
+                  <a href="#" class="btn btn-default">3</a>
+                  <a href="#" class="btn btn-default">4</a>
+                </div>
+
+                <div class="btn-group">
+                  <a href="#" class="btn btn-default">5</a>
+                  <a href="#" class="btn btn-default">6</a>
+                  <a href="#" class="btn btn-default">7</a>
+                </div>
+
+                <div class="btn-group">
+                  <a href="#" class="btn btn-default">8</a>
+                  <div class="btn-group">
+                    <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                      Dropdown
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Dropdown link</a></li>
+                      <li><a href="#">Dropdown link</a></li>
+                      <li><a href="#">Dropdown link</a></li>
+                     </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bs-component">
+              <div class="btn-group-vertical">
+                  <a href="#" class="btn btn-default">Button</a>
+                  <a href="#" class="btn btn-default">Button</a>
+                  <a href="#" class="btn btn-default">Button</a>
+                  <a href="#" class="btn btn-default">Button</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Typography
+      ================================================== -->
+      <div class="bs-docs-section">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 id="type">Typography</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- Headings -->
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <h1>Heading 1</h1>
+              <h2>Heading 2</h2>
+              <h3>Heading 3</h3>
+              <h4>Heading 4</h4>
+              <h5>Heading 5</h5>
+              <h6>Heading 6</h6>
+              <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <h2>Example body text</h2>
+              <p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+              <p><small>This line of text is meant to be treated as fine print.</small></p>
+              <p>The following snippet of text is <strong>rendered as bold text</strong>.</p>
+              <p>The following snippet of text is <em>rendered as italicized text</em>.</p>
+              <p>An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.</p>
+            </div>
+
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <h2>Emphasis classes</h2>
+              <p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+              <p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+              <p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
+              <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+              <p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <h1>中文标题 1</h1>
+              <h2>中文标题 2</h2>
+              <h3>中文标题 3</h3>
+              <h4>中文标题 4</h4>
+              <h5>中文标题 5</h5>
+              <h6>中文标题 6</h6>
+              <p class="lead">每年的1月14日是日记情人节Diary Day在这一天情侣们会互赠足足记录一整年恋爱情事的恋爱日记本以此象征两人将携手走过未来一年并留下更多美好的回忆</p>
+              <p>单身的人在新一年的开始对自己喜欢的人要有表白和对以后的计划写在自己的日记本里在心中撒下爱的种子</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <h2>中文正文示例</h2>
+              <p>红豆杉属于浅根植物，其主根不明显、侧根发达，是世界上公认濒临灭绝的天然珍稀抗癌植物，是经过了第四纪冰川遗留下来的古老孑遗树种，在地球上已有250万年的历史。由于在自然条件下红豆杉生长速度缓慢，再生能力差，所以很长时间以来，世界范围内还没有形成大规摸的红豆杉原料林基地。1994年红豆杉被我国定为一级珍稀濒危保护植物，同时被全世界42个有红豆杉的国家称为“国宝”，联合国也明令禁止采伐，是名符其实的“植物大熊猫”。</p>
+              <p><small>这行文字旨在示例小字号文字。</small></p>
+              <p>下面的片段是加粗文字 <strong>呈现为粗体文本</strong>.</p>
+              <p>下面的片段是斜体文字<em>呈现为斜体文本</em>.</p>
+              <p>属性的缩写<abbr title="attribute">attr</abbr>.</p>
+            </div>
+
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <h2>重点文字</h2>
+              <p class="text-muted">普通的文本</p>
+              <p class="text-primary">这里是主要的文字</p>
+              <p class="text-warning">这里是警告提示的文字</p>
+              <p class="text-danger">这里是危险提示文字</p>
+              <p class="text-success">这里是成功提示文字</p>
+              <p class="text-info">这里是信息类文字</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blockquotes -->
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 id="type-blockquotes">Blockquotes</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="bs-component">
+              <blockquote>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="bs-component">
+              <blockquote class="pull-right">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tables
+      ================================================== -->
+      <div class="bs-docs-section">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 id="tables">Tables</h1>
+            </div>
+
+            <div class="bs-component">
+              <table class="table table-striped table-hover ">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Column heading</th>
+                    <th>Column heading</th>
+                    <th>Column heading</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                  </tr>
+                  <tr class="info">
+                    <td>3</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                  </tr>
+                  <tr class="success">
+                    <td>4</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                  </tr>
+                  <tr class="danger">
+                    <td>5</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                  </tr>
+                  <tr class="warning">
+                    <td>6</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                  </tr>
+                  <tr class="active">
+                    <td>7</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div><!-- /example -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Forms
+      ================================================== -->
+      <div class="bs-docs-section">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 id="forms">Forms</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="well bs-component">
+              <form class="form-horizontal">
+                <fieldset>
+                  <legend>Legend</legend>
+                  <div class="form-group">
+                    <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                    <div class="col-lg-10">
+                      <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+                    <div class="col-lg-10">
+                      <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox"> Checkbox
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="textArea" class="col-lg-2 control-label">Textarea</label>
+                    <div class="col-lg-10">
+                      <textarea class="form-control" rows="3" id="textArea"></textarea>
+                      <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-lg-2 control-label">Radios</label>
+                    <div class="col-lg-10">
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                          Option one is this
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                          Option two can be something else
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="select" class="col-lg-2 control-label">Selects</label>
+                    <div class="col-lg-10">
+                      <select class="form-control" id="select">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                      <br>
+                      <select multiple="" class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-lg-10 col-lg-offset-2">
+                      <button class="btn btn-default">Cancel</button>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-4 col-lg-offset-1">
+
+              <form class="bs-component">
+                <div class="form-group">
+                  <label class="control-label" for="focusedInput">Focused input</label>
+                  <input class="form-control" id="focusedInput" type="text" value="This is focused...">
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label" for="disabledInput">Disabled input</label>
+                  <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled="">
+                </div>
+
+                <div class="form-group has-warning">
+                  <label class="control-label" for="inputWarning">Input warning</label>
+                  <input type="text" class="form-control" id="inputWarning">
+                </div>
+
+                <div class="form-group has-error">
+                  <label class="control-label" for="inputError">Input error</label>
+                  <input type="text" class="form-control" id="inputError">
+                </div>
+
+                <div class="form-group has-success">
+                  <label class="control-label" for="inputSuccess">Input success</label>
+                  <input type="text" class="form-control" id="inputSuccess">
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label" for="inputLarge">Large input</label>
+                  <input class="form-control input-lg" type="text" id="inputLarge">
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label" for="inputDefault">Default input</label>
+                  <input type="text" class="form-control" id="inputDefault">
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label" for="inputSmall">Small input</label>
+                  <input class="form-control input-sm" type="text" id="inputSmall">
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label">Input addons</label>
+                  <div class="input-group">
+                    <span class="input-group-addon">$</span>
+                    <input type="text" class="form-control">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button">Button</button>
+                    </span>
+                  </div>
+                </div>
+              </form>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Navs
+      ================================================== -->
+      <div class="bs-docs-section">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 id="nav">Navs</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <h2 id="nav-tabs">Tabs</h2>
+            <div class="bs-component">
+              <ul class="nav nav-tabs">
+                <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+                <li><a href="#profile" data-toggle="tab">Profile</a></li>
+                <li class="disabled"><a>Disabled</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    Dropdown <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#dropdown1" data-toggle="tab">Action</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#dropdown2" data-toggle="tab">Another action</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade active in" id="home">
+                  <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                </div>
+                <div class="tab-pane fade" id="profile">
+                  <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
+                </div>
+                <div class="tab-pane fade" id="dropdown1">
+                  <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork.</p>
+                </div>
+                <div class="tab-pane fade" id="dropdown2">
+                  <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h2 id="nav-pills">Pills</h2>
+            <div class="bs-component">
+              <ul class="nav nav-pills">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li class="disabled"><a href="#">Disabled</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    Dropdown <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <br>
+            <div class="bs-component">
+              <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li class="disabled"><a href="#">Disabled</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    Dropdown <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h2 id="nav-breadcrumbs">Breadcrumbs</h2>
+            <div class="bs-component">
+              <ul class="breadcrumb">
+                <li class="active">Home</li>
+              </ul>
+
+              <ul class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li class="active">Library</li>
+              </ul>
+
+              <ul class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Library</a></li>
+                <li class="active">Data</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg-4">
+            <h2 id="pagination">Pagination</h2>
+            <div class="bs-component">
+              <ul class="pagination">
+                <li class="disabled"><a href="#">&laquo;</a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&raquo;</a></li>
+              </ul>
+
+              <ul class="pagination pagination-lg">
+                <li class="disabled"><a href="#">&laquo;</a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">&raquo;</a></li>
+              </ul>
+
+              <ul class="pagination pagination-sm">
+                <li class="disabled"><a href="#">&laquo;</a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&raquo;</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h2 id="pager">Pager</h2>
+            <div class="bs-component">
+              <ul class="pager">
+                <li><a href="#">Previous</a></li>
+                <li><a href="#">Next</a></li>
+              </ul>
+
+              <ul class="pager">
+                <li class="previous disabled"><a href="#">&larr; Older</a></li>
+                <li class="next"><a href="#">Newer &rarr;</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Indicators
+      ================================================== -->
+      <div class="bs-docs-section">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 id="indicators">Indicators</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Alerts</h2>
+            <div class="bs-component">
+              <div class="alert alert-dismissable alert-warning">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <h4>Warning!</h4>
+                <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, <a href="#" class="alert-link">vel scelerisque nisl consectetur et</a>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="alert alert-dismissable alert-danger">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="alert alert-dismissable alert-success">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="alert alert-dismissable alert-info">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <h2>Labels</h2>
+            <div class="bs-component" style="margin-bottom: 40px;">
+              <span class="label label-default">Default</span>
+              <span class="label label-primary">Primary</span>
+              <span class="label label-success">Success</span>
+              <span class="label label-warning">Warning</span>
+              <span class="label label-danger">Danger</span>
+              <span class="label label-info">Info</span>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h2>Badges</h2>
+            <div class="bs-component">
+              <ul class="nav nav-pills">
+                <li class="active"><a href="#">Home <span class="badge">42</span></a></li>
+                <li><a href="#">Profile <span class="badge"></span></a></li>
+                <li><a href="#">Messages <span class="badge">3</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Progress bars
+      ================================================== -->
+      <div class="bs-docs-section">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 id="progress">Progress bars</h1>
+            </div>
+
+            <h3 id="progress-basic">Basic</h3>
+            <div class="bs-component">
+              <div class="progress">
+                <div class="progress-bar" style="width: 60%;"></div>
+              </div>
+            </div>
+
+            <h3 id="progress-alternatives">Contextual alternatives</h3>
+            <div class="bs-component">
+              <div class="progress">
+                <div class="progress-bar progress-bar-info" style="width: 20%"></div>
+              </div>
+
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" style="width: 40%"></div>
+              </div>
+
+              <div class="progress">
+                <div class="progress-bar progress-bar-warning" style="width: 60%"></div>
+              </div>
+
+              <div class="progress">
+                <div class="progress-bar progress-bar-danger" style="width: 80%"></div>
+              </div>
+            </div>
+
+            <h3 id="progress-striped">Striped</h3>
+            <div class="bs-component">
+              <div class="progress progress-striped">
+                <div class="progress-bar progress-bar-info" style="width: 20%"></div>
+              </div>
+
+              <div class="progress progress-striped">
+                <div class="progress-bar progress-bar-success" style="width: 40%"></div>
+              </div>
+
+              <div class="progress progress-striped">
+                <div class="progress-bar progress-bar-warning" style="width: 60%"></div>
+              </div>
+
+              <div class="progress progress-striped">
+                <div class="progress-bar progress-bar-danger" style="width: 80%"></div>
+              </div>
+            </div>
+
+            <h3 id="progress-animated">Animated</h3>
+            <div class="bs-component">
+              <div class="progress progress-striped active">
+                <div class="progress-bar" style="width: 45%"></div>
+              </div>
+            </div>
+
+            <h3 id="progress-stacked">Stacked</h3>
+            <div class="bs-component">
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" style="width: 35%"></div>
+                <div class="progress-bar progress-bar-warning" style="width: 20%"></div>
+                <div class="progress-bar progress-bar-danger" style="width: 10%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Containers
+      ================================================== -->
+      <div class="bs-docs-section">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 id="container">Containers</h1>
+            </div>
+            <div class="bs-component">
+              <div class="jumbotron">
+                <h1>Jumbotron</h1>
+                <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <p><a class="btn btn-primary btn-lg">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>List groups</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <span class="badge">14</span>
+                  Cras justo odio
+                </li>
+                <li class="list-group-item">
+                  <span class="badge">2</span>
+                  Dapibus ac facilisis in
+                </li>
+                <li class="list-group-item">
+                  <span class="badge">1</span>
+                  Morbi leo risus
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="list-group">
+                <a href="#" class="list-group-item active">
+                  Cras justo odio
+                </a>
+                <a href="#" class="list-group-item">Dapibus ac facilisis in
+                </a>
+                <a href="#" class="list-group-item">Morbi leo risus
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="list-group">
+                <a href="#" class="list-group-item">
+                  <h4 class="list-group-item-heading">List group item heading</h4>
+                  <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                </a>
+                <a href="#" class="list-group-item">
+                  <h4 class="list-group-item-heading">List group item heading</h4>
+                  <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Panels</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  Basic panel
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">Panel heading</div>
+                <div class="panel-body">
+                  Panel content
+                </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  Panel content
+                </div>
+                <div class="panel-footer">Panel footer</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Panel primary</h3>
+                </div>
+                <div class="panel-body">
+                  Panel content
+                </div>
+              </div>
+
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Panel success</h3>
+                </div>
+                <div class="panel-body">
+                  Panel content
+                </div>
+              </div>
+
+              <div class="panel panel-warning">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Panel warning</h3>
+                </div>
+                <div class="panel-body">
+                  Panel content
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="panel panel-danger">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Panel danger</h3>
+                </div>
+                <div class="panel-body">
+                  Panel content
+                </div>
+              </div>
+
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Panel info</h3>
+                </div>
+                <div class="panel-body">
+                  Panel content
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Wells</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="well">
+                Look, I'm in a well!
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="well well-sm">
+                Look, I'm in a small well!
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="well well-lg">
+                Look, I'm in a large well!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dialogs
+      ================================================== -->
+      <div class="bs-docs-section">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 id="tables">Dialogs</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>Modals</h2>
+            <div class="bs-component">
+              <div class="modal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                      <h4 class="modal-title">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>One fine body…</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h2>Popovers</h2>
+            <div class="bs-component">
+              <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Left</button>
+
+              <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Top</button>
+
+              <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus
+              sagittis lacus vel augue laoreet rutrum faucibus.">Bottom</button>
+
+              <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Right</button>
+            </div>
+            <h2>Tooltips</h2>
+            <div class="bs-component">
+              <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="" data-original-title="Tooltip on left">Left</button>
+
+              <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="" data-original-title="Tooltip on top">Top</button>
+
+              <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Tooltip on bottom">Bottom</button>
+
+              <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="" data-original-title="Tooltip on right">Right</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Icons
+      ================================================== -->
+      <div class="bs-docs-section">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 id="buttons">Icons <small>by <a href="http://ionicons.com" target="_blank">ionicons</a></small></h1>
+            <ul id="icons">
+                  <li class="ion-ionic" data-pack="default" data-tags="badass, framework, sexy, hawt"></li>
+                  <li class="ion-arrow-up-a" data-pack="default" data-tags=""></li>
+                  <li class="ion-arrow-right-a" data-pack="default" data-tags=""></li>
+                  <li class="ion-arrow-down-a" data-pack="default" data-tags=""></li>
+                  <li class="ion-arrow-left-a" data-pack="default" data-tags=""></li>
+                  <li class="ion-arrow-up-b" data-pack="default" data-tags=""></li>
+                  <li class="ion-arrow-right-b" data-pack="default" data-tags=""></li>
+                  <li class="ion-arrow-down-b" data-pack="default" data-tags=""></li>
+                  <li class="ion-arrow-left-b" data-pack="default" data-tags=""></li>
+                  <li class="ion-arrow-up-c" data-pack="default" data-tags=""></li>
+                  <li class="ion-arrow-right-c" data-pack="default" data-tags=""></li>
+                  <li class="ion-arrow-down-c" data-pack="default" data-tags=""></li>
+                  <li class="ion-arrow-left-c" data-pack="default" data-tags=""></li>
+                  <li class="ion-arrow-return-right" data-pack="default" data-tags=""></li>
+                  <li class="ion-arrow-return-left" data-pack="default" data-tags=""></li>
+                  <li class="ion-arrow-swap" data-pack="default" data-tags="switch, flip"></li>
+                  <li class="ion-arrow-shrink" data-pack="default" data-tags="pinch"></li>
+                  <li class="ion-arrow-expand" data-pack="default" data-tags="fullscreen"></li>
+                  <li class="ion-arrow-move" data-pack="default" data-tags="drag"></li>
+                  <li class="ion-arrow-resize" data-pack="default" data-tags="drag"></li>
+                  <li class="ion-chevron-up" data-pack="default" data-tags="arrow, up"></li>
+                  <li class="ion-chevron-right" data-pack="default" data-tags="arrow, right"></li>
+                  <li class="ion-chevron-down" data-pack="default" data-tags="arrow, down"></li>
+                  <li class="ion-chevron-left" data-pack="default" data-tags="arrow, left"></li>
+                  <li class="ion-navicon-round" data-pack="default" data-tags="menu, hamburger, slide menu"></li>
+                  <li class="ion-navicon" data-pack="default" data-tags="menu, hamburger, slide menu"></li>
+                  <li class="ion-drag" data-pack="default" data-tags="reorder, move, drag"></li>
+                  <li class="ion-log-in" data-pack="default" data-tags="sign in, "></li>
+                  <li class="ion-log-out" data-pack="default" data-tags="sign out"></li>
+                  <li class="ion-checkmark-round" data-pack="default" data-tags="complete, finished, success, on"></li>
+                  <li class="ion-checkmark" data-pack="default" data-tags="complete, finished, success, on"></li>
+                  <li class="ion-checkmark-circled" data-pack="default" data-tags="complete, finished, success, on"></li>
+                  <li class="ion-close-round" data-pack="default" data-tags="delete, trash, kill, x"></li>
+                  <li class="ion-close" data-pack="default" data-tags="delete, trash, kill, x"></li>
+                  <li class="ion-close-circled" data-pack="default" data-tags="delete, trash, kill, x"></li>
+                  <li class="ion-plus-round" data-pack="default" data-tags="add, include, new, invite, +"></li>
+                  <li class="ion-plus" data-pack="default" data-tags="add, include, new, invite, +"></li>
+                  <li class="ion-plus-circled" data-pack="default" data-tags="add, include, new, invite, +"></li>
+                  <li class="ion-minus-round" data-pack="default" data-tags="hide, remove, minimize, -"></li>
+                  <li class="ion-minus" data-pack="default" data-tags="hide, remove, minimize, -"></li>
+                  <li class="ion-minus-circled" data-pack="default" data-tags="hide, remove, minimize, -"></li>
+                  <li class="ion-information" data-pack="default" data-tags="help, more, tooltip"></li>
+                  <li class="ion-information-circled" data-pack="default" data-tags="help, more, tooltip"></li>
+                  <li class="ion-help" data-pack="default" data-tags="question, ?"></li>
+                  <li class="ion-help-circled" data-pack="default" data-tags="question, ?"></li>
+                  <li class="ion-backspace-outline" data-pack="default" data-tags="delete, remove, back"></li>
+                  <li class="ion-backspace" data-pack="default" data-tags="delete, remove, back"></li>
+                  <li class="ion-help-buoy" data-pack="default" data-tags="question, ?"></li>
+                  <li class="ion-asterisk" data-pack="default" data-tags="favorite, mark, star"></li>
+                  <li class="ion-alert" data-pack="default" data-tags="attention, warning, notice, !, exclamation"></li>
+                  <li class="ion-alert-circled" data-pack="default" data-tags="attention, warning, notice, !, exclamation"></li>
+                  <li class="ion-refresh" data-pack="default" data-tags="reload, renew"></li>
+                  <li class="ion-loop" data-pack="default" data-tags="refresh"></li>
+                  <li class="ion-shuffle" data-pack="default" data-tags="random"></li>
+                  <li class="ion-home" data-pack="default" data-tags="house"></li>
+                  <li class="ion-search" data-pack="default" data-tags="magnifying glass"></li>
+                  <li class="ion-flag" data-pack="default" data-tags="favorite, mark, star"></li>
+                  <li class="ion-star" data-pack="default" data-tags="favorite"></li>
+                  <li class="ion-heart" data-pack="default" data-tags="love"></li>
+                  <li class="ion-heart-broken" data-pack="default" data-tags="love"></li>
+                  <li class="ion-gear-a" data-pack="default" data-tags="settings, options, cog"></li>
+                  <li class="ion-gear-b" data-pack="default" data-tags="settings, options, cog"></li>
+                  <li class="ion-toggle-filled" data-pack="default" data-tags="settings, options, switch"></li>
+                  <li class="ion-toggle" data-pack="default" data-tags="settings, options, switch"></li>
+                  <li class="ion-settings" data-pack="default" data-tags="options, tools"></li>
+                  <li class="ion-wrench" data-pack="default" data-tags="settings, options, tools"></li>
+                  <li class="ion-hammer" data-pack="default" data-tags="settings, options, tools"></li>
+                  <li class="ion-edit" data-pack="default" data-tags="change, update, write, type, pencil"></li>
+                  <li class="ion-trash-a" data-pack="default" data-tags="delete, remove, dump"></li>
+                  <li class="ion-trash-b" data-pack="default" data-tags="delete, remove, dump"></li>
+                  <li class="ion-document" data-pack="default" data-tags="paper, file"></li>
+                  <li class="ion-document-text" data-pack="default" data-tags="paper, file"></li>
+                  <li class="ion-clipboard" data-pack="default" data-tags="write"></li>
+                  <li class="ion-scissors" data-pack="default" data-tags="cut"></li>
+                  <li class="ion-funnel" data-pack="default" data-tags="sort"></li>
+                  <li class="ion-bookmark" data-pack="default" data-tags="favorite, tag, save"></li>
+                  <li class="ion-email" data-pack="default" data-tags="snail, mail, inbox"></li>
+                  <li class="ion-email-unread" data-pack="default" data-tags="snail, mail, inbox"></li>
+                  <li class="ion-folder" data-pack="default" data-tags="snail, mail"></li>
+                  <li class="ion-filing" data-pack="default" data-tags="mail"></li>
+                  <li class="ion-archive" data-pack="default" data-tags="mail"></li>
+                  <li class="ion-reply" data-pack="default" data-tags="mail, undo"></li>
+                  <li class="ion-reply-all" data-pack="default" data-tags="mail"></li>
+                  <li class="ion-forward" data-pack="default" data-tags="mail, redo"></li>
+                  <li class="ion-share" data-pack="default" data-tags="outbound"></li>
+                  <li class="ion-paper-airplane" data-pack="default" data-tags="outbound, mail, letter, send"></li>
+                  <li class="ion-link" data-pack="default" data-tags="chain, anchor, href, attach"></li>
+                  <li class="ion-paperclip" data-pack="default" data-tags="attach"></li>
+                  <li class="ion-compose" data-pack="default" data-tags="write, compose, type"></li>
+                  <li class="ion-briefcase" data-pack="default" data-tags="store, organize"></li>
+                  <li class="ion-medkit" data-pack="default" data-tags="health"></li>
+                  <li class="ion-at" data-pack="default" data-tags="@"></li>
+                  <li class="ion-pound" data-pack="default" data-tags="hashtag, #"></li>
+                  <li class="ion-quote" data-pack="default" data-tags="chat, quotation"></li>
+                  <li class="ion-cloud" data-pack="default" data-tags="storage"></li>
+                  <li class="ion-upload" data-pack="default" data-tags="storage, cloud"></li>
+                  <li class="ion-more" data-pack="default" data-tags="circles"></li>
+                  <li class="ion-grid" data-pack="default" data-tags="menu"></li>
+                  <li class="ion-calendar" data-pack="default" data-tags="date, time, month, year"></li>
+                  <li class="ion-clock" data-pack="default" data-tags="time, watch, hours, minutes, seconds"></li>
+                  <li class="ion-compass" data-pack="default" data-tags="location, directions, navigation"></li>
+                  <li class="ion-pinpoint" data-pack="default" data-tags="gps, navigation"></li>
+                  <li class="ion-pin" data-pack="default" data-tags="gps, navigation"></li>
+                  <li class="ion-navigate" data-pack="default" data-tags="gps, location pin"></li>
+                  <li class="ion-location" data-pack="default" data-tags="gps, navigation, pin"></li>
+                  <li class="ion-map" data-pack="default" data-tags="gps, navigation, pin"></li>
+                  <li class="ion-lock-combination" data-pack="default" data-tags="padlock, security"></li>
+                  <li class="ion-locked" data-pack="default" data-tags="padlock, security"></li>
+                  <li class="ion-unlocked" data-pack="default" data-tags="padlock, security"></li>
+                  <li class="ion-key" data-pack="default" data-tags="access"></li>
+                  <li class="ion-arrow-graph-up-right" data-pack="default" data-tags="stats"></li>
+                  <li class="ion-arrow-graph-down-right" data-pack="default" data-tags="stats"></li>
+                  <li class="ion-arrow-graph-up-left" data-pack="default" data-tags="stats"></li>
+                  <li class="ion-arrow-graph-down-left" data-pack="default" data-tags="stats"></li>
+                  <li class="ion-stats-bars" data-pack="default" data-tags="data"></li>
+                  <li class="ion-connection-bars" data-pack="default" data-tags="data, stats"></li>
+                  <li class="ion-pie-graph" data-pack="default" data-tags="stats"></li>
+                  <li class="ion-chatbubble" data-pack="default" data-tags="talk"></li>
+                  <li class="ion-chatbubble-working" data-pack="default" data-tags="talk"></li>
+                  <li class="ion-chatbubbles" data-pack="default" data-tags="talk"></li>
+                  <li class="ion-chatbox" data-pack="default" data-tags="talk"></li>
+                  <li class="ion-chatbox-working" data-pack="default" data-tags="talk"></li>
+                  <li class="ion-chatboxes" data-pack="default" data-tags="talk"></li>
+                  <li class="ion-person" data-pack="default" data-tags="users, staff, head, human"></li>
+                  <li class="ion-person-add" data-pack="default" data-tags="users, staff, head, human, member, new"></li>
+                  <li class="ion-person-stalker" data-pack="default" data-tags="people, human, users, staff"></li>
+                  <li class="ion-woman" data-pack="default" data-tags="female, lady, girl, dudette"></li>
+                  <li class="ion-man" data-pack="default" data-tags="male, guy, boy, dude"></li>
+                  <li class="ion-female" data-pack="default" data-tags="lady, girl, dudette"></li>
+                  <li class="ion-male" data-pack="default" data-tags="male, guy, boy, dude"></li>
+                  <li class="ion-transgender" data-pack="default" data-tags=""></li>
+                  <li class="ion-fork" data-pack="default" data-tags="food, drink, eat"></li>
+                  <li class="ion-knife" data-pack="default" data-tags="food, drink, eat"></li>
+                  <li class="ion-spoon" data-pack="default" data-tags="food, drink, eat"></li>
+                  <li class="ion-soup-can-outline" data-pack="default" data-tags="food, drink, eat"></li>
+                  <li class="ion-soup-can" data-pack="default" data-tags="food, drink, eat"></li>
+                  <li class="ion-beer" data-pack="default" data-tags="food, drink, eat"></li>
+                  <li class="ion-wineglass" data-pack="default" data-tags="food, drink, eat"></li>
+                  <li class="ion-coffee" data-pack="default" data-tags="food, drink, eat, caffeine"></li>
+                  <li class="ion-icecream" data-pack="default" data-tags="food, drink, eat"></li>
+                  <li class="ion-pizza" data-pack="default" data-tags="food, drink, eat"></li>
+                  <li class="ion-power" data-pack="default" data-tags="on, off"></li>
+                  <li class="ion-mouse" data-pack="default" data-tags="computer"></li>
+                  <li class="ion-battery-full" data-pack="default" data-tags=""></li>
+                  <li class="ion-battery-half" data-pack="default" data-tags=""></li>
+                  <li class="ion-battery-low" data-pack="default" data-tags=""></li>
+                  <li class="ion-battery-empty" data-pack="default" data-tags=""></li>
+                  <li class="ion-battery-charging" data-pack="default" data-tags=""></li>
+                  <li class="ion-wifi" data-pack="default" data-tags="internet, connection"></li>
+                  <li class="ion-bluetooth" data-pack="default" data-tags="connection, cloud"></li>
+                  <li class="ion-calculator" data-pack="default" data-tags="math, arithmatic, numbers, addition, subtraction"></li>
+                  <li class="ion-camera" data-pack="default" data-tags="photo"></li>
+                  <li class="ion-eye" data-pack="default" data-tags="view, see, creeper"></li>
+                  <li class="ion-eye-disabled" data-pack="default" data-tags="view, see, creeper"></li>
+                  <li class="ion-flash" data-pack="default" data-tags="lightning, weather, whether"></li>
+                  <li class="ion-flash-off" data-pack="default" data-tags=""></li>
+                  <li class="ion-qr-scanner" data-pack="default" data-tags="reader"></li>
+                  <li class="ion-image" data-pack="default" data-tags="photo"></li>
+                  <li class="ion-images" data-pack="default" data-tags="photo"></li>
+                  <li class="ion-wand" data-pack="default" data-tags="images, levels, light, dark, settings"></li>
+                  <li class="ion-contrast" data-pack="default" data-tags="images, levels, light, dark, settings"></li>
+                  <li class="ion-aperture" data-pack="default" data-tags="images, levels, light, dark, settings"></li>
+                  <li class="ion-crop" data-pack="default" data-tags="images, levels, light, dark, settings"></li>
+                  <li class="ion-easel" data-pack="default" data-tags="images, art, create, color"></li>
+                  <li class="ion-paintbrush" data-pack="default" data-tags="images, art, create, color"></li>
+                  <li class="ion-paintbucket" data-pack="default" data-tags="images, art, create, color"></li>
+                  <li class="ion-monitor" data-pack="default" data-tags="thunderbolt, screen"></li>
+                  <li class="ion-laptop" data-pack="default" data-tags="macbook, apple, osx"></li>
+                  <li class="ion-ipad" data-pack="default" data-tags="tablet, mobile, apple, retina, device"></li>
+                  <li class="ion-iphone" data-pack="default" data-tags="smartphone, mobile, apple, retina, device"></li>
+                  <li class="ion-ipod" data-pack="default" data-tags="music, player, apple, retina, device"></li>
+                  <li class="ion-printer" data-pack="default" data-tags="paper"></li>
+                  <li class="ion-usb" data-pack="default" data-tags="digital, computer"></li>
+                  <li class="ion-outlet" data-pack="default" data-tags="digital, computer, electricity"></li>
+                  <li class="ion-bug" data-pack="default" data-tags="develop, program, hacker, error"></li>
+                  <li class="ion-code" data-pack="default" data-tags="develop, program, hacker"></li>
+                  <li class="ion-code-working" data-pack="default" data-tags="develop, program, hacker"></li>
+                  <li class="ion-code-download" data-pack="default" data-tags="develop, program, hacker"></li>
+                  <li class="ion-fork-repo" data-pack="default" data-tags="develop, program, hacker, github"></li>
+                  <li class="ion-network" data-pack="default" data-tags="develop, program, hacker, github"></li>
+                  <li class="ion-pull-request" data-pack="default" data-tags="develop, program, hacker, github"></li>
+                  <li class="ion-merge" data-pack="default" data-tags="develop, program, hacker, github"></li>
+                  <li class="ion-xbox" data-pack="default" data-tags="fun, games"></li>
+                  <li class="ion-playstation" data-pack="default" data-tags="fun, games"></li>
+                  <li class="ion-steam" data-pack="default" data-tags="fun, games"></li>
+                  <li class="ion-closed-captioning" data-pack="default" data-tags="movie, film, television"></li>
+                  <li class="ion-videocamera" data-pack="default" data-tags="movie, film, television"></li>
+                  <li class="ion-film-marker" data-pack="default" data-tags="film, cut, action"></li>
+                  <li class="ion-disc" data-pack="default" data-tags="cd, vinyl"></li>
+                  <li class="ion-headphone" data-pack="default" data-tags="music, earbuds, beats"></li>
+                  <li class="ion-music-note" data-pack="default" data-tags="songs"></li>
+                  <li class="ion-radio-waves" data-pack="default" data-tags="music, sound, speaker"></li>
+                  <li class="ion-speakerphone" data-pack="default" data-tags="sound, speaker, loud, amplify"></li>
+                  <li class="ion-mic-a" data-pack="default" data-tags="sound, talk, speaker"></li>
+                  <li class="ion-mic-b" data-pack="default" data-tags="sound, talk, speaker"></li>
+                  <li class="ion-mic-c" data-pack="default" data-tags="sound, talk, speaker"></li>
+                  <li class="ion-volume-high" data-pack="default" data-tags="sound, noise"></li>
+                  <li class="ion-volume-medium" data-pack="default" data-tags="sound"></li>
+                  <li class="ion-volume-low" data-pack="default" data-tags="sound"></li>
+                  <li class="ion-volume-mute" data-pack="default" data-tags="sound"></li>
+                  <li class="ion-levels" data-pack="default" data-tags="options, toggles, sound, mixer"></li>
+                  <li class="ion-play" data-pack="default" data-tags="music, watch, arrow, right"></li>
+                  <li class="ion-pause" data-pack="default" data-tags="music, break, hold, freeze"></li>
+                  <li class="ion-stop" data-pack="default" data-tags="music, square, hold, freeze"></li>
+                  <li class="ion-record" data-pack="default" data-tags="music, circle"></li>
+                  <li class="ion-skip-forward" data-pack="default" data-tags="music, next"></li>
+                  <li class="ion-skip-backward" data-pack="default" data-tags="music, previous"></li>
+                  <li class="ion-eject" data-pack="default" data-tags="music, dvd, remove"></li>
+                  <li class="ion-bag" data-pack="default" data-tags="shopping, price, cart, money, container, $"></li>
+                  <li class="ion-card" data-pack="default" data-tags="credit, price, debit, money, shopping, cash, dollars, $"></li>
+                  <li class="ion-cash" data-pack="default" data-tags="credit, price, debit, money, shopping, dollars, $"></li>
+                  <li class="ion-pricetag" data-pack="default" data-tags="credit, debit, money, shopping, cash, dollars, $"></li>
+                  <li class="ion-pricetags" data-pack="default" data-tags="credit, debit, money, shopping, cash, dollars, $"></li>
+                  <li class="ion-thumbsup" data-pack="default" data-tags="like, fun, yes"></li>
+                  <li class="ion-thumbsdown" data-pack="default" data-tags="dislike, boring, no"></li>
+                  <li class="ion-happy-outline" data-pack="default" data-tags="good, like, fun, yes"></li>
+                  <li class="ion-happy" data-pack="default" data-tags="good, like, fun, yes"></li>
+                  <li class="ion-sad-outline" data-pack="default" data-tags="cry, bad, no"></li>
+                  <li class="ion-sad" data-pack="default" data-tags="cry, bad, no"></li>
+                  <li class="ion-bowtie" data-pack="default" data-tags="tie, shirt, dress, clothing"></li>
+                  <li class="ion-tshirt-outline" data-pack="default" data-tags="tie, shirt, dress, clothing"></li>
+                  <li class="ion-tshirt" data-pack="default" data-tags="tie, shirt, dress, clothing"></li>
+                  <li class="ion-trophy" data-pack="default" data-tags="competition, compete, win, lose, award"></li>
+                  <li class="ion-podium" data-pack="default" data-tags="competition, compete, win, lose, award"></li>
+                  <li class="ion-ribbon-a" data-pack="default" data-tags="competition, compete, win, lose, award, trophy"></li>
+                  <li class="ion-ribbon-b" data-pack="default" data-tags="competition, compete, win, lose, award, trophy"></li>
+                  <li class="ion-university" data-pack="default" data-tags="graduate, education, school, tassle"></li>
+                  <li class="ion-magnet" data-pack="default" data-tags="sticky, attraction"></li>
+                  <li class="ion-beaker" data-pack="default" data-tags="mixture, potion, flask"></li>
+                  <li class="ion-erlenmeyer-flask" data-pack="default" data-tags="mixture, potion, beaker, potion"></li>
+                  <li class="ion-egg" data-pack="default" data-tags="birth, twitter, bird, baby"></li>
+                  <li class="ion-earth" data-pack="default" data-tags="nature, globe, home, planet"></li>
+                  <li class="ion-planet" data-pack="default" data-tags="nature, globe, home, planet, space"></li>
+                  <li class="ion-lightbulb" data-pack="default" data-tags="idea, new, aha!"></li>
+                  <li class="ion-cube" data-pack="default" data-tags="box, square, container"></li>
+                  <li class="ion-leaf" data-pack="default" data-tags="green, recycle, plant, nature"></li>
+                  <li class="ion-waterdrop" data-pack="default" data-tags="nature, clean, recycle, fresh, wet, rain"></li>
+                  <li class="ion-flame" data-pack="default" data-tags="fire, hot, heat"></li>
+                  <li class="ion-fireball" data-pack="default" data-tags="hot, heat"></li>
+                  <li class="ion-bonfire" data-pack="default" data-tags="hot, heat"></li>
+                  <li class="ion-umbrella" data-pack="default" data-tags="wet, rain, dry, shelter"></li>
+                  <li class="ion-nuclear" data-pack="default" data-tags="danger, warning, hazard"></li>
+                  <li class="ion-no-smoking" data-pack="default" data-tags="danger, warning, cigarette, cancer"></li>
+                  <li class="ion-thermometer" data-pack="default" data-tags="hot, cold, heat, temperature, mercury"></li>
+                  <li class="ion-speedometer" data-pack="default" data-tags="travel, accelerate"></li>
+                  <li class="ion-model-s" data-pack="default" data-tags="navigation, car, drive, transportation, tesla, sexy"></li>
+                  <li class="ion-plane" data-pack="default" data-tags="fly, jet"></li>
+                  <li class="ion-jet" data-pack="default" data-tags="fly, plane"></li>
+                  <li class="ion-load-a" data-pack="default" data-tags="spinner, waiting, refresh"></li>
+                  <li class="ion-load-b" data-pack="default" data-tags="spinner, waiting, refresh"></li>
+                  <li class="ion-load-c" data-pack="default" data-tags="spinner, waiting, refresh"></li>
+                  <li class="ion-load-d" data-pack="default" data-tags="spinner, waiting, refresh"></li>
+
+
+                  <p><!-- end default icons pack --></p>
+
+
+                  <li class="ion-ios-ionic-outline" data-pack="ios" data-tags="badass, framework, sexy"></li>
+                  <li class="ion-ios-arrow-back" data-pack="ios" data-tags="chevron, left"></li>
+                  <li class="ion-ios-arrow-forward" data-pack="ios" data-tags="chevron, right"></li>
+                  <li class="ion-ios-arrow-up" data-pack="ios" data-tags="chevron"></li>
+                  <li class="ion-ios-arrow-right" data-pack="ios" data-tags="chevron"></li>
+                  <li class="ion-ios-arrow-down" data-pack="ios" data-tags="chevron"></li>
+                  <li class="ion-ios-arrow-left" data-pack="ios" data-tags="chevron"></li>
+                  <li class="ion-ios-arrow-thin-up" data-pack="ios" data-tags="chevron"></li>
+                  <li class="ion-ios-arrow-thin-right" data-pack="ios" data-tags="chevron"></li>
+                  <li class="ion-ios-arrow-thin-down" data-pack="ios" data-tags="chevron"></li>
+                  <li class="ion-ios-arrow-thin-left" data-pack="ios" data-tags="chevron"></li>
+                  <li class="ion-ios-circle-filled" data-pack="ios" data-tags="checkmark, radio, dot, on, selected, button"></li>
+                  <li class="ion-ios-circle-outline" data-pack="ios" data-tags="checkmark, radio, dot, off, button"></li>
+                  <li class="ion-ios-checkmark-empty" data-pack="ios" data-tags="success, confirmed, on, finished, complete"></li>
+                  <li class="ion-ios-checkmark-outline" data-pack="ios" data-tags="success, confirmed, on, finished, complete"></li>
+                  <li class="ion-ios-checkmark" data-pack="ios" data-tags="success, confirmed, on, finished, complete"></li>
+                  <li class="ion-ios-plus-empty" data-pack="ios" data-tags="add, include, new, invite, +"></li>
+                  <li class="ion-ios-plus-outline" data-pack="ios" data-tags="add, include, new, invite, +"></li>
+                  <li class="ion-ios-plus" data-pack="ios" data-tags="add, include, new, invite, +"></li>
+                  <li class="ion-ios-close-empty" data-pack="ios" data-tags="delete, remove, trash, end, stop, x"></li>
+                  <li class="ion-ios-close-outline" data-pack="ios" data-tags="delete, remove, trash, end, stop, x"></li>
+                  <li class="ion-ios-close" data-pack="ios" data-tags="delete, remove, trash, end, stop, x"></li>
+                  <li class="ion-ios-minus-empty" data-pack="ios" data-tags="hide, remove, minimize, -"></li>
+                  <li class="ion-ios-minus-outline" data-pack="ios" data-tags="hide, remove, minimize, -"></li>
+                  <li class="ion-ios-minus" data-pack="ios" data-tags="hide, remove, minimize, -"></li>
+                  <li class="ion-ios-information-empty" data-pack="ios" data-tags="help, question"></li>
+                  <li class="ion-ios-information-outline" data-pack="ios" data-tags="help, question"></li>
+                  <li class="ion-ios-information" data-pack="ios" data-tags="help, question"></li>
+                  <li class="ion-ios-help-empty" data-pack="ios" data-tags="question, information, ?"></li>
+                  <li class="ion-ios-help-outline" data-pack="ios" data-tags="question, information, ?"></li>
+                  <li class="ion-ios-help" data-pack="ios" data-tags="question, information, ?"></li>
+                  <li class="ion-ios-search" data-pack="ios" data-tags="find, seek, look, magnifying glass"></li>
+                  <li class="ion-ios-search-strong" data-pack="ios" data-tags="find, seek, look, magnifying glass"></li>
+                  <li class="ion-ios-star" data-pack="ios" data-tags="favorite, rate"></li>
+                  <li class="ion-ios-star-half" data-pack="ios" data-tags="favorite, rate"></li>
+                  <li class="ion-ios-star-outline" data-pack="ios" data-tags="favorite, rate"></li>
+                  <li class="ion-ios-heart" data-pack="ios" data-tags="love"></li>
+                  <li class="ion-ios-heart-outline" data-pack="ios" data-tags="love"></li>
+                  <li class="ion-ios-more" data-pack="ios" data-tags="menu"></li>
+                  <li class="ion-ios-more-outline" data-pack="ios" data-tags="menu"></li>
+                  <li class="ion-ios-home" data-pack="ios" data-tags="house"></li>
+                  <li class="ion-ios-home-outline" data-pack="ios" data-tags="house"></li>
+                  <li class="ion-ios-cloud" data-pack="ios" data-tags="storage, weather, whether"></li>
+                  <li class="ion-ios-cloud-outline" data-pack="ios" data-tags="storage, weather, whether"></li>
+                  <li class="ion-ios-cloud-upload" data-pack="ios" data-tags="storage"></li>
+                  <li class="ion-ios-cloud-upload-outline" data-pack="ios" data-tags="storage"></li>
+                  <li class="ion-ios-cloud-download" data-pack="ios" data-tags="storage"></li>
+                  <li class="ion-ios-cloud-download-outline" data-pack="ios" data-tags="storage"></li>
+                  <li class="ion-ios-upload" data-pack="ios" data-tags="share, import"></li>
+                  <li class="ion-ios-upload-outline" data-pack="ios" data-tags="share, import"></li>
+                  <li class="ion-ios-download" data-pack="ios" data-tags="save, export"></li>
+                  <li class="ion-ios-download-outline" data-pack="ios" data-tags="save, export"></li>
+                  <li class="ion-ios-refresh" data-pack="ios" data-tags="reload, renew, reset"></li>
+                  <li class="ion-ios-refresh-outline" data-pack="ios" data-tags="reload, renew, reset"></li>
+                  <li class="ion-ios-refresh-empty" data-pack="ios" data-tags="reload, renew"></li>
+                  <li class="ion-ios-reload" data-pack="ios" data-tags="renew, reset"></li>
+                  <li class="ion-ios-loop-strong" data-pack="ios" data-tags="reload, renew, reset"></li>
+                  <li class="ion-ios-loop" data-pack="ios" data-tags="reload, renew, reset"></li>
+                  <li class="ion-ios-bookmarks" data-pack="ios" data-tags="favorite"></li>
+                  <li class="ion-ios-bookmarks-outline" data-pack="ios" data-tags="favorite"></li>
+                  <li class="ion-ios-book" data-pack="ios" data-tags="favorite, read, literature"></li>
+                  <li class="ion-ios-book-outline" data-pack="ios" data-tags="favorite, read, literature"></li>
+                  <li class="ion-ios-flag" data-pack="ios" data-tags="marker, favorite"></li>
+                  <li class="ion-ios-flag-outline" data-pack="ios" data-tags="marker, favorite"></li>
+                  <li class="ion-ios-glasses" data-pack="ios" data-tags="steve, reading, look, see"></li>
+                  <li class="ion-ios-glasses-outline" data-pack="ios" data-tags="steve, reading, look, see"></li>
+                  <li class="ion-ios-browsers" data-pack="ios" data-tags="square"></li>
+                  <li class="ion-ios-browsers-outline" data-pack="ios" data-tags="square"></li>
+                  <li class="ion-ios-at" data-pack="ios" data-tags="@"></li>
+                  <li class="ion-ios-at-outline" data-pack="ios" data-tags="@"></li>
+                  <li class="ion-ios-pricetag" data-pack="ios" data-tags="shopping, money, items, commerce, $"></li>
+                  <li class="ion-ios-pricetag-outline" data-pack="ios" data-tags="shopping, money, items, commerce, $"></li>
+                  <li class="ion-ios-pricetags" data-pack="ios" data-tags="shopping, money, items, commerce, $"></li>
+                  <li class="ion-ios-pricetags-outline" data-pack="ios" data-tags="shopping, money, items, commerce, $"></li>
+                  <li class="ion-ios-cart" data-pack="ios" data-tags="shopping, money, items, commerce, $"></li>
+                  <li class="ion-ios-cart-outline" data-pack="ios" data-tags="shopping, money, items, commerce, $"></li>
+                  <li class="ion-ios-chatboxes" data-pack="ios" data-tags="talk"></li>
+                  <li class="ion-ios-chatboxes-outline" data-pack="ios" data-tags="talk"></li>
+                  <li class="ion-ios-chatbubble" data-pack="ios" data-tags="talk"></li>
+                  <li class="ion-ios-chatbubble-outline" data-pack="ios" data-tags="talk"></li>
+                  <li class="ion-ios-cog" data-pack="ios" data-tags="settings, gear, options"></li>
+                  <li class="ion-ios-cog-outline" data-pack="ios" data-tags="settings, gear, options"></li>
+                  <li class="ion-ios-gear" data-pack="ios" data-tags="cog, settings, options"></li>
+                  <li class="ion-ios-gear-outline" data-pack="ios" data-tags="cog, settings, options"></li>
+                  <li class="ion-ios-settings" data-pack="ios" data-tags="cog, settings, options"></li>
+                  <li class="ion-ios-settings-strong" data-pack="ios" data-tags="cog, settings, options"></li>
+                  <li class="ion-ios-toggle" data-pack="ios" data-tags="settings, options, switch"></li>
+                  <li class="ion-ios-toggle-outline" data-pack="ios" data-tags="settings, options, switch"></li>
+                  <li class="ion-ios-analytics" data-pack="ios" data-tags="metrics, track, data"></li>
+                  <li class="ion-ios-analytics-outline" data-pack="ios" data-tags="metrics, track, data"></li>
+                  <li class="ion-ios-pie" data-pack="ios" data-tags="cog, settings, options"></li>
+                  <li class="ion-ios-pie-outline" data-pack="ios" data-tags="cog, settings, options"></li>
+                  <li class="ion-ios-pulse" data-pack="ios" data-tags="live, hot, rate"></li>
+                  <li class="ion-ios-pulse-strong" data-pack="ios" data-tags="live, hot, rate"></li>
+                  <li class="ion-ios-filing" data-pack="ios" data-tags="archive"></li>
+                  <li class="ion-ios-filing-outline" data-pack="ios" data-tags="archive"></li>
+                  <li class="ion-ios-box" data-pack="ios" data-tags="archive"></li>
+                  <li class="ion-ios-box-outline" data-pack="ios" data-tags="archive"></li>
+                  <li class="ion-ios-compose" data-pack="ios" data-tags="write, type, create"></li>
+                  <li class="ion-ios-compose-outline" data-pack="ios" data-tags="write, type, create"></li>
+                  <li class="ion-ios-trash" data-pack="ios" data-tags="delete, remove, dispose, waste, basket, dump, kill"></li>
+                  <li class="ion-ios-trash-outline" data-pack="ios" data-tags="delete, remove, dispose, waste, basket, dump, kill"></li>
+                  <li class="ion-ios-copy" data-pack="ios" data-tags="duplicate, paper"></li>
+                  <li class="ion-ios-copy-outline" data-pack="ios" data-tags="duplicate, paper"></li>
+                  <li class="ion-ios-email" data-pack="ios" data-tags="snail, mail"></li>
+                  <li class="ion-ios-email-outline" data-pack="ios" data-tags="snail, mail"></li>
+                  <li class="ion-ios-undo" data-pack="ios" data-tags="reply"></li>
+                  <li class="ion-ios-undo-outline" data-pack="ios" data-tags="reply"></li>
+                  <li class="ion-ios-redo" data-pack="ios" data-tags="forward"></li>
+                  <li class="ion-ios-redo-outline" data-pack="ios" data-tags="forward"></li>
+                  <li class="ion-ios-paperplane" data-pack="ios" data-tags="send"></li>
+                  <li class="ion-ios-paperplane-outline" data-pack="ios" data-tags="send"></li>
+                  <li class="ion-ios-folder" data-pack="ios" data-tags="file"></li>
+                  <li class="ion-ios-folder-outline" data-pack="ios" data-tags="file"></li>
+                  <li class="ion-ios-paper" data-pack="ios" data-tags="feed, paper"></li>
+                  <li class="ion-ios-paper-outline" data-pack="ios" data-tags="feed, paper"></li>
+                  <li class="ion-ios-list" data-pack="ios" data-tags="todo, feed, paper"></li>
+                  <li class="ion-ios-list-outline" data-pack="ios" data-tags="todo, feed, paper"></li>
+                  <li class="ion-ios-world" data-pack="ios" data-tags="globe, earth"></li>
+                  <li class="ion-ios-world-outline" data-pack="ios" data-tags="globe, earth"></li>
+                  <li class="ion-ios-alarm" data-pack="ios" data-tags="wake, ring"></li>
+                  <li class="ion-ios-alarm-outline" data-pack="ios" data-tags="wake, ring"></li>
+                  <li class="ion-ios-speedometer" data-pack="ios" data-tags="speed, drive, level"></li>
+                  <li class="ion-ios-speedometer-outline" data-pack="ios" data-tags="speed, drive, level"></li>
+                  <li class="ion-ios-stopwatch" data-pack="ios" data-tags="time, speed"></li>
+                  <li class="ion-ios-stopwatch-outline" data-pack="ios" data-tags="time, speed"></li>
+                  <li class="ion-ios-timer" data-pack="ios" data-tags="cooking, alarm, buzz"></li>
+                  <li class="ion-ios-timer-outline" data-pack="ios" data-tags="cooking, alarm, buzz"></li>
+                  <li class="ion-ios-clock" data-pack="ios" data-tags="time, date, hours, minutes, seconds, watch"></li>
+                  <li class="ion-ios-clock-outline" data-pack="ios" data-tags="time, date, hours, minutes, seconds, watch"></li>
+                  <li class="ion-ios-time" data-pack="ios" data-tags="clock, watch, hour, minute, second"></li>
+                  <li class="ion-ios-time-outline" data-pack="ios" data-tags="clock, watch, hour, minute, second"></li>
+                  <li class="ion-ios-calendar" data-pack="ios" data-tags="date, time, month, year"></li>
+                  <li class="ion-ios-calendar-outline" data-pack="ios" data-tags="date, time, month, year"></li>
+                  <li class="ion-ios-photos" data-pack="ios" data-tags="images, stills, square"></li>
+                  <li class="ion-ios-photos-outline" data-pack="ios" data-tags="images, stills, square"></li>
+                  <li class="ion-ios-albums" data-pack="ios" data-tags="square, boxes, slides"></li>
+                  <li class="ion-ios-albums-outline" data-pack="ios" data-tags="square, boxes, slides"></li>
+                  <li class="ion-ios-camera" data-pack="ios" data-tags="picture"></li>
+                  <li class="ion-ios-camera-outline" data-pack="ios" data-tags="picture"></li>
+                  <li class="ion-ios-reverse-camera" data-pack="ios" data-tags="picture"></li>
+                  <li class="ion-ios-reverse-camera-outline" data-pack="ios" data-tags="picture"></li>
+                  <li class="ion-ios-eye" data-pack="ios" data-tags="view, see, exposed, look"></li>
+                  <li class="ion-ios-eye-outline" data-pack="ios" data-tags="view, see, exposed, look"></li>
+                  <li class="ion-ios-bolt" data-pack="ios" data-tags="flash, lightning"></li>
+                  <li class="ion-ios-bolt-outline" data-pack="ios" data-tags="flash, lightning"></li>
+                  <li class="ion-ios-color-wand" data-pack="ios" data-tags="camera, picture, edit, magic"></li>
+                  <li class="ion-ios-color-wand-outline" data-pack="ios" data-tags="camera, picture, edit, magic"></li>
+                  <li class="ion-ios-color-filter" data-pack="ios" data-tags="camera, picture"></li>
+                  <li class="ion-ios-color-filter-outline" data-pack="ios" data-tags="camera, picture"></li>
+                  <li class="ion-ios-grid-view" data-pack="ios" data-tags="camera, picture"></li>
+                  <li class="ion-ios-grid-view-outline" data-pack="ios" data-tags="camera, picture"></li>
+                  <li class="ion-ios-crop-strong" data-pack="ios" data-tags="camera, picture, edit"></li>
+                  <li class="ion-ios-crop" data-pack="ios" data-tags="camera, picture, edit"></li>
+                  <li class="ion-ios-barcode" data-pack="ios" data-tags="reader, camera"></li>
+                  <li class="ion-ios-barcode-outline" data-pack="ios" data-tags="reader, camera"></li>
+                  <li class="ion-ios-briefcase" data-pack="ios" data-tags="organize, folder"></li>
+                  <li class="ion-ios-briefcase-outline" data-pack="ios" data-tags="organize, folder"></li>
+                  <li class="ion-ios-medkit" data-pack="ios" data-tags="health, case, first aid, sick, disease"></li>
+                  <li class="ion-ios-medkit-outline" data-pack="ios" data-tags="health, case, first aid, sick, disease"></li>
+                  <li class="ion-ios-medical" data-pack="ios" data-tags="health, case, first aid, sick, disease"></li>
+                  <li class="ion-ios-medical-outline" data-pack="ios" data-tags="health, case, first aid, sick, disease"></li>
+                  <li class="ion-ios-infinite" data-pack="ios" data-tags="forever, loop"></li>
+                  <li class="ion-ios-infinite-outline" data-pack="ios" data-tags="forever, loop"></li>
+                  <li class="ion-ios-calculator" data-pack="ios" data-tags="math, arithmatic"></li>
+                  <li class="ion-ios-calculator-outline" data-pack="ios" data-tags="math, arithmatic"></li>
+                  <li class="ion-ios-keypad" data-pack="ios" data-tags="type, grid, circle"></li>
+                  <li class="ion-ios-keypad-outline" data-pack="ios" data-tags="type, grid, circle"></li>
+                  <li class="ion-ios-telephone" data-pack="ios" data-tags="oldschool, call"></li>
+                  <li class="ion-ios-telephone-outline" data-pack="ios" data-tags="oldschool, call"></li>
+                  <li class="ion-ios-drag" data-pack="ios" data-tags="reorder, move, drag"></li>
+                  <li class="ion-ios-location" data-pack="ios" data-tags="navigation, map, gps, pin"></li>
+                  <li class="ion-ios-location-outline" data-pack="ios" data-tags="navigation, map, gps, pin"></li>
+                  <li class="ion-ios-navigate" data-pack="ios" data-tags="location, map, gps, pin"></li>
+                  <li class="ion-ios-navigate-outline" data-pack="ios" data-tags="location, map, gps, pin"></li>
+                  <li class="ion-ios-locked" data-pack="ios" data-tags="security, padlock, safe"></li>
+                  <li class="ion-ios-locked-outline" data-pack="ios" data-tags="security, padlock, safe"></li>
+                  <li class="ion-ios-unlocked" data-pack="ios" data-tags="security, padlock, safe"></li>
+                  <li class="ion-ios-unlocked-outline" data-pack="ios" data-tags="security, padlock, safe"></li>
+                  <li class="ion-ios-monitor" data-pack="ios" data-tags="thunderbolt, display, screen"></li>
+                  <li class="ion-ios-monitor-outline" data-pack="ios" data-tags="thunderbolt, display, screen"></li>
+                  <li class="ion-ios-printer" data-pack="ios" data-tags="paper"></li>
+                  <li class="ion-ios-printer-outline" data-pack="ios" data-tags="paper"></li>
+                  <li class="ion-ios-game-controller-a" data-pack="ios" data-tags="gaming, nintendo, play"></li>
+                  <li class="ion-ios-game-controller-a-outline" data-pack="ios" data-tags="gaming, nintendo, play"></li>
+                  <li class="ion-ios-game-controller-b" data-pack="ios" data-tags="gaming, nintendo, play"></li>
+                  <li class="ion-ios-game-controller-b-outline" data-pack="ios" data-tags="gaming, nintendo, play"></li>
+                  <li class="ion-ios-americanfootball" data-pack="ios" data-tags="nfl, games, sports, fun, play"></li>
+                  <li class="ion-ios-americanfootball-outline" data-pack="ios" data-tags="nfl, games, sports, fun, play"></li>
+                  <li class="ion-ios-baseball" data-pack="ios" data-tags="mlb, games, sports, fun, play"></li>
+                  <li class="ion-ios-baseball-outline" data-pack="ios" data-tags="mlb, games, sports, fun, play"></li>
+                  <li class="ion-ios-basketball" data-pack="ios" data-tags="nba, games, sports, fun, play"></li>
+                  <li class="ion-ios-basketball-outline" data-pack="ios" data-tags="nba, games, sports, fun, play"></li>
+                  <li class="ion-ios-tennisball" data-pack="ios" data-tags="games, sports, fun, play"></li>
+                  <li class="ion-ios-tennisball-outline" data-pack="ios" data-tags="games, sports, fun, play"></li>
+                  <li class="ion-ios-football" data-pack="ios" data-tags="mls, soccer, games, sports, fun, play"></li>
+                  <li class="ion-ios-football-outline" data-pack="ios" data-tags="mls, soccer, games, sports, fun, play"></li>
+                  <li class="ion-ios-body" data-pack="ios" data-tags="person, users, staff, head, human"></li>
+                  <li class="ion-ios-body-outline" data-pack="ios" data-tags="person, users, staff, head, human"></li>
+                  <li class="ion-ios-person" data-pack="ios" data-tags="users, staff, head, human"></li>
+                  <li class="ion-ios-person-outline" data-pack="ios" data-tags="users, staff, head, human"></li>
+                  <li class="ion-ios-personadd" data-pack="ios" data-tags="users, staff, head, human, new, invite"></li>
+                  <li class="ion-ios-personadd-outline" data-pack="ios" data-tags="users, staff, head, human, new, invite"></li>
+                  <li class="ion-ios-people" data-pack="ios" data-tags="stalker, person, users, head, human"></li>
+                  <li class="ion-ios-people-outline" data-pack="ios" data-tags="stalker, person, users, head, human"></li>
+                  <li class="ion-ios-musical-notes" data-pack="ios" data-tags="sound, noise, listening, play"></li>
+                  <li class="ion-ios-musical-note" data-pack="ios" data-tags="sound, noise, listening, play"></li>
+                  <li class="ion-ios-bell" data-pack="ios" data-tags="right, noise, alarm, sound, music"></li>
+                  <li class="ion-ios-bell-outline" data-pack="ios" data-tags="right, noise, alarm, sound, music"></li>
+                  <li class="ion-ios-mic" data-pack="ios" data-tags="sound, noise, speaker, talk"></li>
+                  <li class="ion-ios-mic-outline" data-pack="ios" data-tags="sound, noise, speaker, talk"></li>
+                  <li class="ion-ios-mic-off" data-pack="ios" data-tags="sound, noise, speaker, talk"></li>
+                  <li class="ion-ios-volume-high" data-pack="ios" data-tags="sound, noise, listen, music"></li>
+                  <li class="ion-ios-volume-low" data-pack="ios" data-tags="sound, noise, listen, music"></li>
+                  <li class="ion-ios-play" data-pack="ios" data-tags="music, watch, arrow, right"></li>
+                  <li class="ion-ios-play-outline" data-pack="ios" data-tags="music, watch, arrow, right"></li>
+                  <li class="ion-ios-pause" data-pack="ios" data-tags="music, break, hold, freeze"></li>
+                  <li class="ion-ios-pause-outline" data-pack="ios" data-tags="music, break, hold, freeze"></li>
+                  <li class="ion-ios-recording" data-pack="ios" data-tags="film, tape, voicemail"></li>
+                  <li class="ion-ios-recording-outline" data-pack="ios" data-tags="film, tape, voicemail"></li>
+                  <li class="ion-ios-fastforward" data-pack="ios" data-tags="next, skip, jump"></li>
+                  <li class="ion-ios-fastforward-outline" data-pack="ios" data-tags="next, skip, jump"></li>
+                  <li class="ion-ios-rewind" data-pack="ios" data-tags="music, previous, back"></li>
+                  <li class="ion-ios-rewind-outline" data-pack="ios" data-tags="music, previous, back"></li>
+                  <li class="ion-ios-skipbackward" data-pack="ios" data-tags="music, previous"></li>
+                  <li class="ion-ios-skipbackward-outline" data-pack="ios" data-tags="music, previous"></li>
+                  <li class="ion-ios-skipforward" data-pack="ios" data-tags="music, next"></li>
+                  <li class="ion-ios-skipforward-outline" data-pack="ios" data-tags="music, next"></li>
+                  <li class="ion-ios-shuffle-strong" data-pack="ios" data-tags="music, next"></li>
+                  <li class="ion-ios-shuffle" data-pack="ios" data-tags="music, next"></li>
+                  <li class="ion-ios-videocam" data-pack="ios" data-tags="film, movie, camera"></li>
+                  <li class="ion-ios-videocam-outline" data-pack="ios" data-tags="film, movie, camera"></li>
+                  <li class="ion-ios-film" data-pack="ios" data-tags="film, movie, camera"></li>
+                  <li class="ion-ios-film-outline" data-pack="ios" data-tags="film, movie, camera"></li>
+                  <li class="ion-ios-flask" data-pack="ios" data-tags="options, mixer, liquid"></li>
+                  <li class="ion-ios-flask-outline" data-pack="ios" data-tags="options, mixer, liquid"></li>
+                  <li class="ion-ios-lightbulb" data-pack="ios" data-tags="idea, new, bright, aha!"></li>
+                  <li class="ion-ios-lightbulb-outline" data-pack="ios" data-tags="idea, new, bright, aha!"></li>
+                  <li class="ion-ios-wineglass" data-pack="ios" data-tags="alcohol, drink, food, glass, drunk, cheers"></li>
+                  <li class="ion-ios-wineglass-outline" data-pack="ios" data-tags="alcohol, drink, food, glass, drunk, cheers"></li>
+                  <li class="ion-ios-pint" data-pack="ios" data-tags="alcohol, drink, food, beer, drunk, cheers"></li>
+                  <li class="ion-ios-pint-outline" data-pack="ios" data-tags="alcohol, drink, food, beer, drunk, cheers"></li>
+                  <li class="ion-ios-nutrition" data-pack="ios" data-tags="health, carrot, food"></li>
+                  <li class="ion-ios-nutrition-outline" data-pack="ios" data-tags="health, carrot, food"></li>
+                  <li class="ion-ios-flower" data-pack="ios" data-tags="nature, spring, leaf, garden"></li>
+                  <li class="ion-ios-flower-outline" data-pack="ios" data-tags="nature, spring, leaf, garden"></li>
+                  <li class="ion-ios-rose" data-pack="ios" data-tags="nature, spring, leaf, garden, flower"></li>
+                  <li class="ion-ios-rose-outline" data-pack="ios" data-tags="nature, spring, leaf, garden, flower"></li>
+                  <li class="ion-ios-paw" data-pack="ios" data-tags="nature, animal, pet, outdoor, track"></li>
+                  <li class="ion-ios-paw-outline" data-pack="ios" data-tags="nature, animal, pet, outdoor, track"></li>
+                  <li class="ion-ios-flame" data-pack="ios" data-tags="fire, hot, burn"></li>
+                  <li class="ion-ios-flame-outline" data-pack="ios" data-tags="fire, hot, burn"></li>
+                  <li class="ion-ios-sunny" data-pack="ios" data-tags="weather, whether, light, sky"></li>
+                  <li class="ion-ios-sunny-outline" data-pack="ios" data-tags="weather, whether, light, sky"></li>
+                  <li class="ion-ios-partlysunny" data-pack="ios" data-tags="light, weather, whether, cloudy"></li>
+                  <li class="ion-ios-partlysunny-outline" data-pack="ios" data-tags="light, weather, whether, cloudy"></li>
+                  <li class="ion-ios-cloudy" data-pack="ios" data-tags="weather, whether, overcast"></li>
+                  <li class="ion-ios-cloudy-outline" data-pack="ios" data-tags="weather, whether, overcast"></li>
+                  <li class="ion-ios-rainy" data-pack="ios" data-tags="whether, weather, water, cloud"></li>
+                  <li class="ion-ios-rainy-outline" data-pack="ios" data-tags="whether, weather, water, cloud"></li>
+                  <li class="ion-ios-thunderstorm" data-pack="ios" data-tags="whether, weather, sky, lightning, rain, cloudy, overcast, storm"></li>
+                  <li class="ion-ios-thunderstorm-outline" data-pack="ios" data-tags="whether, weather, sky, lightning, rain, cloudy, overcast, storm"></li>
+                  <li class="ion-ios-snowy" data-pack="ios" data-tags="cold, weather, whether, overcast"></li>
+                  <li class="ion-ios-moon" data-pack="ios" data-tags="sky, night, dark"></li>
+                  <li class="ion-ios-moon-outline" data-pack="ios" data-tags="sky, night, dark"></li>
+                  <li class="ion-ios-cloudy-night" data-pack="ios" data-tags="weather, whether, overcast"></li>
+                  <li class="ion-ios-cloudy-night-outline" data-pack="ios" data-tags="weather, whether, overcast"></li>
+
+
+                  <p><!-- end iOS 7-style icons pack --></p>
+
+
+                  <li class="ion-android-arrow-up" data-pack="android" data-tags="chevron, navigation"></li>
+                  <li class="ion-android-arrow-forward" data-pack="android" data-tags="chevron, navigation"></li>
+                  <li class="ion-android-arrow-down" data-pack="android" data-tags="chevron, navigation"></li>
+                  <li class="ion-android-arrow-back" data-pack="android" data-tags="chevron, navigation"></li>
+                  <li class="ion-android-arrow-dropup" data-pack="android" data-tags="chevron, navigation"></li>
+                  <li class="ion-android-arrow-dropup-circle" data-pack="android" data-tags="chevron, navigation"></li>
+                  <li class="ion-android-arrow-dropright" data-pack="android" data-tags="chevron, navigation"></li>
+                  <li class="ion-android-arrow-dropright-circle" data-pack="android" data-tags="chevron, navigation"></li>
+                  <li class="ion-android-arrow-dropdown" data-pack="android" data-tags="chevron, navigation"></li>
+                  <li class="ion-android-arrow-dropdown-circle" data-pack="android" data-tags="chevron, navigation"></li>
+                  <li class="ion-android-arrow-dropleft" data-pack="android" data-tags="chevron, navigation"></li>
+                  <li class="ion-android-arrow-dropleft-circle" data-pack="android" data-tags="chevron, navigation"></li>
+                  <li class="ion-android-add" data-pack="android" data-tags="plus, include, invite"></li>
+                  <li class="ion-android-add-circle" data-pack="android" data-tags="plus, include, invite"></li>
+                  <li class="ion-android-remove" data-pack="android" data-tags="minus, subtract, delete"></li>
+                  <li class="ion-android-remove-circle" data-pack="android" data-tags="minus, subtract, delete"></li>
+                  <li class="ion-android-close" data-pack="android" data-tags="delete, remove"></li>
+                  <li class="ion-android-cancel" data-pack="android" data-tags="delete, remove"></li>
+                  <li class="ion-android-radio-button-off" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-radio-button-on" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-checkmark-circle" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-checkbox-outline-blank" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-checkbox-outline" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-checkbox-blank" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-checkbox" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-done" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-done-all" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-menu" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-more-horizontal" data-pack="android" data-tags="options, menu"></li>
+                  <li class="ion-android-more-vertical" data-pack="android" data-tags="options, menu"></li>
+                  <li class="ion-android-refresh" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-sync" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-wifi" data-pack="android" data-tags="internet,connection, bars"></li>
+                  <li class="ion-android-call" data-pack="android" data-tags="telephone"></li>
+                  <li class="ion-android-apps" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-settings" data-pack="android" data-tags="options"></li>
+                  <li class="ion-android-options" data-pack="android" data-tags="settings, mixer"></li>
+                  <li class="ion-android-funnel" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-search" data-pack="android" data-tags="magnifying glass"></li>
+                  <li class="ion-android-home" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-cloud-outline" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-cloud" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-download" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-upload" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-cloud-done" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-cloud-circle" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-favorite-outline" data-pack="android" data-tags="favorite, like, rate"></li>
+                  <li class="ion-android-favorite" data-pack="android" data-tags="favorite, like, rate"></li>
+                  <li class="ion-android-star-outline" data-pack="android" data-tags="favorite, like, rate"></li>
+                  <li class="ion-android-star-half" data-pack="android" data-tags="favorite, like, rate"></li>
+                  <li class="ion-android-star" data-pack="android" data-tags="favorite, like, rate"></li>
+                  <li class="ion-android-calendar" data-pack="android" data-tags="clock"></li>
+                  <li class="ion-android-alarm-clock" data-pack="android" data-tags="clock"></li>
+                  <li class="ion-android-time" data-pack="android" data-tags="clock"></li>
+                  <li class="ion-android-stopwatch" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-watch" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-locate" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-navigate" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-pin" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-compass" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-map" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-walk" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-bicycle" data-pack="android" data-tags="move, bike, transportation, maps"></li>
+                  <li class="ion-android-car" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-bus" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-subway" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-train" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-boat" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-plane" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-restaurant" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-bar" data-pack="android" data-tags="wine, drink, food, dinner"></li>
+                  <li class="ion-android-cart" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-camera" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-image" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-film" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-color-palette" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-create" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-mail" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-drafts" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-send" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-archive" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-delete" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-attach" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-share" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-share-alt" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-bookmark" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-document" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-clipboard" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-list" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-folder-open" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-folder" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-print" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-open" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-exit" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-contract" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-expand" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-globe" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-chat" data-pack="android" data-tags="talk, text"></li>
+                  <li class="ion-android-textsms" data-pack="android" data-tags="talk, text"></li>
+                  <li class="ion-android-hangout" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-happy" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-sad" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-person" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-people" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-person-add" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-contact" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-contacts" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-playstore" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-lock" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-unlock" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-microphone" data-pack="android" data-tags="recorder, speak, noise, music, sound"></li>
+                  <li class="ion-android-microphone-off" data-pack="android" data-tags="recorder, speak, noise, music, sound, mute"></li>
+                  <li class="ion-android-notifications-none" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-notifications" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-notifications-off" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-volume-mute" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-volume-down" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-volume-up" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-volume-off" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-hand" data-pack="android" data-tags="stop"></li>
+                  <li class="ion-android-desktop" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-laptop" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-phone-portrait" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-phone-landscape" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-bulb" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-sunny" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-alert" data-pack="android" data-tags=""></li>
+                  <li class="ion-android-warning" data-pack="android" data-tags=""></li>
+
+
+                  <p>
+                  <!--
+
+                  End Android-style icons pack.
+
+                  Android-style icons originally built by Google’s [Material Design Icons](https://github.com/google/material-design-icons), used under [CC BY](http://creativecommons.org/licenses/by/4.0/) / Modified icons to fit ionicon’s grid from original.
+
+                  -->
+                  </p>
+
+
+                  <li class="ion-social-twitter" data-pack="social" data-tags="follow, post, share"></li>
+                  <li class="ion-social-twitter-outline" data-pack="social" data-tags="follow, post, share"></li>
+                  <li class="ion-social-facebook" data-pack="social" data-tags="like, post, share"></li>
+                  <li class="ion-social-facebook-outline" data-pack="social" data-tags="like, post, share"></li>
+                  <li class="ion-social-googleplus" data-pack="social" data-tags="follow, post, share"></li>
+                  <li class="ion-social-googleplus-outline" data-pack="social" data-tags="follow, post, share"></li>
+                  <li class="ion-social-google" data-pack="social" data-tags="follow, post, share"></li>
+                  <li class="ion-social-google-outline" data-pack="social" data-tags="follow, post, share"></li>
+                  <li class="ion-social-dribbble" data-pack="social" data-tags="design"></li>
+                  <li class="ion-social-dribbble-outline" data-pack="social" data-tags="design"></li>
+                  <li class="ion-social-octocat" data-pack="social" data-tags="code, github, fork, merge, clone"></li>
+                  <li class="ion-social-github" data-pack="social" data-tags="code, fork, merge, clone"></li>
+                  <li class="ion-social-github-outline" data-pack="social" data-tags="code, fork, merge, clone"></li>
+                  <li class="ion-social-instagram" data-pack="social" data-tags="photo, camera, facebook"></li>
+                  <li class="ion-social-instagram-outline" data-pack="social" data-tags="photo, camera, facebook"></li>
+                  <li class="ion-social-whatsapp" data-pack="social" data-tags="text, sharing, private, facebook"></li>
+                  <li class="ion-social-whatsapp-outline" data-pack="social" data-tags="text, sharing, private, facebook"></li>
+                  <li class="ion-social-snapchat" data-pack="social" data-tags="photos, app"></li>
+                  <li class="ion-social-snapchat-outline" data-pack="social" data-tags="photos, app"></li>
+                  <li class="ion-social-foursquare" data-pack="social" data-tags="checkin"></li>
+                  <li class="ion-social-foursquare-outline" data-pack="social" data-tags="checkin"></li>
+                  <li class="ion-social-pinterest" data-pack="social" data-tags="social"></li>
+                  <li class="ion-social-pinterest-outline" data-pack="social" data-tags="social"></li>
+                  <li class="ion-social-rss" data-pack="social" data-tags="blogging"></li>
+                  <li class="ion-social-rss-outline" data-pack="social" data-tags="blogging"></li>
+                  <li class="ion-social-tumblr" data-pack="social" data-tags="blogging"></li>
+                  <li class="ion-social-tumblr-outline" data-pack="social" data-tags="blogging"></li>
+                  <li class="ion-social-wordpress" data-pack="social" data-tags="blogging"></li>
+                  <li class="ion-social-wordpress-outline" data-pack="social" data-tags="blogging"></li>
+                  <li class="ion-social-reddit" data-pack="social" data-tags="news, upvotes, karma"></li>
+                  <li class="ion-social-reddit-outline" data-pack="social" data-tags="news, upvotes, karma"></li>
+                  <li class="ion-social-hackernews" data-pack="social" data-tags="discuss, upvotes, karma"></li>
+                  <li class="ion-social-hackernews-outline" data-pack="social" data-tags="discuss, upvotes, karma"></li>
+                  <li class="ion-social-designernews" data-pack="social" data-tags="design, post"></li>
+                  <li class="ion-social-designernews-outline" data-pack="social" data-tags="design, post"></li>
+                  <li class="ion-social-yahoo" data-pack="social" data-tags=""></li>
+                  <li class="ion-social-yahoo-outline" data-pack="social" data-tags=""></li>
+                  <li class="ion-social-buffer" data-pack="social" data-tags="share"></li>
+                  <li class="ion-social-buffer-outline" data-pack="social" data-tags="share"></li>
+                  <li class="ion-social-skype" data-pack="social" data-tags="call"></li>
+                  <li class="ion-social-skype-outline" data-pack="social" data-tags="call"></li>
+                  <li class="ion-social-linkedin" data-pack="social" data-tags="connect"></li>
+                  <li class="ion-social-linkedin-outline" data-pack="social" data-tags="connect"></li>
+                  <li class="ion-social-vimeo" data-pack="social" data-tags="video, watch, share, view"></li>
+                  <li class="ion-social-vimeo-outline" data-pack="social" data-tags="video, watch, share, view"></li>
+                  <li class="ion-social-twitch" data-pack="social" data-tags="gaming, games, live, streaming, video, watch, share, view"></li>
+                  <li class="ion-social-twitch-outline" data-pack="social" data-tags="gaming, games, live, streaming, video, watch, share, view"></li>
+                  <li class="ion-social-youtube" data-pack="social" data-tags="video, watch, share, view"></li>
+                  <li class="ion-social-youtube-outline" data-pack="social" data-tags="video, watch, share, view"></li>
+                  <li class="ion-social-dropbox" data-pack="social" data-tags="upload"></li>
+                  <li class="ion-social-dropbox-outline" data-pack="social" data-tags="upload"></li>
+                  <li class="ion-social-apple" data-pack="social" data-tags="mac, mobile"></li>
+                  <li class="ion-social-apple-outline" data-pack="social" data-tags="mac, mobile"></li>
+                  <li class="ion-social-android" data-pack="social" data-tags="mobile"></li>
+                  <li class="ion-social-android-outline" data-pack="social" data-tags="mobile"></li>
+                  <li class="ion-social-windows" data-pack="social" data-tags="pc"></li>
+                  <li class="ion-social-windows-outline" data-pack="social" data-tags="pc"></li>
+                  <li class="ion-social-html5" data-pack="social" data-tags="code, html, css, js, developer"></li>
+                  <li class="ion-social-html5-outline" data-pack="social" data-tags="code, html, css, js, developer"></li>
+                  <li class="ion-social-css3" data-pack="social" data-tags="code, html, css, js, developer"></li>
+                  <li class="ion-social-css3-outline" data-pack="social" data-tags="code, html, css, js, developer"></li>
+                  <li class="ion-social-javascript" data-pack="social" data-tags="code, html, css, js, developer"></li>
+                  <li class="ion-social-javascript-outline" data-pack="social" data-tags="code, html, css, js, developer"></li>
+                  <li class="ion-social-angular" data-pack="social" data-tags="code, mobile, js, angularjs, ionic"></li>
+                  <li class="ion-social-angular-outline" data-pack="social" data-tags="code, mobile, js, angularjs, ionic"></li>
+                  <li class="ion-social-nodejs" data-pack="social" data-tags="code, js, javascript, developer"></li>
+                  <li class="ion-social-sass" data-pack="social" data-tags="code, css"></li>
+                  <li class="ion-social-python" data-pack="social" data-tags="code"></li>
+                  <li class="ion-social-chrome" data-pack="social" data-tags="code, mobile, js, angularjs, ionic"></li>
+                  <li class="ion-social-chrome-outline" data-pack="social" data-tags="code, mobile, js, angularjs, ionic"></li>
+                  <li class="ion-social-codepen" data-pack="social" data-tags="testing, js, developer"></li>
+                  <li class="ion-social-codepen-outline" data-pack="social" data-tags="testing, js, developer"></li>
+                  <li class="ion-social-markdown" data-pack="social" data-tags="code, testing, text, developer"></li>
+                  <li class="ion-social-tux" data-pack="social" data-tags="code, linux, opensource"></li>
+                  <li class="ion-social-freebsd-devil" data-pack="social" data-tags="code, opensource, unix"></li>
+                  <li class="ion-social-usd" data-pack="social" data-tags="currency, trade, money, cash"></li>
+                  <li class="ion-social-usd-outline" data-pack="social" data-tags="currency, trade, money, cash"></li>
+                  <li class="ion-social-bitcoin" data-pack="social" data-tags="currency, trade, money"></li>
+                  <li class="ion-social-bitcoin-outline" data-pack="social" data-tags="currency, trade, money"></li>
+                  <li class="ion-social-yen" data-pack="social" data-tags="currency, trade, money, japanese"></li>
+                  <li class="ion-social-yen-outline" data-pack="social" data-tags="currency, trade, money, japanese"></li>
+                  <li class="ion-social-euro" data-pack="social" data-tags="currency, trade, money, europe"></li>
+                  <li class="ion-social-euro-outline" data-pack="social" data-tags="currency, trade, money, europe"></li>
+                </ul>
+          </div>
+        </div>
+        <div id="icon-panel">
+          <input type="text" id="icon-name" onclick="this.select();" readonly>
+        </div>
+      </div>
+
+
+      <div id="source-modal" class="modal fade">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title">Source Code</h4>
+            </div>
+            <div class="modal-body">
+              <pre></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <hr>
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="list-unstyled clearfix">
+              <li class="pull-right"><a href="#top">Back to top</a></li>
+              <li><a href="http://overtrue.me" onclick="pageTracker._link(this.href); return false;" target="_blank">Blog</a></li>
+              <li><a href="http://weibo.com/joychaocc" target="_blank">微博</a></li>
+              <li><a href="https://github.com/overtrue/bootstrap-theme/" target="_blank">GitHub</a></li>
+            </ul>
+            <p>Made by <a href="https://github.com/overtrue" rel="nofollow">overtrue</a>. Contact me at <a href="mailto:i@overtrue.me">i@overtrue.me</a>.</p>
+            <p>Code released under the MIT License.</p>
+            <p>Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a href="ionicons.com" rel="nofollow">ionicons.com</a>. </p>
+
+          </div>
+        </div>
+
+      </footer>
+
+    </div>
+
+
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $('ul#icons li').on('click', function(){
+        var iconPanel = $('#icon-panel');
+
+        iconPanel.find('#icon-name').val($(this).attr('class'));
+        iconPanel.css({'left': $(this).offset().left - 90, top: $(this).offset().top - 30}).show();
+      });
+    </script>
+  </body>
+</html>
