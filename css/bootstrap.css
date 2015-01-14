@@ -4522,49 +4522,49 @@ a.thumbnail.active {
 .alert-success {
   background-color: #8cc152;
   border-color: #98bd47;
-  color: #8cc152; }
+  color: #fff; }
   /* line 8, ../sass/bootstrap/mixins/_alerts.scss */
   .alert-success hr {
     border-top-color: #84a53b; }
   /* line 11, ../sass/bootstrap/mixins/_alerts.scss */
   .alert-success .alert-link {
-    color: #72a53b; }
+    color: #e6e6e6; }
 
 /* line 60, ../sass/bootstrap/_alerts.scss */
 .alert-info {
   background-color: #3bb5e8;
   border-color: #24cde5;
-  color: #3bb5e8; }
+  color: #fff; }
   /* line 8, ../sass/bootstrap/mixins/_alerts.scss */
   .alert-info hr {
     border-top-color: #18b6ce; }
   /* line 11, ../sass/bootstrap/mixins/_alerts.scss */
   .alert-info .alert-link {
-    color: #199fd7; }
+    color: #e6e6e6; }
 
 /* line 63, ../sass/bootstrap/_alerts.scss */
 .alert-warning {
   background-color: #feab34;
   border-color: #fe8125;
-  color: #feab34; }
+  color: #fff; }
   /* line 8, ../sass/bootstrap/mixins/_alerts.scss */
   .alert-warning hr {
     border-top-color: #fe6c01; }
   /* line 11, ../sass/bootstrap/mixins/_alerts.scss */
   .alert-warning .alert-link {
-    color: #fe9601; }
+    color: #e6e6e6; }
 
 /* line 66, ../sass/bootstrap/_alerts.scss */
 .alert-danger {
   background-color: #e9573f;
   border-color: #e73136;
-  color: #e9573f; }
+  color: #fff; }
   /* line 8, ../sass/bootstrap/mixins/_alerts.scss */
   .alert-danger hr {
     border-top-color: #dc191e; }
   /* line 11, ../sass/bootstrap/mixins/_alerts.scss */
   .alert-danger .alert-link {
-    color: #dc3519; }
+    color: #e6e6e6; }
 
 @-webkit-keyframes progress-bar-stripes {
   from {
