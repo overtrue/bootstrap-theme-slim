@@ -4,15 +4,15 @@
 
 .label {
   display: inline;
-  padding: .2em .6em .3em;
+  padding: .2em .6em .25em;
   font-size: 75%;
-  font-weight: normal;
+  font-weight: $label-font-weight;
   line-height: 1;
   color: $label-color;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: .25em;
+  border-radius: .15em;
 
   // [converter] extracted a& to a.label
 
@@ -41,10 +41,6 @@ a.label {
 // Colors
 // Contextual variations (linked labels get darker on :hover)
 
-.label-lightly {
-  @include label-variant(lighten($label-default-bg, 40%), #555);
-}
-
 .label-default {
   @include label-variant($label-default-bg);
 }
@@ -67,4 +63,20 @@ a.label {
 
 .label-danger {
   @include label-variant($label-danger-bg);
+}
+
+.label-mint {
+  @include label-variant($label-mint-bg);
+}
+
+.label-purple {
+  @include label-variant($label-purple-bg);
+}
+
+.label-pink {
+  @include label-variant($label-pink-bg);
+}
+
+.label-dark {
+  @include label-variant($label-dark-bg);
 }

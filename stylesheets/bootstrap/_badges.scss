@@ -7,11 +7,11 @@
 .badge {
   display: inline-block;
   min-width: 10px;
-  padding: 3px 7px;
+  padding: 5px 7px 2px;
   font-size: $font-size-small;
   font-weight: $badge-font-weight;
   color: $badge-color;
-  line-height: $badge-line-height;
+  line-height: 1;
   vertical-align: baseline;
   white-space: nowrap;
   text-align: center;

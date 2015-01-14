@@ -68,6 +68,8 @@ $font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-h5:            $font-size-base !default;
 $font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
 
+$font-weight-base:        200  !default;
+
 //** Unit-less `line-height` for use in components like buttons.
 $line-height-base:        1.428571429 !default; // 20/14
 //** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
@@ -154,7 +156,7 @@ $table-border-color:            #ddd !default;
 //
 //## For each of Bootstrap's buttons, define text, background and border color.
 
-$btn-font-weight:                normal !default;
+$btn-font-weight:                200 !default;
 
 $btn-default-color:              #333 !default;
 $btn-default-bg:                 #fff !default;
@@ -583,7 +585,7 @@ $popover-arrow-outer-fallback-color:  darken($popover-fallback-border-color, 20%
 //##
 
 //** Default label background color
-$label-default-bg:            #e3e8ee !default;
+$label-default-bg:            lighten($gray-light, 20%) !default;
 //** Primary label background color
 $label-primary-bg:            $brand-primary !default;
 //** Success label background color
@@ -597,8 +599,12 @@ $label-danger-bg:             $brand-danger !default;
 
 $label-danger-bg:             $brand-danger !default;
 
+$label-mint-bg:             $brand-mint !default;
 $label-purple-bg:             $brand-purple !default;
+$label-pink-bg:             $brand-pink !default;
+$label-dark-bg:             $brand-dark !default;
 
+$label-font-weight:            200 !default;
 //** Default label text color
 $label-color:                 #fff !default;
 //** Default text color of a linked label
