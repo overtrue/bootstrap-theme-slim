@@ -1,6 +1,8 @@
 # Bootstrap-theme
 自用修改过的bootstrap主题
 
-Sample:
+DEMO: http://overtrue.me/bootstrap-theme-slim/
 
-![sample](http://7u2jwa.com1.z0.glb.clouddn.com/sample.png)
+# License
+
+MIT
