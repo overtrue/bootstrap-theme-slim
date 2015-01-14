@@ -19,8 +19,8 @@
   text-align: left;
   background-color: $popover-bg;
   background-clip: padding-box;
-  border: 1px solid $popover-fallback-border-color;
-  border: 1px solid $popover-border-color;
+  // border: 1px solid $popover-fallback-border-color;
+  border: 1px solid lighten($popover-border-color, 90%);
   border-radius: $border-radius-large;
   @include box-shadow(0 5px 10px rgba(0,0,0,.2));
 
@@ -76,14 +76,14 @@
     margin-left: -$popover-arrow-outer-width;
     border-bottom-width: 0;
     border-top-color: $popover-arrow-outer-fallback-color; // IE8 fallback
-    border-top-color: $popover-arrow-outer-color;
+    border-top-color: lighten($popover-arrow-color, 10%);
     bottom: -$popover-arrow-outer-width;
     &:after {
       content: " ";
       bottom: 1px;
       margin-left: -$popover-arrow-width;
       border-bottom-width: 0;
-      border-top-color: $popover-arrow-color;
+      border-top-color: lighten($popover-arrow-color, 10%);
     }
   }
   &.right > .arrow {
@@ -92,7 +92,7 @@
     margin-top: -$popover-arrow-outer-width;
     border-left-width: 0;
     border-right-color: $popover-arrow-outer-fallback-color; // IE8 fallback
-    border-right-color: $popover-arrow-outer-color;
+    border-right-color: lighten($popover-arrow-outer-color, 80%);
     &:after {
       content: " ";
       left: 1px;
@@ -106,7 +106,7 @@
     margin-left: -$popover-arrow-outer-width;
     border-top-width: 0;
     border-bottom-color: $popover-arrow-outer-fallback-color; // IE8 fallback
-    border-bottom-color: $popover-arrow-outer-color;
+    border-bottom-color:  lighten($popover-arrow-outer-color, 70%);
     top: -$popover-arrow-outer-width;
     &:after {
       content: " ";
@@ -123,7 +123,7 @@
     margin-top: -$popover-arrow-outer-width;
     border-right-width: 0;
     border-left-color: $popover-arrow-outer-fallback-color; // IE8 fallback
-    border-left-color: $popover-arrow-outer-color;
+    border-left-color: lighten($popover-arrow-outer-color, 70%);
     &:after {
       content: " ";
       right: 1px;

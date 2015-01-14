@@ -5332,11 +5332,9 @@ button.close {
 .modal-content {
   position: relative;
   background-color: #fff;
-  border: 1px solid #999;
-  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 2px;
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.3);
   background-clip: padding-box;
   outline: 0; }
 
@@ -5549,8 +5547,7 @@ button.close {
   text-align: left;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(230, 230, 230, 0.2);
   border-radius: 2px;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -5605,7 +5602,7 @@ button.close {
   margin-left: -11px;
   border-bottom-width: 0;
   border-top-color: #999999;
-  border-top-color: rgba(0, 0, 0, 0.25);
+  border-top-color: white;
   bottom: -11px; }
   /* line 81, ../sass/bootstrap/_popovers.scss */
   .popover.top > .arrow:after {
@@ -5613,7 +5610,7 @@ button.close {
     bottom: 1px;
     margin-left: -10px;
     border-bottom-width: 0;
-    border-top-color: #fff; }
+    border-top-color: white; }
 /* line 89, ../sass/bootstrap/_popovers.scss */
 .popover.right > .arrow {
   top: 50%;
@@ -5621,7 +5618,7 @@ button.close {
   margin-top: -11px;
   border-left-width: 0;
   border-right-color: #999999;
-  border-right-color: rgba(0, 0, 0, 0.25); }
+  border-right-color: rgba(204, 204, 204, 0.25); }
   /* line 96, ../sass/bootstrap/_popovers.scss */
   .popover.right > .arrow:after {
     content: " ";
@@ -5635,7 +5632,7 @@ button.close {
   margin-left: -11px;
   border-top-width: 0;
   border-bottom-color: #999999;
-  border-bottom-color: rgba(0, 0, 0, 0.25);
+  border-bottom-color: rgba(179, 179, 179, 0.25);
   top: -11px; }
   /* line 111, ../sass/bootstrap/_popovers.scss */
   .popover.bottom > .arrow:after {
@@ -5651,7 +5648,7 @@ button.close {
   margin-top: -11px;
   border-right-width: 0;
   border-left-color: #999999;
-  border-left-color: rgba(0, 0, 0, 0.25); }
+  border-left-color: rgba(179, 179, 179, 0.25); }
   /* line 127, ../sass/bootstrap/_popovers.scss */
   .popover.left > .arrow:after {
     content: " ";

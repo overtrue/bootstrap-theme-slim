@@ -1,5 +1,16 @@
-/* Welcome to Compass. Use this file to write IE specific override styles.
- * Import this file using the following HTML or equivalent:
- * <!--[if IE]>
- *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
- * <![endif]--> */
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+
+.modal-content {
+  border: 1px solid $modal-content-border-color;
+}
+
+.popover {
+    border: 1px solid $popover-fallback-border-color;
+    border: 1px solid $popover-border-color;
+}
+
+.popover > .arrow:after {
+  border-width: $popover-arrow-width;
+}
