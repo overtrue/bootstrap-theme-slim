@@ -3,4 +3,4 @@
 
 Sample:
 
-![sample](https://raw.githubusercontent.com/overtrue/bootstrap-theme/master/sample.png)
+![sample](http://7u2jwa.com1.z0.glb.clouddn.com/sample.png)
