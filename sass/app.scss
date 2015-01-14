@@ -1,4 +1,6 @@
-@import "_bootstrap.scss";
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
 
 $header-padding-top: 20px;
 $header-line-height: 34px;

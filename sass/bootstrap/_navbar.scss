@@ -381,7 +381,11 @@
   }
   .navbar-right {
     float: right !important;
-  margin-right: -$navbar-padding-horizontal;
+    margin-right: -$navbar-padding-horizontal;
+
+    .dropdown {
+      margin-right:$navbar-padding-horizontal;
+    }
 
     ~ .navbar-right {
       margin-right: 0;
