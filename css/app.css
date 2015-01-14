@@ -1,54 +1,54 @@
 /* line 1, ../sass/_utils.scss */
 .hover-bg-primary:hover {
-  color: #fff;
+  color: #fff !important;
   background-color: #458fd2;
   border-color: #3183cc; }
 
 /* line 6, ../sass/_utils.scss */
 .hover-bg-success:hover {
-  color: #fff;
+  color: #fff !important;
   background-color: #8cc152;
   border-color: #7fb842; }
 
 /* line 11, ../sass/_utils.scss */
 .hover-bg-info:hover {
-  color: #fff;
+  color: #fff !important;
   background-color: #3bb5e8;
   border-color: #24ace5; }
 
 /* line 16, ../sass/_utils.scss */
 .hover-bg-warning:hover {
-  color: #fff;
+  color: #fff !important;
   background-color: #feab34;
   border-color: #fea01b; }
 
 /* line 21, ../sass/_utils.scss */
 .hover-bg-danger:hover {
-  color: #fff;
+  color: #fff !important;
   background-color: #e9573f;
   border-color: #e64328; }
 
 /* line 26, ../sass/_utils.scss */
 .hover-bg-mint:hover {
-  color: #fff;
+  color: #fff !important;
   background-color: #19b698;
   border-color: #16a085; }
 
 /* line 31, ../sass/_utils.scss */
 .hover-bg-purple:hover {
-  color: #fff;
+  color: #fff !important;
   background-color: #9365b8;
   border-color: #8754b0; }
 
 /* line 36, ../sass/_utils.scss */
 .hover-bg-pink:hover {
-  color: #fff;
+  color: #fff !important;
   background-color: #eb72b6;
   border-color: #e85caa; }
 
 /* line 41, ../sass/_utils.scss */
 .hover-bg-dark:hover {
-  color: #fff;
+  color: #fff !important;
   background-color: #3b3e46;
   border-color: #2f3238; }
 
