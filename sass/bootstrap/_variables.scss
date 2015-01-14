@@ -515,22 +515,41 @@ $jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
 //== Form states and alerts
 //
 //## Define colors for form feedback states and, by default, alerts.
+$state-primary-text:             $brand-primary !default;
+$state-primary-bg:               $brand-primary !default;
+$state-primary-border:           darken(adjust-hue($brand-primary, -10), 5%) !default;
 
-$state-success-text:             #3c763d !default;
-$state-success-bg:               #dff0d8 !default;
-$state-success-border:           darken(adjust-hue($state-success-bg, -10), 5%) !default;
+$state-success-text:             $brand-success !default;
+$state-success-bg:               $brand-success !default;
+$state-success-border:           darken(adjust-hue($brand-success, -10), 5%) !default;
 
-$state-info-text:                #31708f !default;
-$state-info-bg:                  #d9edf7 !default;
-$state-info-border:              darken(adjust-hue($state-info-bg, -10), 7%) !default;
+$state-info-text:                $brand-info !default;
+$state-info-bg:                  $brand-info !default;
+$state-info-border:              darken(adjust-hue($brand-info, -10), 7%) !default;
 
-$state-warning-text:             #8a6d3b !default;
-$state-warning-bg:               #fcf8e3 !default;
-$state-warning-border:           darken(adjust-hue($state-warning-bg, -10), 5%) !default;
+$state-warning-text:             $brand-warning !default;
+$state-warning-bg:               $brand-warning !default;
+$state-warning-border:           darken(adjust-hue($brand-warning, -10), 5%) !default;
 
-$state-danger-text:              #a94442 !default;
-$state-danger-bg:                #f2dede !default;
-$state-danger-border:            darken(adjust-hue($state-danger-bg, -10), 5%) !default;
+$state-danger-text:              $brand-danger !default;
+$state-danger-bg:                $brand-danger !default;
+$state-danger-border:            darken(adjust-hue($brand-danger, -10), 5%) !default;
+
+$state-mint-text:              $brand-mint !default;
+$state-mint-bg:                $brand-mint !default;
+$state-mint-border:            darken(adjust-hue($brand-mint, -10), 5%) !default;
+
+$state-purple-text:              $brand-purple !default;
+$state-purple-bg:                $brand-purple !default;
+$state-purple-border:            darken(adjust-hue($brand-purple, -10), 5%) !default;
+
+$state-pink-text:              $brand-pink !default;
+$state-pink-bg:                $brand-pink !default;
+$state-pink-border:            darken(adjust-hue($brand-pink, -10), 5%) !default;
+
+$state-dark-text:              $brand-dark !default;
+$state-dark-bg:                $brand-dark !default;
+$state-dark-border:            darken(adjust-hue($brand-dark, -10), 5%) !default;
 
 
 //== Tooltips

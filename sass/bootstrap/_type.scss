@@ -103,7 +103,7 @@ mark,
   color: $text-muted;
 }
 
-@include text-emphasis-variant('.text-primary', $brand-primary);
+@include text-emphasis-variant('.text-primary', $state-primary-text);
 
 @include text-emphasis-variant('.text-success', $state-success-text);
 
@@ -112,6 +112,11 @@ mark,
 @include text-emphasis-variant('.text-warning', $state-warning-text);
 
 @include text-emphasis-variant('.text-danger', $state-danger-text);
+@include text-emphasis-variant('.text-white', #fff);
+@include text-emphasis-variant('.text-mint', $state-mint-text);
+@include text-emphasis-variant('.text-purple', $state-purple-text);
+@include text-emphasis-variant('.text-pink', $state-pink-text);
+@include text-emphasis-variant('.text-dark', $state-dark-text);
 
 // Contextual backgrounds
 // For now we'll leave these alongside the text classes until v4 when we can
@@ -130,6 +135,10 @@ mark,
 @include bg-variant('.bg-warning', $state-warning-bg);
 
 @include bg-variant('.bg-danger', $state-danger-bg);
+@include bg-variant('.bg-mint', $state-mint-bg);
+@include bg-variant('.bg-purple', $state-purple-bg);
+@include bg-variant('.bg-pink', $state-pink-bg);
+@include bg-variant('.bg-dark', $state-dark-bg);
 
 
 // Page header

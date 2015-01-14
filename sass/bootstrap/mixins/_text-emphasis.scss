@@ -3,7 +3,7 @@
 // [converter] $parent hack
 @mixin text-emphasis-variant($parent, $color) {
   #{$parent} {
-    color: $color;
+    color: $color !important;
   }
   a#{$parent}:hover {
     color: darken($color, 10%);
