@@ -7,7 +7,7 @@ Demo: http://overtrue.me/bootstrap-theme-slim/
 
 - 对中文字体优化，添加比较纤瘦的中文字体
 - 换掉默认的Glyphicons图标为[ionicons](http://ionicons.com)图标
-- `Modal`与Popover`、`Well`,`Alert`等边框颜色调整为淡色
+- `Modal`与`Popover`、`Well`,`Alert`等边框颜色调整为淡色
 - 新增4种配色：`mint`,`purple`,`pink`,`dark`
 - 新增4种按钮：`btn-mint`, `btn-purple`,`btn-pink`,`btn-dark`
 - 新增4种`label`: `label-mint`, `label-purple`,`label-pink`,`label-dark`
