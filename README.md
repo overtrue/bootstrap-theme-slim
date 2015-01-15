@@ -7,16 +7,16 @@ Demo: http://overtrue.me/bootstrap-theme-slim/
 
 - 对中文字体优化，添加比较纤瘦的中文字体
 - 换掉默认的Glyphicons图标为[ionicons](http://ionicons.com)图标
-- Modal与Popover、Well,Alert等边框颜色调整为淡色
-- 新增4种配色：mint,purple,pink,dark
-- 新增4种按钮：btn-mint, btn-purple,btn-pink,btn-dark
-- 新增4种label: label-mint, label-purple,label-pink,label-dark
-- 新增鼠标移过背景色类：hover-bg-primary、hover-bg-success、hover-bg-info、hover-bg-warning、hover-bg-danger、hover-bg-mint、hover-bg-purple、hover-bg-pink、hover-bg-dark
-- 新增边框色类：border-primary、border-success、border-info、border-warning、border-danger、border-mint、border-purple、border-pink、border-dark
-- 新增轻体文字类：text-thin
-- 去除边框类：no-border
-- 去除填充类：no-padding
-- 去除边矩类：no-margin
+- `Modal`与Popover`、`Well`,`Alert`等边框颜色调整为淡色
+- 新增4种配色：`mint`,`purple`,`pink`,`dark`
+- 新增4种按钮：`btn-mint`, `btn-purple`,`btn-pink`,`btn-dark`
+- 新增4种`label`: `label-mint`, `label-purple`,`label-pink`,`label-dark`
+- 新增鼠标移过背景色类：`hover-bg-primary`、`hover-bg-success`、`hover-bg-info`、`hover-bg-warning`、`hover-bg-danger`、`hover-bg-mint`、`hover-bg-purple`、`hover-bg-pink`、`hover-bg-dark`
+- 新增边框色类：`border-primary`、`border-success`、`border-info`、`border-warning`、`border-danger`、`border-mint`、`border-purple`、`border-pink`、`border-dark`
+- 新增轻体文字类：`text-thin`
+- 去除边框类：`no-border`
+- 去除填充类：`no-padding`
+- 去除边矩类：`no-margin`
 
 新增的工具类请参阅：[_utils.scss](https://github.com/overtrue/bootstrap-theme-slim/blob/master/sass/_utils.scss)
 
@@ -44,8 +44,8 @@ Demo: http://overtrue.me/bootstrap-theme-slim/
 
 ## 说明
 
-- 此项目中可能包含了其它用不到的css或者js文件，请根据需要选择加载；
-- css文件目录里最基本的就是bootstrap.css，另外app.css是你的应用css,你可以写sass语法，默认已经帮忙你引入bootstrap变量与方法；
+- 此项目中可能包含了其它用不到的`css`或者`js`文件，请根据需要选择加载；
+- `css`文件目录里最基本的就是`bootstrap.css`，另外`app.css`是你的应用`css`,你可以写`sass`语法，默认已经帮忙你引入`bootstrap`变量与方法；
 
 ## License
 
