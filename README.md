@@ -1,4 +1,4 @@
-# Bootstrap-theme
+# Bootstrap-theme-slim
 纤细风格的bootstrap主题
 
 Demo: http://overtrue.me/bootstrap-theme-slim/
