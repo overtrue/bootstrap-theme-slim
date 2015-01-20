@@ -14,3 +14,8 @@
 .popover > .arrow:after {
   border-width: $popover-arrow-width;
 }
+
+.dropdown-menu{
+  border: 1px solid $dropdown-fallback-border; // IE8 fallback
+  border: 1px solid $dropdown-border;
+}
