@@ -21,100 +21,20 @@
       <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style>
-
-      .page-header {
-        padding-bottom: 10px;
-        margin: 54px 0 22px;
-        border-bottom: 1px solid #eeeeee;
-      }
-      .bs-component {
-        padding: 10px 0;
-      }
-
-      .tab-content {
-        padding: 15px 0;
-      }
-
-      .card {max-width: 400px;}
-
-      ul#icons {
-        margin: 10px auto;
-        padding-left: 5px;
-        width: 100%;
-        list-style: none;
-        text-align: left;
-        font-size: 1px;
-      }
-
-      ul#icons li {
-        position: relative;
-        z-index: 0;
-        display: inline-block;
-        padding: 22px;
-        width: 42px;
-        border-radius: 4px;
-        list-style: none;
-        text-align: center;
-        font-weight: normal;
-        font-size: 32px;
-        cursor: pointer;
-      }
-      ul#icons li:hover {
-        color: #4F8EF7;
-      }
-
-      #icon-panel {
-        position: absolute;
-        top: -9999px;
-        left: -9999px;
-        padding: 10px 2px;
-        width: 260px;
-        height: 58px;
-        border-radius: 4px;
-        background: white;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.15);
-        text-align: center;
-        font-size: 14px;
-        font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-        opacity: .96;
-      }
-
-      #icon-name {
-        display: block;
-        font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-        font-size: 14px;
-        text-align: center;
-        width: 100%;
-        border: 0;
-      }
-
-      #icons {
-        transition: opacity .2s ease-in-out;
-      }
-
-      footer ul li {
-        float:left;
-        margin-right:20px;
-      }
-
-      #banner {
-        border-top: 1px solid #eeeeee;
-        padding: 40px 0 20px;
-        color: #efefef;
-        background: ghostwhite url(http://7b1fpn.com2.z0.glb.clouddn.com/stardust.png);
-      }
-
-      .example-modal .modal{
-        position: relative;
-        top: auto;
-        right: auto;
-        bottom: auto;
-        left: auto;
-        z-index: 1;
-        display: block;
-      }
-
-      .padding-20 {padding:20px;}
+      .page-header{padding-bottom:10px;margin:54px 0 22px;border-bottom:1px solid #eee}
+      .bs-component{padding:10px 0}
+      .tab-content{padding:15px 0}
+      .card{max-width:400px}
+      ul#icons{margin:10px auto;padding-left:5px;width:100%;list-style:none;text-align:left;font-size:1px}
+      ul#icons li{position:relative;z-index:0;display:inline-block;padding:22px;width:42px;border-radius:4px;list-style:none;text-align:center;font-weight:normal;font-size:32px;cursor:pointer}
+      ul#icons li:hover{color:#4f8ef7}
+      #icon-panel{position:absolute;top:-9999px;left:-9999px;padding:10px 2px;width:260px;height:58px;border-radius:4px;background:white;box-shadow:0 1px 3px rgba(0,0,0,0.15);text-align:center;font-size:14px;font-family:Monaco,Menlo,Consolas,"Courier New",monospace;opacity:.96}
+      #icon-name{display:block;font-family:Monaco,Menlo,Consolas,"Courier New",monospace;font-size:14px;text-align:center;width:100%;border:0}
+      #icons{transition:opacity .2s ease-in-out}
+      footer ul li{float:left;margin-right:20px}
+      #banner{border-top:1px solid #eee;padding:40px 0 20px;color:#efefef;background:ghostwhite url(http://7b1fpn.com2.z0.glb.clouddn.com/stardust.png)}
+      .example-modal .modal{position:relative;top:auto;right:auto;bottom:auto;left:auto;z-index:1;display:block}
+      .padding-20{padding:20px}
     </style>
     <script>
      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -139,6 +59,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="http://overtrue.me">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="v3">V3</a>
         </li>
       </ul>
       <ul class="nav navbar-nav pull-xs-right">
@@ -2131,26 +2054,18 @@ allowtransparency="true" frameborder="0" scrolling="0" width="125" height="20"><
         </div>
       </div>
 
-    <hr>
-
+      <hr>
       <footer>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="list-unstyled clearfix">
-              <li class="pull-right"><a href="#top">Back to top</a></li>
-              <li><a href="http://overtrue.me" onclick="pageTracker._link(this.href); return false;" target="_blank">Blog</a></li>
-              <li><a href="http://weibo.com/joychaocc" target="_blank">微博</a></li>
-              <li><a href="https://github.com/overtrue/bootstrap-theme/" target="_blank">GitHub</a></li>
-            </ul>
-            <p>Made by <a href="https://github.com/overtrue" rel="nofollow">overtrue</a>. Contact me at <a href="mailto:i@overtrue.me">i@overtrue.me</a>.</p>
-            <div>Code released under the MIT License.</div>
-            <div>Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a href="ionicons.com" rel="nofollow">ionicons.com</a>. </div>
-
-          </div>
-        </div>
-
+        <ul class="list-unstyled clearfix">
+          <li class="pull-right"><a href="#top">Back to top</a></li>
+          <li><a href="http://overtrue.me" onclick="pageTracker._link(this.href); return false;" target="_blank">Blog</a></li>
+          <li><a href="http://weibo.com/joychaocc" target="_blank">微博</a></li>
+          <li><a href="https://github.com/overtrue/bootstrap-theme/" target="_blank">GitHub</a></li>
+        </ul>
+        <p>Made by <a href="https://github.com/overtrue" rel="nofollow">overtrue</a>. Contact me at <a href="mailto:i@overtrue.me">i@overtrue.me</a>.</p>
+        <div>Code released under the MIT License.</div>
+        <div>Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a href="ionicons.com" rel="nofollow">ionicons.com</a>. </div>
       </footer>
-
     </div>
 
 
