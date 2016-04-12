@@ -1,0 +1,17 @@
+/* line 5, ../sass/ie.scss */
+.modal-content {
+  border: 1px solid #cccccc; }
+
+/* line 9, ../sass/ie.scss */
+.popover {
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2); }
+
+/* line 14, ../sass/ie.scss */
+.popover > .arrow:after {
+  border-width: 10px; }
+
+/* line 18, ../sass/ie.scss */
+.dropdown-menu {
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15); }

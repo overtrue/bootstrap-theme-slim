@@ -1,0 +1,21 @@
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+
+.modal-content {
+  border: 1px solid $modal-content-border-color;
+}
+
+.popover {
+    border: 1px solid $popover-fallback-border-color;
+    border: 1px solid $popover-border-color;
+}
+
+.popover > .arrow:after {
+  border-width: $popover-arrow-width;
+}
+
+.dropdown-menu{
+  border: 1px solid $dropdown-fallback-border; // IE8 fallback
+  border: 1px solid $dropdown-border;
+}
