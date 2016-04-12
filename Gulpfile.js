@@ -6,7 +6,8 @@ var sourcemaps = require('gulp-sourcemaps');
 var autoprefixer = require('gulp-autoprefixer');
 
 var bootstrap = {
-    scss: ['node_modules/bootstrap/scss/**.scss'],
+    scss: [],
+    // scss: ['node_modules/bootstrap/scss/**.scss'],
     js: ['node_modules/bootstrap/dist/js/bootstrap.min.js'],
 };
 
@@ -21,7 +22,6 @@ var dist = {
 };
 
 gulp.task('sass', function() {
-  console.log(bootstrap.scss.concat(slim.scss))
   gulp.src(bootstrap.scss.concat(slim.scss))
     .pipe(sass())
     .pipe(cleanCSS())
@@ -42,4 +42,9 @@ gulp.task('js', function() {
     .pipe(gulp.dest(dist.js));
 });
 
-gulp.task('default', ['scss', 'js']);
+gulp.task('watch', function () {
+   gulp.watch(slim.scss, ['sass']);
+   gulp.watch(slim.js, ['js']);
+});
+
+gulp.task('default', ['sass', 'js']);

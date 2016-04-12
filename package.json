@@ -2,7 +2,10 @@
   "name": "bootstrap-theme-slim",
   "version": "1.0.0",
   "description": "a bootstrap theme.",
-  "main": "none",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.2",
+    "tether": "^1.2.0"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",

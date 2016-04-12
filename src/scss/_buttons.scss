@@ -1,0 +1,35 @@
+//
+// Base styles
+//
+
+
+//
+// Alternate buttons
+//
+
+.btn-mint {
+  @include button-variant($btn-mint-color, $btn-mint-bg, $btn-mint-border);
+}
+.btn-purple {
+  @include button-variant($btn-purple-color, $btn-purple-bg, $btn-purple-border);
+}
+.btn-pink {
+  @include button-variant($btn-pink-color, $btn-pink-bg, $btn-pink-border);
+}
+.btn-dark {
+  @include button-variant($btn-dark-color, $btn-dark-bg, $btn-dark-border);
+}
+
+// Remove all backgrounds
+.btn-mint-outline {
+  @include button-outline-variant($btn-mint-border);
+}
+.btn-purple-outline {
+  @include button-outline-variant($btn-purple-border);
+}
+.btn-pink-outline {
+  @include button-outline-variant($btn-pink-border);
+}
+.btn-dark-outline {
+  @include button-outline-variant($btn-dark-border);
+}

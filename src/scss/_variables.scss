@@ -1,0 +1,36 @@
+// Colors
+$brand-mint:              #19b698 !default;
+$brand-purple:            #9365b8 !default;
+$brand-pink:              #eb72b6 !default;
+$brand-dark:              #3b3e46 !default;
+
+// Fonts
+$font-family-sans-serif:    "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+
+// Text
+$line-height-lg:            (10 / 6) !default;
+$line-height-sm:            1.6 !default;
+
+// Forms
+$input-border-color:        #e1e6f0;
+
+// Buttons
+$border-radius:             .25rem !default;
+$border-radius-lg:          .25rem !default;
+$border-radius-sm:          .10rem !default;
+
+$btn-mint-color:            #fff !default;
+$btn-mint-bg:               $brand-mint !default;
+$btn-mint-border:           $btn-mint-bg !default;
+
+$btn-purple-color:            #fff !default;
+$btn-purple-bg:               $brand-purple !default;
+$btn-purple-border:           $btn-purple-bg !default;
+
+$btn-pink-color:            #fff !default;
+$btn-pink-bg:               $brand-pink !default;
+$btn-pink-border:           $btn-pink-bg !default;
+
+$btn-dark-color:            #fff !default;
+$btn-dark-bg:               $brand-dark !default;
+$btn-dark-border:           $btn-dark-bg !default;

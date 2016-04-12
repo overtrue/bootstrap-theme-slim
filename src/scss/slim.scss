@@ -1,0 +1,15 @@
+// base + custom
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// slim components
+@import "buttons";
+
+body {
+    text-rendering:optimizeLegibility;
+    font-smoothing:antialiased;
+}
+
+.alert-link, .close, .label {
+    font-weight: 500;
+}
