@@ -1,16 +1,19 @@
 // base + custom
 @import "variables";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap-flex.scss";
+
+// overrides
+@import "buttons";
+@import "modals";
+@import "card";
+@import "popover";
 
 // slim components
-@import "buttons";
+// TODO
 
 body {
     text-rendering:optimizeLegibility;
     font-smoothing:antialiased;
     font-weight: 300;
-}
-
-.alert-link, .close, .label {
-    font-weight: 400;
 }
