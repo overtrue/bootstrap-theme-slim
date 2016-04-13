@@ -1,9 +1,14 @@
 // Options
+$enable-flex:               true;
 $enable-transitions:        true !default;
+// $enable-shadows:            true !default;
 
 // Basic
+$box-shadow:                0 1px 4px 0 rgba(0,0,0,0.14);
+$box-shadow-sm:             0 1px 2px 0 rgba(0,0,0,0.1);
+
 $border-radius:             .15rem !default;
-$border-radius-lg:          .25rem !default;
+$border-radius-lg:          .15rem !default;
 $border-radius-sm:          .10rem !default;
 
 // Colors
@@ -25,9 +30,15 @@ $headings-line-height:      $line-height !default;
 $headings-color:            inherit !default;
 
 // Forms
-$input-border-color:        #e1e6f0;
+$input-border-color:        #c1c1c1;
+$input-box-shadow:          none !default;
 
 // Buttons
+$btn-font-weight:           300;
+
+$btn-secondary-border:      $input-border-color;
+$btn-secondary-color:       darken($input-border-color, 30%);
+
 $btn-mint-color:            #fff !default;
 $btn-mint-bg:               $brand-mint !default;
 $btn-mint-border:           $btn-mint-bg !default;
@@ -46,3 +57,14 @@ $btn-dark-border:           $btn-dark-bg !default;
 
 // Labels
 $label-font-weight:         400 !default;
+
+// Modals
+$modal-content-border-color:    rgba(0,0,0,.05) !default;
+$modal-header-border-color:     transparent !default;
+
+// Popovers
+$popover-border-color:          rgba(0,0,0,.05) !default;
+$popover-title-bg:              $popover-border-color !default;
+
+// Cards
+$card-border-color:        rgba(0,0,0,.14) !default;
