@@ -6,6 +6,7 @@
   "homepage": "https://github.com/overtrue/bootstrap-theme-slim#readme",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.2",
+    "ionicons": "^3.0.0-alpha.3",
     "tether": "^1.2.0"
   },
   "devDependencies": {
@@ -15,6 +16,12 @@
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^1.6.0"
   },
+  "files": [
+    "dist",
+    "src",
+    "index.html",
+    "Gulpfile.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
