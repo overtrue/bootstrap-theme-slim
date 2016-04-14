@@ -1,7 +1,9 @@
 {
   "name": "bootstrap-theme-slim",
-  "version": "1.0.0",
-  "description": "a bootstrap theme.",
+  "version": "0.0.1",
+  "description": "a slim bootstrap theme.",
+  "author": "overtrue <i@overtrue.me>",
+  "homepage": "https://github.com/overtrue/bootstrap-theme-slim#readme",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.2",
     "tether": "^1.2.0"
@@ -26,10 +28,8 @@
     "theme",
     "slim"
   ],
-  "author": "overtrue <i@overtrue.me>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/overtrue/bootstrap-theme-slim/issues"
-  },
-  "homepage": "https://github.com/overtrue/bootstrap-theme-slim#readme"
+  }
 }
