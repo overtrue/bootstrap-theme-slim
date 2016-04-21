@@ -1,12 +1,13 @@
 // base + custom
 @import "variables";
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
-@import "../../node_modules/bootstrap/scss/bootstrap-flex.scss";
+@import "bootstrap";
 
 // overrides
 @import "buttons";
-@import "modals";
+@import "breadcrumb";
 @import "card";
+@import "modals";
+@import "pagination";
 @import "popover";
 
 // slim components

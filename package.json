@@ -1,9 +1,12 @@
 {
   "name": "bootstrap-theme-slim",
-  "version": "1.0.0",
-  "description": "a bootstrap theme.",
+  "version": "0.0.2",
+  "description": "a slim bootstrap theme.",
+  "author": "overtrue <i@overtrue.me>",
+  "homepage": "https://github.com/overtrue/bootstrap-theme-slim#readme",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.2",
+    "ionicons": "^3.0.0-alpha.3",
     "tether": "^1.2.0"
   },
   "devDependencies": {
@@ -13,6 +16,12 @@
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^1.6.0"
   },
+  "files": [
+    "dist",
+    "src",
+    "index.html",
+    "Gulpfile.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,10 +35,8 @@
     "theme",
     "slim"
   ],
-  "author": "overtrue <i@overtrue.me>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/overtrue/bootstrap-theme-slim/issues"
-  },
-  "homepage": "https://github.com/overtrue/bootstrap-theme-slim#readme"
+  }
 }
