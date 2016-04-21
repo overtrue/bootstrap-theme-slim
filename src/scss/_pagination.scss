@@ -1,0 +1,36 @@
+// Pagination
+.pagination {
+  display: inline-block;
+  padding: 1.2rem;
+  list-style: none;
+  margin: .5rem 0;
+
+  .page-item {
+    display: inline-block;
+
+    > span {
+      display: inline-block;
+      padding: .6rem .5rem;
+    }
+    a {
+      border-radius: .3rem;
+      display: inline-block;
+      margin: 0 .1rem;
+      padding: .6rem 1.2rem;
+      text-decoration: none;
+
+      &:hover,
+      &:focus {
+        background-color: lighten($brand-primary, 40%);
+        color: #fff;
+      }
+    }
+
+    &.active {
+      a {
+        background-color: $brand-primary;
+        color: #fff;
+      }
+    }
+  }
+}
