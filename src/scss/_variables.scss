@@ -4,8 +4,9 @@ $enable-transitions:        true !default;
 // $enable-shadows:            true !default;
 
 // Basic
-$box-shadow:                0 .1rem .4rem rgba(0, 0, 0, .3);
-$box-shadow-sm:             0 .1rem .2rem rgba(0, 0, 0, .3);
+$box-shadow-lg:             0 .5rem .8rem rgba(0, 0, 0, .3);
+$box-shadow:                0 .1rem .4rem rgba(0, 0, 0, .15);
+$box-shadow-sm:             0 .1rem .2rem rgba(0, 0, 0, .09);
 
 $border-radius:             .15rem !default;
 $border-radius-lg:          .15rem !default;
