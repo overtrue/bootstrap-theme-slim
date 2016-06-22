@@ -1,0 +1,14 @@
+.pull-left {
+  @include pull-left();
+}
+.pull-right {
+  @include pull-right();
+}
+.pull-none {
+  float: none !important;
+}
+
+
+.text-left   { text-align: left !important; }
+.text-right  { text-align: right !important; }
+.text-center { text-align: center !important; }
