@@ -20,6 +20,12 @@
   @include button-variant($btn-dark-color, $btn-dark-bg, $btn-dark-border);
 }
 
+// Fix color
+.btn-secondary-outline {
+  @include button-outline-variant($btn-secondary-border);
+  color: $btn-secondary-color;
+}
+
 // Remove all backgrounds
 .btn-mint-outline {
   @include button-outline-variant($btn-mint-border);

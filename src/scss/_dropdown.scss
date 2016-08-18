@@ -2,6 +2,10 @@
 
 
 .dropdown-menu {
-  border: none;
+  // border: none;
   box-shadow: $box-shadow-sm;
+
+    .dropdown-item {
+        font-weight:inherit;
+    }
 }
