@@ -22,11 +22,11 @@
   @include button-variant($btn-dark-color, $btn-dark-bg, $btn-dark-border);
 }
 
-// Fix color
-.btn-outline-secondary {
-  @include button-outline-variant($btn-secondary-border);
-  color: $btn-secondary-color;
-}
+// // Fix color
+// .btn-outline-secondary {
+//   @include button-outline-variant($btn-secondary-border);
+//   color: darken($btn-secondary-color, 30%);
+// }
 
 // Remove all backgrounds
 .btn-outline-mint {
