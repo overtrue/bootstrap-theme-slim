@@ -1,0 +1,244 @@
+.hover-bg-primary:hover {
+    color: #fff !important;
+    background-color: $brand-primary;
+    border-color: darken($brand-primary, 5%);
+}
+.hover-bg-success:hover {
+    color: #fff !important;
+    background-color: $brand-success;
+    border-color: darken($brand-success, 5%);
+}
+.hover-bg-info:hover {
+    color: #fff !important;
+    background-color: $brand-info;
+    border-color: darken($brand-info, 5%);
+}
+.hover-bg-warning:hover {
+    color: #fff !important;
+    background-color: $brand-warning;
+    border-color: darken($brand-warning, 5%);
+}
+.hover-bg-danger:hover {
+    color: #fff !important;
+    background-color: $brand-danger;
+    border-color: darken($brand-danger, 5%);
+}
+.hover-bg-mint:hover {
+    color: #fff !important;
+    background-color: $brand-mint;
+    border-color: darken($brand-mint, 5%);
+}
+.hover-bg-purple:hover {
+    color: #fff !important;
+    background-color: $brand-purple;
+    border-color: darken($brand-purple, 5%);
+}
+.hover-bg-pink:hover {
+    color: #fff !important;
+    background-color: $brand-pink;
+    border-color: darken($brand-pink, 5%);
+}
+.hover-bg-dark:hover {
+    color: #fff !important;
+    background-color: $brand-dark;
+    border-color: darken($brand-dark, 5%);
+}
+
+
+.border-primary {
+    border-color: $brand-primary;
+}
+
+.border-success {
+    border-color: $brand-success;
+}
+
+.border-info {
+    border-color: $brand-info;
+}
+
+.border-warning {
+    border-color: $brand-warning;
+}
+
+.border-danger {
+    border-color: $brand-danger;
+}
+
+.border-mint {
+    border-color: $brand-mint;
+}
+
+.border-purple {
+    border-color: $brand-purple;
+}
+
+.border-pink {
+    border-color: $brand-pink;
+}
+
+.border-dark {
+    border-color: $brand-dark;
+}
+
+.text-thin {
+    font-weight:100;
+}
+
+.line-height-md * {
+    line-height: 24px;
+}
+
+.border-left {
+    border-left:1px solid #d0d0d0;
+}
+
+.border-bottom {
+    border-bottom:1px solid #d0d0d0;
+}
+
+.border-bottom-light {
+    border-bottom:1px solid #f0f0f0;
+}
+
+.borderd {
+    border:1px solid #d0d0d0;
+}
+
+.inline {
+    display:inline;
+}
+
+.white-bg {
+    background: #fff;
+}
+
+.light-bg {
+    background: #f0f0f0;
+}
+
+.abs-light-bg {
+    background: rgb(247, 247, 247);
+}
+
+.opcitied {
+    background: rgba(0,0,0,.6);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#77000000',endColorstr='#77000000');
+}
+
+.no-border {
+    border:none !important;
+}
+
+.no-padding {
+    padding:0 !important;
+}
+
+.no-margin {
+    margin:0 !important;
+}
+
+.sm-padding {
+    padding: 5px;
+}
+
+.sm-padding-x {
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.sm-padding-y {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.movie-list-ul-right-patch {
+    margin-right:-9px;
+}
+
+.md-padding {
+    padding: 10px;
+}
+
+.md-padding-x {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.md-padding-y {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.lg-padding {
+    padding: 15px;
+}
+
+.lg-padding-x {
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.lg-padding-y {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.no-padding-right {
+    padding-right:0 ! important;
+}
+
+@media (min-width: $screen-lg-min){
+    .border-left-lg {
+        border-left: 1px solid #d0d0d0;
+    }
+
+    .border-bottom-lg {
+        border-bottom: 1px solid #d0d0d0;
+    }
+}
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max){
+    .border-left-md {
+        border-left: 1px solid #d0d0d0;
+    }
+
+    .border-bottom-md {
+        border-bottom: 1px solid #d0d0d0;
+    }
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    .border-left-sm {
+        border-left: 1px solid #d0d0d0;
+    }
+
+    .border-bottom-sm {
+        border-bottom: 1px solid #d0d0d0;
+    }
+}
+
+@media (max-width: $screen-sm-min) {
+
+    .border-left-xs {
+        border-left: 1px solid #d0d0d0;
+    }
+
+    .border-bottom-xs {
+        border-bottom: 1px solid #d0d0d0;
+    }
+
+    .nav {
+        display: -webkit-box;
+        -webkit-box-pack:justify;
+    }
+    .nav > li {
+        display: inline-block;
+        text-align: center;
+        padding:0;
+        a {
+            padding-left:10px;
+            padding-right:10px;
+        }
+    }
+}
