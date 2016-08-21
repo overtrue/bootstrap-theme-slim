@@ -21,21 +21,21 @@
 }
 
 // Fix color
-.btn-secondary-outline {
+.btn-outline-secondary {
   @include button-outline-variant($btn-secondary-border);
   color: $btn-secondary-color;
 }
 
 // Remove all backgrounds
-.btn-mint-outline {
+.btn-outline-mint {
   @include button-outline-variant($btn-mint-border);
 }
-.btn-purple-outline {
+.btn-outline-purple {
   @include button-outline-variant($btn-purple-border);
 }
-.btn-pink-outline {
+.btn-outline-pink {
   @include button-outline-variant($btn-pink-border);
 }
-.btn-dark-outline {
+.btn-outline-dark {
   @include button-outline-variant($btn-dark-border);
 }
