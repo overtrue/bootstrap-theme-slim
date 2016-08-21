@@ -3,3 +3,9 @@
   // border: none;
   box-shadow: $box-shadow;
 }
+
+.modal-header {
+    .close {
+        font-weight: 200;
+    }
+}

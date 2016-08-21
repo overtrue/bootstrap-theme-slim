@@ -5,4 +5,11 @@
 .card {
   // border: none;
   box-shadow: $box-shadow;
+
+  .list-group {
+        .list-group-item {
+            border-left: none;
+            border-right: none;
+        }
+  }
 }
