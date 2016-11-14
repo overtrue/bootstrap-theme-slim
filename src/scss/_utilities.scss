@@ -1,8 +1,8 @@
 .pull-left {
-  @include pull-left();
+  @include float-left();
 }
 .pull-right {
-  @include pull-right();
+  @include float-right();
 }
 .pull-none {
   float: none !important;
